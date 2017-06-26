@@ -1,9 +1,11 @@
 ---
-title: "Spring 2017 Schedule"
+title: "TESTING testing 1, 2, 3"
 author: "John Little"
 date: 2017-01-05T10:13:14-05:00
-categories: ["R"]
-tags: ["schedule", "workshops"]
+categories:
+  - R
+tags: 
+  - testing
 ---
 
 ## Meeting Schedule

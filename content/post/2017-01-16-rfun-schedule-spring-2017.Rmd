@@ -1,0 +1,33 @@
+---
+title: Rfun Schedule - Spring 2017
+author: john little
+date: '2017-01-16'
+slug: rfun-schedule-spring-2017
+categories:
+  - calendar
+tags:
+  - schedule
+---
+
+## Meeting Schedule
+
+**When**: Thursday's at noon, Spring 2017
+
+**Who**: R enthusiasts, beginngers through advanced 
+
+**Where**: Workshop Room, The /Edge, Bostock Library
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+
+rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun/master/data/data.csv")
+```
+
+
+```{r, echo=FALSE}
+rfun_table %>% 
+  select(Date, Topic, Presenter, Video = VideoURL, Files = FilesURL) %>% 
+  knitr::kable()
+```
+
