@@ -1,6 +1,6 @@
 # README
 
-This is a test site to see if I can manage the RFUN website out of libjohn on behalf of github/askdata@d.e.
+This is a test site to practice managing the RFUN website out of libjohn on behalf of github/askdata@d.e.
 
 1. `library(blogdown)`
 
