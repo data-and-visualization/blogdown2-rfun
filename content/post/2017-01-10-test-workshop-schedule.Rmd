@@ -1,0 +1,62 @@
+---
+title: "Spring 2017 Schedule"
+author: "John Little"
+date: 2017-01-05T10:13:14-05:00
+categories: ["R"]
+tags: ["schedule", "workshops"]
+---
+
+## Meeting Schedule
+
+**When**: Thursday's at noon
+
+**Who**: R enthusiasts, beginngers through advanced 
+
+**Where**: Workshop Room, The /Edge, Bostock Library
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+# Get A Google Scheet and Save as a DataFrame
+# library(googlesheets)
+library(tidyverse)
+# library(DT)
+
+## Read in the Data Table from CSV.
+
+#rfun_table <- read_csv("~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
+
+rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv")
+
+```
+
+
+```{r, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+## Do not Run this BLOCK on any regular basis.  
+# This was a one-time to get some data massaged and written 
+# out as CSV inthe /data directory
+
+my_sheets <- gs_ls()  ## lists all the sheest in my Google Drive Directory
+
+# I used this # sht_title <- my_sheets[1,]$sheet_title  ## to get the first row title "rfun 2016 schedule scraped"
+sht_key <- my_sheets[1,]$sheet_key  ## to get the first row key
+
+rfun_gs <- gs_key(sht_key)
+
+# sht_title
+# sht_key
+# rfun_gs
+
+rfun_table <- gs_read(rfun_gs, range = cell_rows(1:9))  # read in the top 9 rows
+
+write.csv(rfun_table, 
+          "~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
+
+```
+
+
+```{r, echo=FALSE}
+
+# datatable(rfun_table)
+knitr::kable(rfun_table)
+
+```
