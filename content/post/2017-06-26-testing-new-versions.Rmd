@@ -1,0 +1,13 @@
+---
+title: testing new versions
+author: john little
+date: '2017-06-26'
+slug: testing-new-versions
+categories:
+  - calendar
+tags:
+  - schedule
+---
+
+
+## This seems to work fine.  Thnx.  
