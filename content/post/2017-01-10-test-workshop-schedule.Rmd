@@ -8,7 +8,7 @@ tags: ["schedule", "workshops"]
 
 ## Meeting Schedule
 
-**When**: Thursday's at noon
+**When**: Thursday's at noon, Spring 2017
 
 **Who**: R enthusiasts, beginngers through advanced 
 
@@ -24,12 +24,21 @@ library(tidyverse)
 
 #rfun_table <- read_csv("~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
 
-rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv")
+# rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv")
+
+rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun/master/data/data.csv")
+
 
 ```
 
 
 ```{r, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+
+
+## Do not Run this BLOCK
+## Do not Run this BLOCK
+## Do not Run this BLOCK
+
 
 ## Do not Run this BLOCK on any regular basis.  
 # This was a one-time to get some data massaged and written 
@@ -48,15 +57,18 @@ rfun_gs <- gs_key(sht_key)
 
 rfun_table <- gs_read(rfun_gs, range = cell_rows(1:9))  # read in the top 9 rows
 
-write.csv(rfun_table, 
-          "~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
+#### write.csv(rfun_table, 
+####          "~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
 
 ```
 
 
 ```{r, echo=FALSE}
-
-# datatable(rfun_table)
-knitr::kable(rfun_table)
-
+rfun_table %>% 
+  select(Date, Topic, Presenter, Video = VideoURL, Files = FilesURL) %>% 
+  knitr::kable()
 ```
+
+
+
+
