@@ -84,4 +84,52 @@ tags:
 </tr>
 </tbody>
 </table>
+<pre class="r"><code>rfun_table %&gt;% 
+  mutate(vid2 = paste0(&quot;&lt;a href=&#39;&quot;, VideoURL, &quot;&#39;&gt;&quot;, Video, &quot;&lt;/a&gt;&quot;)) %&gt;% 
+  mutate(file2 = paste0(&quot;&lt;a href=&#39;&quot;, FilesURL, &quot;&#39;&gt;&quot;, Files, &quot;&lt;/a&gt;&quot;)) %&gt;% 
+  select(vid2, file2) %&gt;% 
+  knitr::kable()</code></pre>
+<pre><code>## Warning: package &#39;bindrcpp&#39; was built under R version 3.3.3</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">vid2</th>
+<th align="left">file2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href='http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=c636aa87-4f3f-4278-a71f-1acd26d8cda7'>Leaflet video</a></td>
+<td align="left"><a href='https://github.com/data-and-visualization/Rfun/tree/master/leaflet'>Leaflet scripts</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href='http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=19bf3c7e-2b44-4939-9039-9ec98252ca50'>rvest video</a></td>
+<td align="left"><a href='https://github.com/data-and-visualization/Rfun/tree/master/web%20scraping'>rvest scripts</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href='http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=dc3b4a39-2310-4690-8040-2e0192c31707'>ggplot2 Video</a></td>
+<td align="left"><a href='http://rpubs.com/amz25/rfun-ggplot2'>ggplot2 Slides</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href='NA'>NA</a></td>
+<td align="left"><a href='http://bit.ly/rfunShiny'>Shiny Slides</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href='http://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=3e301f74-332a-403f-a0f8-b41e19d2822f'>Flexdashboard Video</a></td>
+<td align="left"><a href='http://www.github.com/data-and-visualization/Rfun/blob/master/flexdashboards'>Files ; Example</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href='https://warpwire.duke.edu/w/i54BAA/'>ggvis video</a></td>
+<td align="left"><a href='https://libjohn.github.io/ggvis/slides.html'>ggvis slides</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href='https://warpwire.duke.edu/w/ip4BAA/'>Rmarkdown video</a></td>
+<td align="left"><a href='NA'>NA</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href='https://warpwire.duke.edu/w/iZ4BAA/'>rtweet video</a></td>
+<td align="left"><a href='https://libjohn.github.io/rtweet/slides.html#1'>rtweet slides</a></td>
+</tr>
+</tbody>
+</table>
 </div>

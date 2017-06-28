@@ -28,7 +28,7 @@ library(tidyverse)
 
 # rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv")
 
-rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun/master/data/data.csv")
+rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown2-rfun/master/data/data.csv")
 
 
 ```
@@ -72,6 +72,13 @@ rfun_table %>%
 ```
 
 
+```{r}
+rfun_table %>% 
+  mutate(vid2 = paste0("<a href='", VideoURL, "'>", Video, "</a>")) %>% 
+  mutate(file2 = paste0("<a href='", FilesURL, "'>", Files, "</a>")) %>% 
+  select(vid2, file2) %>% 
+  knitr::kable()
+```
 
 
 
