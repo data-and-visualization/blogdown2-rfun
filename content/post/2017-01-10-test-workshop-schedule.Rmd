@@ -26,9 +26,9 @@ library(tidyverse)
 
 #rfun_table <- read_csv("~/R/github/blogdown-rfun-jrl4dvs/data/data.csv")
 
-# rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv")
+# rfun_table <- read_csv('https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv')
 
-rfun_table <- read_csv("https://raw.githubusercontent.com/data-and-visualization/blogdown2-rfun/master/data/data.csv")
+rfun_table <- read_csv('https://github.com/data-and-visualization/blogdown2-rfun/raw/master/data/data.csv')
 
 
 ```
@@ -65,7 +65,7 @@ rfun_table <- gs_read(rfun_gs, range = cell_rows(1:9))  # read in the top 9 rows
 ```
 
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 rfun_table %>% 
   select(Date, Topic, Presenter, Video = VideoURL, Files = FilesURL) %>% 
   knitr::kable()
@@ -74,9 +74,11 @@ rfun_table %>%
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 rfun_table %>% 
+  mutate(present2 = paste0("<a href='", PresenterURL, "'>", Presenter, "</a>")) %>%
+  mutate(topic2 = paste0("<a href='", TopicURL, "'>", Topic, "</a>")) %>% 
   mutate(vid2 = paste0("<a href='", VideoURL, "'>", Video, "</a>")) %>% 
   mutate(file2 = paste0("<a href='", FilesURL, "'>", Files, "</a>")) %>% 
-  select(vid2, file2) %>% 
+  select(Topic = topic2, Presenter = present2, Video = vid2, Files = file2) %>% 
   knitr::kable()
 ```
 
