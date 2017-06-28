@@ -39,7 +39,7 @@ rfun_table %>%
                          paste0("<a href='", FilesURL, "'>", 
                                 Files, "</a>"),
                          "do not print", " ")) %>% 
-  select(Topic = topic2, Presenter = present2, Video = vid2, Files = file2) %>% 
+  select(Topic = topic2, Presenter = present2, Video = vid2, Files = file2, Date) %>% 
   knitr::kable()
 
 ```
