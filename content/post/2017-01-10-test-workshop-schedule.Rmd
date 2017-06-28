@@ -71,17 +71,7 @@ rfun_table %>%
   knitr::kable()
 ```
 
-```{r}
-rfun_table %>% 
-  # select(Video, VideoURL, Files, FilesURL) %>% 
-  mutate("Video Link" = paste0("<a href='", VideoURL, 
-                                  "'>", Video, "</a>")) %>% 
-  mutate(Files2 = paste0("<a href='", FilesURL, "'>",
-                           Files, "</a>")) %>% 
-  select("Video Link", Files = Files2) %>% 
-  knitr::kable()
 
-```
 
 
 
