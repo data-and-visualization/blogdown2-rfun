@@ -65,14 +65,14 @@ rfun_table <- gs_read(rfun_gs, range = cell_rows(1:9))  # read in the top 9 rows
 ```
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 rfun_table %>% 
   select(Date, Topic, Presenter, Video = VideoURL, Files = FilesURL) %>% 
   knitr::kable()
 ```
 
 
-```{r}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 rfun_table %>% 
   mutate(vid2 = paste0("<a href='", VideoURL, "'>", Video, "</a>")) %>% 
   mutate(file2 = paste0("<a href='", FilesURL, "'>", Files, "</a>")) %>% 
