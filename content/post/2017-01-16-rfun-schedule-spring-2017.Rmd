@@ -25,33 +25,23 @@ rfun_table <- read_csv('https://github.com/data-and-visualization/blogdown2-rfun
 ```
 
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 rfun_table %>% 
-  select(Date, Topic, Presenter, Video = VideoURL, Files = FilesURL) %>% 
-  knitr::kable()
-```
-
-
-```{r}
-rfun_table %>% 
-  mutate(present2 = paste0("<a href='", PresenterURL, "'>", Presenter, "</a>")) %>%
-  mutate(topic2 = paste0("<a href='", TopicURL, "'>", Topic, "</a>")) %>% 
-  mutate(vid2 = paste0("<a href='", VideoURL, "'>", Video, "</a>")) %>% 
-  mutate(file2 = paste0("<a href='", FilesURL, "'>", Files, "</a>")) %>% 
+  mutate(present2 = paste0("<a href='", PresenterURL, "'>", 
+                           Presenter, "</a>")) %>%
+  mutate(topic2 = paste0("<a href='", TopicURL, "'>", 
+                         Topic, "</a>")) %>% 
+  mutate(vid2 = if_else(Video != "NA", 
+                        paste0("<a href='", VideoURL, "'>", 
+                               Video, "</a>"), 
+                        "do not print", " ")) %>% 
+  mutate(file2 = if_else(Files != "NA", 
+                         paste0("<a href='", FilesURL, "'>", 
+                                Files, "</a>"),
+                         "do not print", " ")) %>% 
   select(Topic = topic2, Presenter = present2, Video = vid2, Files = file2) %>% 
   knitr::kable()
 
-
-rfun_table %>% 
-  mutate(present2 = paste0("<a href='", PresenterURL, "'>", Presenter, "</a>")) %>%
-  mutate(topic2 = paste0("<a href='", TopicURL, "'>", Topic, "</a>")) %>% 
-  mutate(vid2 = if_else(Video == "NA", " ", paste0("<a href='", VideoURL, "'>", Video, "</a>", "foo"))) %>% 
-  mutate(file2 = paste0("<a href='", FilesURL, "'>", Files, "</a>")) %>% 
-  select(Video, Topic = topic2, Presenter = present2, vid2, Files = file2) %>% 
-  knitr::kable()
-
-
-
-
 ```
+
 
