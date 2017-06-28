@@ -28,7 +28,7 @@ library(tidyverse)
 
 # rfun_table <- read_csv('https://raw.githubusercontent.com/data-and-visualization/blogdown-rfun-jrl4dvs/master/data/data.csv')
 
-rfun_table <- read_csv('https://github.com/data-and-visualization/blogdown2-rfun/raw/master/data/data.csv')
+rfun_table <- read_csv('https://github.com/data-and-visualization/blogdown2-rfun/raw/master/static/data/data.csv')
 
 
 ```
