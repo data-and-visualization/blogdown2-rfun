@@ -1,7 +1,8 @@
 # README
 
-This is a test site to practice managing the RFUN website out of libjohn on behalf of github/askdata@d.e.
+This reposistory contains the raw files for the [Rfun](https://github.com/data-and-visualization/Rfun) website.   The website is constructed using the [rstudio/blogdown](https://github.com/rstudio/blogdown) package.   
 
+## Create Site -- Notes
 1. `library(blogdown)`
 
     - devtools::install_github('rstudio/blogdown')
@@ -21,3 +22,5 @@ There were some problems with Hugo Building from Rmarkdown.
 
 - `devtools::install_github('rstudio/blogdown')`
 - `blogdown::update_hugo()`
+
+## Site is served via Netlify.com
