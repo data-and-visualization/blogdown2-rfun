@@ -5,7 +5,6 @@ date: '2017-01-16'
 slug: rfun-schedule-spring-2017
 categories:
   - calendar
-tags:
   - schedule
 ---
 
