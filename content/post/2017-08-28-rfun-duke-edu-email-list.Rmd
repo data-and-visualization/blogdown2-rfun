@@ -1,0 +1,24 @@
+---
+title: RFun@duke.edu email list
+author: John Little
+date: '2017-08-28'
+slug: rfun-duke-edu-email-list
+categories:
+  - Announcement
+  - Twitter
+  - Email List
+---
+
+Last spring we introduced the RFun email list as a way of communicating about upcoming events.  The intent of this list is to further announcements for our workshop audience regarding the RFun series.  We hope you will find this list both informative and low-traffic.  Below is a review of ways you can keep in touch with our activities:
+
+- This RFun list:  rfun@duke.edu.  Manage your subscription via https://lists.duke.edu/sympa/info/rfun
+
+- DVS Announce.  A Departmental list which reports news about Data & Visualization Services.  Most of this traffic is about workshops as well.  The scope is slightly broader than the RFun list which focuses exclusively on R.  Manage your subscription via https://lists.duke.edu/sympa/info/dvs-announce
+
+- Twitter: [@duke_data](http://twitter.com/duke_data) or [@duke_vis](http://twitter.com/duke_vis)
+
+- Web Site: http://library.duke.edu/data.  RFun is hosted by the datavis group in the Library.  We aim to help the Duke University campus learn practical approaches to working with data and visualizations.  Look here for a link to our walk-in support hours in our nifty lab.
+
+
+
+

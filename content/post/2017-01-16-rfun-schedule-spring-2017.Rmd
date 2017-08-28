@@ -6,6 +6,8 @@ slug: rfun-schedule-spring-2017
 categories:
   - calendar
   - schedule
+  - Workshops
+  - Resource Links
 ---
 
 ## Meeting Schedule
