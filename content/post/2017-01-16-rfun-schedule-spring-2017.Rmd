@@ -4,10 +4,10 @@ author: john little
 date: '2017-01-16'
 slug: rfun-schedule-spring-2017
 categories:
-  - calendar
-  - schedule
+  - Calendar
+  - Schedule
   - Workshops
-  - Resource Links
+  - "Resource Links"
 ---
 
 ## Meeting Schedule

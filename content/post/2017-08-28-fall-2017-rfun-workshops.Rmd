@@ -4,8 +4,8 @@ author: John Little
 date: '2017-08-29'
 slug: fall-2017-rfun-workshops
 categories:
-  - calendar
-  - schedule
+  - Calendar
+  - Schedule
   - Workshops
 ---
 
