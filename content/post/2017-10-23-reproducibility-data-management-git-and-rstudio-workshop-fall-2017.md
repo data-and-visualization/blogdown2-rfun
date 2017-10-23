@@ -7,8 +7,8 @@ categories:
   - Workshops
   - Reproducibility
   - Git
-  - Data Management
-  - Fall 2017
+  - "Data Management"
+  - "Fall 2017"
 description: 'Links to Resources for the Fall 2017 git workshop'
 featured: ''
 featuredalt: ''
