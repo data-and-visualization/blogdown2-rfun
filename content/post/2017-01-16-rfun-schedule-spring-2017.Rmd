@@ -7,7 +7,7 @@ categories:
   - Calendar
   - Schedule
   - Workshops
-  - "Resource Links"
+  - Resource-Links
 ---
 
 ## Meeting Schedule

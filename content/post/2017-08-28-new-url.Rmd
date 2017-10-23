@@ -5,7 +5,7 @@ date: '2017-08-28'
 slug: new-url
 categories: 
   - Announcement
-  - "Resource Links"
+  - Resource-Links
 ---
 
 ## http://rfun.library.duke.edu
