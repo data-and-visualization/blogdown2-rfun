@@ -8,7 +8,7 @@ categories:
   - Introduction
   - R
   - Tidyverse
-  - Fall 2017
+  - Fall-2017
 description: 'Links to Resrources for the Fall 2017 intor2R workshop'
 featured: ''
 featuredalt: ''
