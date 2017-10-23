@@ -22,7 +22,7 @@ On October 2nd, [I](https://johnlittle.info/) presented a **Mapping with R** wor
 
 R has become a popular and reproducible option for supporting spatial and statistical analysis. This hands-on workshop will demonstrate how to plot x/y coordinates using *leaflet*; how to generate thematic choropleths with US Census and other federal data (using *tmap* and *tidycensus*); import, view and produce shapefiles; and create leaflet maps for viewing on the web.
 
-The hands-on workshop is designed to introduce the **leaflet**, **tmap**, and **tidycensus** packages.  Each package programming library for use within the R programming language. 
+The hands-on workshop is designed to introduce the **leaflet**, **tmap**, and **tidycensus** packages.  Each package programming library for use within the R programming language. For those who are not familiar with RStudio you may want to view the streaming video link from a previous post: [Introduction to R](/2017/09/18/reproducibility-data-management-git-and-rstudio-workshop-fall-2017/).
 
 **Learning resources** and **workshop materials** are available and shareable.  Use the links below to learn at your own pace and at the comfort of your own workspace.  
 
