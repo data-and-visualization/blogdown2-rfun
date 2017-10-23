@@ -17,7 +17,7 @@ Each R workshop will take place on a Monday, beginning in mid-September.  Indivi
 
 1. **Intro to R**: Data Transformations, Analysis, and Data Structures ([Sept. 11](http://duke.libcal.com/event/3442483?hs=a), Repeated [Oct. 17](http://duke.libcal.com/event/3442545?hs=a)).  [*Learning Materials*](/intro2r/)
 1. **Reproducibility**: Data Management, Git, & RStudio ([Sept. 18](http://duke.libcal.com/event/3442538?hs=a)). Learning Materials: [*OSF Poject Page*](https://osf.io/r6wfk/) |  [*Hands-On git & RStudio*](/git/)
-1. **Visualization** in R using ggplot2 ([Sept. 25](http://duke.libcal.com/event/3442555?hs=a)).  Learning Materials:  [*GitHub*](https://github.com/amzoss/ggplot2-F17)
+1. **Visualization** in R using ggplot2 ([Sept. 25](http://duke.libcal.com/event/3442555?hs=a)).  Learning Materials:  [Steaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=d7516f8a-1d1c-42d9-ad66-6534ffaec690)  [*GitHub*](https://github.com/amzoss/ggplot2-F17)
 1. **Mapping** with R ([Oct. 2](http://duke.libcal.com/event/3442511?hs=a)). Learning Materials: [*Mapping in R*](https://github.com/libjohn/mapping-with-R)
 1. Developing Interactive Websites with R and **Shiny** ([Oct. 19](http://duke.libcal.com/event/3442422?hs=a)).  Learning Materials: [*GitHub*](https://github.com/herndonj/intro2shiny_fall2017)
 
