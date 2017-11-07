@@ -1,5 +1,5 @@
 ---
-title: Fall 2017 R Workshops
+title: "Fall 2017 R Workshops: Summary Review"
 author: John Little
 date: '2017-11-06'
 draft: true
@@ -11,11 +11,11 @@ categories:
 description: 'A brief recap with resource links for the R workshops we presented earlier this fall'
 ---
 
-This fall the [Data & Visualization Services Department](https://library.duke.edu/data) hosted a five-part workshop series on the R programming language.  Our goal:  to introduce basic tools and packages using R as a functional and practical data science tool.  To that end we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://tidyverse.org).  We believe this context enables and reinforces workflow, analysis and reporting that can be seen in the light of reproducible data science.
+This fall the [Data & Visualization Services Department](https://library.duke.edu/data) hosted a five-part workshop series on the R programming language. Our goal: introduce R as a language for modern data manipulation by highlighting a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://tidyverse.org).  We believe this tool-set and approach sets a context that enables and reinforces workflows, analysis and reporting.  This approach is good for highlighting work best verified through the lens of reproducible research.
 
 ## Resources
 
-The following list is a link to each workshop's resources.  Whenever possible we include links to a streaming video recording, slides and lecture notes, shareable datasets and R code.  
+The following listicle includes links to each workshop's resources.  Whenever possible we include links to a streaming video recording, slides and lecture notes, shareable datasets and R code.  
 
 1. **Introduction to R**: Data Transformations, Analysis, and Data Structures
     - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=651c273a-f1b0-485b-bf47-6bd61e304020)
@@ -45,8 +45,8 @@ The following list is a link to each workshop's resources.  Whenever possible we
 
 ## Workshop Order
 
-This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining four workshops by picking the order of most interest to you while saving *Shiny* for last.  
+This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining four workshops in any order of most interest but save the *Shiny* worshop for last.  
 
-As you work through the discussion and hands-on exercises, we invite you to consider how these techniques and tools may relate to your personal research projects.  If you have questions about the content of a workshop or are ready to consult about your research, please attend our [walk-in consultation hours](https://library.duke.edu/data/about/schedule) or [send us an email](mailto:askdata@duke.edu?subject=r-workshop-question). 
+As you work through the discussion and hands-on exercises, we invite you to consider how these techniques and tools relate to your personal research projects.  If you have questions about the content of a workshop or are ready to consult about your research, please attend our [walk-in consultation hours](https://library.duke.edu/data/about/schedule) or [send us an email](mailto:askdata@duke.edu?subject=rfun-workshop-question). 
 
 
