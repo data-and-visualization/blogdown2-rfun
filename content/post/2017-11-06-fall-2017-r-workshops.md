@@ -2,7 +2,6 @@
 title: "Fall 2017 R Workshops: Summary Review"
 author: John Little
 date: '2017-11-06'
-draft: true
 slug: fall-2017-r-workshops
 categories:
   - Workshops
