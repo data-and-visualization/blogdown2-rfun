@@ -10,7 +10,7 @@ categories:
 description: 'A brief recap with resource links for the R workshops we presented earlier this fall'
 ---
 
-This fall the [Data & Visualization Services Department](https://library.duke.edu/data) hosted a five-part workshop series on the R programming language. Our goal: introduce R as a language for modern data manipulation by highlighting a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://tidyverse.org).  We believe this tool-set and approach sets a context that enables and reinforces workflows, analysis and reporting.  This approach is good for highlighting work best verified through the lens of reproducible research.
+This fall the [Data & Visualization Services Department](https://library.duke.edu/data) hosted a five-part workshop series on the R programming language. Our goal: introduce R as a language for modern data manipulation by highlighting a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://tidyverse.org).  We believe this tool-set provides a context that enables and reinforces workflows, analysis and reporting.  Meanwhile this tidy data approach is good for highlighting work best verified through the lens of reproducible research.
 
 ## Resources
 
