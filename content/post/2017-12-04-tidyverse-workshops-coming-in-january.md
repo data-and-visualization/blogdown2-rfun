@@ -30,4 +30,4 @@ An official announcement with links to **registration** is forthcoming.  Feel fr
 This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining three workshops in any order of interest.  
 
 ## Recordings and Past Workshops
-We presented a similar version of this workshop series last fall and recorded each session whenever possible.  You can stream past workshops and engage with the shareable data sets at your-own-pace (see the learning *resources* links, above.)  Alternatively, all the past workshop resource links are presented in one listicle:  [Rfun recap](/2017/09/26/visualization-in-r-using-ggplot2-workshop-fall-2017/).
+We presented a similar version of this workshop series last fall and recorded each session whenever possible.  You can stream past workshops and engage with the shareable data sets at your-own-pace (see the learning *resources* links, above.)  Alternatively, all the past workshop resource links are presented in one listicle:  [Rfun recap](/2017/11/06/fall-2017-r-workshops/).
