@@ -12,9 +12,9 @@ description: 'Announcing Tidyverse workshops for Winter 2018'
 ---
 This winter the [Data & Visualization Services Department](https://library.duke.edu/data) will once again host a workshop series on the R programming language.  Our spring offering is modeled on our well received *R we having fun yet‽* ([Rfun](https://rfun.library.duke.edu/)) [fall workshop series](https://rfun.netlify.com/2017/11/06/fall-2017-r-workshops/).   The four-part series will introduce R as a language for modern data manipulation by highlighting a set of tidyverse packages that enable functional data science. We will approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the [tidyverse](https://tidyverse.org).  We believe this open tool-set provides a context that enables and reinforces reproducible workflows, analysis, and reporting.
 
-> This four-part series will **introduce R** as a language for modern data manipulation by highlighting a set of **tidyverse** packages that enable **functional data science**. 
+> This six-part series will **introduce R** as a language for modern data manipulation by highlighting a set of **tidyverse** packages that enable **functional data science**. 
 
-## Spring Line-up
+## January Line-up
 
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
