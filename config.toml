@@ -110,7 +110,7 @@ paginate = 3
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
 [social]
-    github          = "data-and-visualization/rfun"
+    github          = "data-and-visualization"
     bitbucket       = ""
     jsfiddle        = ""
     codepen         = ""
