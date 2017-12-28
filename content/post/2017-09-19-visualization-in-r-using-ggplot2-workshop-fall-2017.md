@@ -5,7 +5,7 @@ date: '2017-09-26'
 slug: visualization-in-r-using-ggplot2-workshop-fall-2017
 categories:
   - ggplot2
-  - visualization
+  - Visualization
   - Workshops
   - Fall-2017
 description: 'Links to Resources for the Fall 2017 ggplot2 workshop'

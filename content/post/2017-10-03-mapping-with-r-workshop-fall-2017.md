@@ -27,6 +27,8 @@ The hands-on workshop is designed to introduce the **leaflet**, **tmap**, and **
 **Learning resources** and **workshop materials** are available and shareable.  Use the links below to learn at your own pace and at the comfort of your own workspace.  
 
 - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=8b89b84c-3f1e-4868-bf07-92bf6f52995a)
+- [Online Guide](/map/)
+- [Slides](/map/slides/)
 - [GitHub Code](https://github.com/libjohn/mapping-with-R)
 - [DVS Description / Resources](http://duke.libcal.com/event/3442511)
 
