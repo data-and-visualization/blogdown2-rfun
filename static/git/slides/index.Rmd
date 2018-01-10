@@ -56,7 +56,7 @@ class: middle, center
 ---
 class: middle
 
-## Literate Code --> Reproducible Reports
+## Literate Code --> Reproducible Research
 
 ## Collaborative
 
@@ -102,16 +102,28 @@ The most basic aspect of **reproducible research** is that **everything you do**
 
 *Pointing and clicking, and copy-paste, are not reproducible.*  
 
+
+???
+
+Goal:  Compose a Reproducible Document **in RStudio**
+
 ---
-class:  middle
+class:  middle, center
+
+## Version Control
 
 ![](images/git_workflow.png) 
+???
 
+RStudio will manage the most commonly used Git commands
 ---
-class:  middle
+class:  middle, center
+
+## Version Control
 
 ![](images/git_workflow_adv.png)
-
+???
+Collaboration adds complexity the but the basic git commands are the same.
 ---
 class: middle, center
 
@@ -122,7 +134,20 @@ Avoid
 so your processes **are not** reduced to
 
 ## Weird Bits of Undocumented Manual Magic
-        
+
+???
+
+For Example...
+
+1. Create Summary **Table in STATA**
+
+2. **Copy** Table to MS **Excel**
+
+3. **Format Table** for readability in Excel
+
+4. Generate **Visualizations** in Excel
+
+5. Integrate Excel Table into **Word > PDF**
 ---
 
 ## Outline
@@ -155,7 +180,17 @@ background-image:  url(images/flickr_RupertsDogBoye_trail.jpg)
 
 ???
 
-Versioning can be used as a kind of breadcrumb system that helps track the research process.  Using version control, one can easily "roll back" to an earlier moment in the research workflow.
+Versioning can be used 
+
+- as a kind of **breadcrumb system** that helps track the **research process/workflow**
+
+- Using version control, one can **easily "roll back"** to an earlier moment in the research workflow.
+
+- Leave a documented 
+
+    - **trail of where you've been**
+    - how you got there
+    - generated as you go
 
 ---
 ## Repositories
@@ -181,11 +216,11 @@ Versioning can be used as a kind of breadcrumb system that helps track the resea
 ???
 
 ### Source Code Mangement
-By this I simply mean version control on a personal level.  Once can "branch" stages of research and merge successful operations.  In this way it becomes easier to keep track of the process and the progress.
+By this I simply mean **version control on a personal level**.  Once can "branch" stages of research and merge successful operations.  In this way it becomes easier to keep track of the process and the progress.
 
 ### Tracking changes in **any file set**
 
-Git can be used to track any files. 
+**Git** can be used to **track any files**. 
 
 ---
 class: center, middle, softblue
@@ -194,20 +229,71 @@ class: center, middle, softblue
 
 ???
 
-Social Coding = collaboration
+- **Social Coding** = collaboration
 
-Introduce the idea of LOCKSS: "Lots of Copies Keeps Stuff Safe."  Now you have copies in the cloud and on local workstations.  You can work in various locations on various computers (e.g. at home and at work) without worrying about version or file location.
+- Introduce the idea of **LOCKSS**: "Lots of Copies Keeps Stuff Safe."  Now you have copies in the cloud and on local workstations.  You can work in various locations on various computers (e.g. at home and at work) without worrying about version or file location.  (This assumes you've installed **multiple keys**)
 
-Share trackable progress of your reproducible activity -- even if you are only sharing with yourself until you "publish".
+- Share **trackable progress** of your reproducible activity
+
+    - even if you are only **sharing with yourself** 
 
 ---
+
+.pull-left[
 <figure><img src="images/The_Bookworm_-_Grohmann_Museum.jpg"><figcaption> Image Credit: Der Bücherwurm (The Bookworm) by Carl Spitzweg <br><a href="https://commons.wikimedia.org/wiki/File:The_Bookworm_-_Grohmann_Museum.jpg">Wikimedia Commons</a></figcaption></figure>
+]
+.pull-right[
+## Private Repository
+
+- Research Output?
+
+- Statement of Authorship?
+
+- Resarch History / Workflow?
+
+- Collaborators?
+
+- Audience?
+
+]
+
+???
+
+How does this process **affect Reproducibility?**
+
+Library ~= Repository
 
 ---
-<figure><img src="images/800px-Edit-a-thon_at_the_MoMu_library_(9915619823).jpg"><figcaption> Image Credit: Picture by Christin & Monica Ho <a href="https://commons.wikimedia.org/wiki/File:Edit-a-thon_at_the_MoMu_library_(9915619823).jpg">Wikimedia Commons</a></figcaption></figure>
+class: bottom
+background-image: url(images/Edit-a-thon_lrg.jpg)
 
+.small-beige[ Image Credit: Picture by [Christin & Monica Ho](https://commons.wikimedia.org/wiki/File:Edit-a-thon_at_the_MoMu_library_%289915619823%29.jpg) ]
+
+???
+
+## Public Git Repository
+
+- Social Coding
+
+- Digital and Multi-Media
+
+- Sharing
+
+- Collaboration
+
+- Track Issues
+
+
+Effective collaboration **extends** the diversity of **input and feedback available** to you.
+
+- Stop emailing code/research/documents
+
+- Never loose work / track progress
+
+- Build a Portfolio
 
 ---
+exclude: TRUE
 ## Git Repositories
 
 .pull-left[
@@ -230,6 +316,7 @@ Share trackable progress of your reproducible activity -- even if you are only s
 ]
 
 ---
+exclude: TRUE
 class: center
 
 ![](images/social-collaboration.jpg)
@@ -271,9 +358,15 @@ class: green, middle, center
 
 - Duke has it's own instance of GitLab
 
-Duke's GitLab instance means you don't have to pay and can still synchronize to larger networks (e.g. GitHub) at any point.
+Duke's GitLab instance means 
 
-I use it mostly for private work and development.  I like my public presence at GitHub.  Both can be accessed via RStudio.
+- FREE. ...  you don't have to payfor private repos
+
+- Can synchronize to larger networks (e.g. GitHub) at any point.
+
+
+
+I mostly use Duke's GitLab for private work and development.  But I like my public presence at GitHub.  Both can be accessed via RStudio.
 
 
 ---
@@ -308,6 +401,8 @@ class: softblue, middle, center
 
 ## Markdown
 
+?? Liteate Code = R Notebooks + R Markdown
+
 ---
 class: bottom
 background-image: url(images/rmarkdown.png)
@@ -322,7 +417,7 @@ R Markdown -- when combined with various R packages -- makes R a flexible report
 
 Notably:  **You Don't have to be a coder** to benefit from Version Control and R Markdown.  The two method/features can be used to compose all of your reporting needs, including MS Word, PDF, LaTex, WebPages, WebSites, Slides, e-books, etc.
 
-I want to emphasize that *R* and *Git* are ideal for *reproducible research*.  However, the added factor of **R Markdown** -- when combined with various R packages -- makes R a flexible report generation system arguably more *open* and *reproducible* than other proprietary collaborations systems.
+I want to emphasize that *R* and *Git* are ideal for *reproducible research*.  However, the added factor of **R Markdown** -- when combined with various R packages -- makes R a flexible report generation system, arguably more *open* and *reproducible* than other proprietary collaborations systems.
 
 ---
 class: middle
@@ -392,11 +487,20 @@ Version Control
 
 This is where **Open** becomes **Awesome** 
 
+slides:  4, 11, 24
+
 
 ---
 class: softblue, middle, center
 
-## Rstudio & Git
+## RStudio & Git
+
+
+???
+
+Why R 
+
+- Version Contol, via Git, orchestrated by RStudio
 
 ---
 
@@ -419,6 +523,8 @@ Next:  [Hands-on](../handson.html)
 
 Now move to the [hands-on](/handson.html) guided exercises.
 
+slide:  8, (9), 26
+
 ---
 class: orange
 ## R/RStudio 
@@ -429,12 +535,16 @@ class: orange
 
 - Data Science coding language
 
-    - Manages Code
+    - Analysis Engine
+    - Manage Code
     - Word processor 
     - Desktop Publisher
-    - Analysis Engine
-    - Chart Generator
-    - Project files are integrated
+    - Visualization Generator
+    - Projects
+    
+???
+
+## Why R
     
 ---
 class: orange
@@ -450,6 +560,10 @@ Future Self is your most trusted and most often consulted collaborator
 
 - Six months into the future
 - Six years into the future
+
+???
+
+## Why Reproducibility
 
 
 ---
@@ -481,25 +595,33 @@ background-image:  url(http://library.duke.edu/data/sites/default/files/datagis/
 .pull-left[
 ### I am ...
 
-- John Little
+- **John Little**
 - https://johnlittle.info
-- http://github.com/libjohn
+- https://github.com/libjohn
 
 #### Schedule Me
 
 - [http:&#47;&#47;v.gd&#47;littleconsult](http://duke.libcal.com/appointment/2695)
+
+### With...
+
+- Sophia Lafferty-Hess
+- Jen Darragh
+- [library.duke.edu/data/../staff/](https://library.duke.edu/data/about/staff/)
+
 ]
 
 .pull-right[
 ### We are...
 - Data & Visualization Services
-- http://library.duke.edu/data
+- [library.duke.edu/**data**](http://library.duke.edu/data)
 - The /Edge, Bostock (1st Floor)
 
 #### Walk-in Hours
 - [Schedule](http://library.duke.edu/data/about/schedule)
 
 #### Our Workshops
+- [Rfun](http://rfun.library.duke.edu/)
 - [Current Workshops](http://library.duke.edu/data/news)
 - [Past Workshops](http://library.duke.edu/data/news/past-workshops)
 
