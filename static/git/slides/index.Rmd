@@ -408,10 +408,6 @@ class: softblue, middle, center
 
 Literate Code = R Notebooks + R Markdown
 
-???
-
-Turn scripts into reproducible reports
-
 ---
 class: bottom
 background-image: url(images/rmarkdown.png)
@@ -496,7 +492,7 @@ Version Control
 
 This is where **Open** becomes **Awesome** 
 
-slides:  4, 11, 25
+slides:  4, 11, 24
 
 
 ---
@@ -532,7 +528,7 @@ Next:  [Hands-on](../handson.html)
 
 Now move to the [hands-on](/handson.html) guided exercises.
 
-slide:  8, (9), 27
+slide:  8, (9), 26
 
 ---
 class: orange
