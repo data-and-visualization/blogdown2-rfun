@@ -24,3 +24,5 @@ There were some problems with Hugo Building from Rmarkdown.
 - `blogdown::update_hugo()`
 
 ## Site is served via Netlify.com
+
+### bogus message test
