@@ -25,4 +25,3 @@ There were some problems with Hugo Building from Rmarkdown.
 
 ## Site is served via Netlify.com
 
-### bogus message test
