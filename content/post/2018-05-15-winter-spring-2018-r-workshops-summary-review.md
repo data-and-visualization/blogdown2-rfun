@@ -37,7 +37,7 @@ The following listicle includes links to each workshop's resources.  Whenever po
     - [GitHub Code](https://github.com/data-and-visualization/dukelib-workshop-shiny)
     - [Slides](https://github.com/data-and-visualization/dukelib-workshop-shiny/tree/master/slides)
 1. **Reproducibility:** Data Management, Git, and RStudio
-    - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=36b63692-7297-4f97-b1be-19cd57511d95)
+    - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=eafcd5ce-dcef-4a58-af50-6dffcfd64c0a)
     - [Online Guide](http://rfun.library.duke.edu/git/)
     - [Reproducibility Slides](https://osf.io/kdr2w/)
     - [Git & RStudio Slides](http://rfun.library.duke.edu/git/slides/#1)
