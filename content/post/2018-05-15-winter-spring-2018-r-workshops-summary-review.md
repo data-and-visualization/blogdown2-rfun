@@ -57,6 +57,6 @@ The following listicle includes links to each workshop's resources.  Whenever po
 
 ## Workshop Order
 
-This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining four workshops in any order of most interest, but save the *Shiny* worshop for last.  
+This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining four workshops in any order of most interest, but save the *Shiny* workshop for last.  
 
 As you work through the discussion and hands-on exercises, we invite you to consider how these techniques and tools relate to your personal research projects.  If you have questions about the content of a workshop or are ready to consult about your research, please attend our [walk-in consultation hours](https://library.duke.edu/data/about/schedule) or [send us an email](mailto:askdata@duke.edu?subject=rfun-workshop-question). 
