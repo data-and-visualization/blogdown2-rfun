@@ -49,10 +49,6 @@ The following listicle includes links to each workshop's resources.  Whenever po
     - [Online Guide](/map/)
     - [Slides](/map/slides/)
     - [GitHub Code](https://github.com/libjohn/mapping-with-R)
-1. **Developing Interactive Websites with R and Shiny**
-    - [Slides and Lecture Notes](https://docs.google.com/presentation/d/1phPGIP6AJaMimLwdt38OPJZIQR4ckAM5SUg8JQPhBD0/edit#slide=id.g1bb9ceb6c9_0_1026)
-    - [GitHub Code](https://github.com/herndonj/intro2shiny_fall2017)
-    - [DVS Description](http://duke.libcal.com/event/3442422)
 
 
 ## Workshop Order
