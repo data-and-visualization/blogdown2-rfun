@@ -1,7 +1,7 @@
 ---
 title: Fall 2018 Rfun Workshops
 author: John Little
-date: '2018-08-14'
+date: '2018-08-13'
 slug: fall-2018-rfun-workshops
 categories:
   - Calendar
