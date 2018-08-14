@@ -10,7 +10,7 @@ categories:
   - Resource-Links
 ---
 
-The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the [Tidyverse](https://www.tidyverse.org/).  These workshops will provide you with a gentle hands-on introduction to a most powerful Data Science toolkit.  Attend one or attend them all.  
+The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the [Tidyverse](https://www.tidyverse.org/).  These workshops will provide you with a gentle hands-on introduction to a most powerful Data Science toolkit.  Attend one or attend them all. 
 
 The cost is free and registration is for in-person attendance only.  **Fortunately** the resources are shareable.  You can find links to previous workshop resources (code, video, github) on this very website:  https://rfun.library.duke.edu
 
@@ -19,7 +19,7 @@ The cost is free and registration is for in-person attendance only.  **Fortunate
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
 Intro to R | Sept. 4 <br> 1:30 - 3:30pm| [register](https://duke.libcal.com/event/4337268) | [resources](/intro2r/) 
-Visualization with ggplot2 | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
+Visualization with ggplot2 with Dr. Angela Zoss | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
 Version Control: RStudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/git/) 
 R Markdown | Oct. 2<br> 10am-noon | [register](https://duke.libcal.com/event/4337315) | &nbsp;
 Version Control: Social Coding with GitHub & GitLab | Oct. 16<br>10-11am | [register](https://duke.libcal.com/event/4335586) | [resources](/git/)
