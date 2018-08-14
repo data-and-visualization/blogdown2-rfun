@@ -6,7 +6,7 @@ slug: rfun-duke-edu-email-list
 categories:
   - Announcement
   - Twitter
-  - "Email_List""
+  - Email-List
 ---
 
 Last spring we introduced the RFun email list as a way of communicating about upcoming events.  The intent of this list is to further announcements for our workshop audience regarding the RFun series.  We hope you will find this list both informative and low-traffic.  Below is a review of ways you can keep in touch with our activities:
