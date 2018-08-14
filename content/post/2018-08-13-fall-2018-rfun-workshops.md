@@ -1,7 +1,7 @@
 ---
 title: Fall 2018 Rfun Workshops
 author: John Little
-date: '2018-08-13'
+date: '2018-08-14'
 slug: fall-2018-rfun-workshops
 categories:
   - Calendar
@@ -19,7 +19,7 @@ The cost is free and registration is for in-person attendance only.  **Fortunate
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
 Intro to R | Sept. 4 <br> 1:30 - 3:30pm| [register](https://duke.libcal.com/event/4337268) | [resources](/2018/08/14/introduction-to-r-workshop/) 
-Visualization with ggplot2 with Dr. Angela Zoss | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
+Visualization with ggplot2 with Dr. Angela Zoss | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  [resources](/2018/08/10/visualization-in-r-using-ggplot2/)
 Version Control: RStudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/git/) 
 R Markdown | Oct. 2<br> 10am-noon | [register](https://duke.libcal.com/event/4337315) | &nbsp;
 Version Control: Social Coding with GitHub & GitLab | Oct. 16<br>10-11am | [register](https://duke.libcal.com/event/4335586) | [resources](/git/)

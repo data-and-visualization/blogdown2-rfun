@@ -1,7 +1,7 @@
 ---
 title: Introduction to R -- Workshop
 author: John Little
-date: '2018-08-14'
+date: '2018-08-13'
 slug: introduction-to-r-workshop
 categories:
   - Workshops
