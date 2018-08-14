@@ -19,13 +19,13 @@ The cost is free and registration is for in-person attendance only.  **Fortunate
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
 Intro to R | Sept. 4 <br> 1:30 - 3:30pm| [register](https://duke.libcal.com/event/4337268) | [resources](/intro2r/) 
-Visualizationg with ggplot2 | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
-Version Control: Rstudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/git/) 
+Visualization with ggplot2 | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
+Version Control: RStudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/git/) 
 R Markdown | Oct. 2<br> 10am-noon | [register](https://duke.libcal.com/event/4337315) | &nbsp;
 Version Control: Social Coding with GitHub & GitLab | Oct. 16<br>10-11am | [register](https://duke.libcal.com/event/4335586) | [resources](/git/)
 Mapping with R | Oct. 23<br>1-3pm | [register](https://duke.libcal.com/event/4337318) | [resources](/map/)
 Shiny App Development<br> with Dr. Çetinkaya-Rundel | Nov. 7<br> 10am-noon | [register](https://duke.libcal.com/event/4337320) | &nbsp; 
-Tidying hierarchical data from the web with Professor Colin Rundel | Nov. 13 | [register](https://duke.libcal.com/event/4337307) | &nbsp;
+Tidying hierarchical data from the web with Dr. Colin Rundel | Nov. 13 | [register](https://duke.libcal.com/event/4337307) | &nbsp;
 
 
 An official announcement with links to **registration** is forthcoming.  Feel free to subscribe to the [Rfun](https://lists.duke.edu/sympa/info/rfun) or [DVS-Announce](https://lists.duke.edu/sympa/info/dvs-announce) lists.  Or look to the [DVS Workshop](https://library.duke.edu/data/news) page for official registration links as soon as they are available.
