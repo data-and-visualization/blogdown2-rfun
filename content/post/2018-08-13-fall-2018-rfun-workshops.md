@@ -18,7 +18,7 @@ The cost is free and registration is for in-person attendance only.  **Fortunate
 
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
-Intro to R | Sept. 4 <br> 1:30 - 3:30pm| [register](https://duke.libcal.com/event/4337268) | [resources](/intro2r/) 
+Intro to R | Sept. 4 <br> 1:30 - 3:30pm| [register](https://duke.libcal.com/event/4337268) | [resources](/2018/08/14/introduction-to-r-workshop/) 
 Visualization with ggplot2 with Dr. Angela Zoss | Sept. 18<br>1:30-3:30pm | [register](https://duke.libcal.com/event/4337253) |  &nbsp;
 Version Control: RStudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/git/) 
 R Markdown | Oct. 2<br> 10am-noon | [register](https://duke.libcal.com/event/4337315) | &nbsp;
