@@ -14,7 +14,7 @@ The Rfun series welcomes you back to the Duke University campus and we invite yo
 
 The cost is free and registration is for in-person attendance only.  **Fortunately** the resources are shareable.  You can find links to previous workshop resources (code, video, github) on this very website:  https://rfun.library.duke.edu
 
-## January Line-up
+## Workshops: September through November
 
 Title | Date| Registration | Past Workshop 
 --- | --- | --- | ---
@@ -32,7 +32,7 @@ An official announcement with links to **registration** is forthcoming.  Feel fr
 
 ## Workshop Arrangement
 
-This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining workshops as you are interested.  Be aware each workshop may rely or develop concepts presented earlier.  
+This workshop series is intended to be iterative and recursive.  We recommend starting with the *Introduction to R*.  Proceed through the remaining workshops as you are interested.  Be aware each workshop may rely on or develop concepts presented earlier.  
 
 ## Recordings and Past Workshops
 We presented a similar version of this workshop series last spring and recorded those sessions whenever possible.  Past workshop resource links are shareable and presented in a listicle format:  [Rfun recap](/2018/05/15/winter-spring-2018-r-workshops-summary-review/).
