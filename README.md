@@ -10,7 +10,7 @@ This reposistory contains the raw files for the [Rfun](https://github.com/data-a
     
 2. `blogdown::new_site(theme = "jpescador/hugo-future-imperfect")`  # must be a completely *empty directory* except for .Rproj file
 
-3. `serve_site()`
+3. `serve_site()`  or `build_site()`
 
 ## Notes
 
