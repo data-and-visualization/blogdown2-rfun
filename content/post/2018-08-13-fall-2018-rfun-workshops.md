@@ -10,7 +10,7 @@ categories:
   - Resource-Links
 ---
 
-The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the [Tidyverse](https://www.tidyverse.org/).  These workshops will provide you with a gentle hands-on introduction to a most powerful Data Science toolkit.  Attend one or attend them all. 
+The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the [Tidyverse](https://www.tidyverse.org/).  These workshops will provide you with a gentle hands-on introduction to a most powerful data science toolkit.  Attend one or attend them all. 
 
 The cost is free and registration is for in-person attendance only.  **Fortunately** the resources are shareable.  You can find links to previous workshop resources (code, video, github) on this very website:  https://rfun.library.duke.edu
 
