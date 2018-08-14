@@ -11,7 +11,6 @@ categories:
   - Data-Management
   - Version-Control
 tags: []
-description: ''
 featured: ''
 featuredalt: ''
 featuredpath: ''
