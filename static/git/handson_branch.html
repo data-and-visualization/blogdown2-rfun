@@ -11,7 +11,7 @@
 
 
 
-<title>Git &amp; R/RStudio Prerequisites: Software Installation</title>
+<title>Git: Branch / Merge / Revert</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,6 +30,49 @@
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -318,131 +361,95 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Git &amp; R/RStudio Prerequisites: Software Installation</h1>
+<h1 class="title toc-ignore">Git: Branch / Merge / Revert</h1>
 
 </div>
 
 
-<div id="hands-on-outline" class="section level2">
-<h2>Hands-on Outline</h2>
-<ol style="list-style-type: decimal">
-<li>Git</li>
-<li>GitHub and GitLab and Bitbucket</li>
-<li>Markdown<br />
-</li>
-<li><p>Orchestrating with RStudio</p>
+<p>This document follows set-up from the <a href="handson.html">previous document</a></p>
+<div id="standard-edit" class="section level2">
+<h2>Standard Edit</h2>
 <ul>
-<li>Masks the CLI</li>
-<li>Easier to get started</li>
-<li>Power Users can still use commands</li>
-</ul></li>
-</ol>
-</div>
-<div id="prerequisites" class="section level2">
-<h2>Prerequisites</h2>
-<div id="load-install-software-before-the-workshop" class="section level3">
-<h3>Load &amp; Install Software <strong>Before the Workshop</strong></h3>
-<p>To complete the hands-on portion of the workshop you’ll need software pre-installed. Due to the nature of the workshop we will not have time to troubleshoot installations during the workshop. Please be sure to perform the following steps <strong>on the laptop you bring to the workshop</strong>.</p>
-</div>
-<div id="required-software" class="section level3">
-<h3>Required Software</h3>
-<div id="download-and-install" class="section level4">
-<h4>Download and install</h4>
-<p>I recommend accepting the install defaults for the following:</p>
-<ul>
-<li><p><strong>Git</strong>: <a href="https://git-scm.com/downloads" target="_blank">https://git-scm.com/downloads</a></p>
-<ol style="list-style-type: decimal">
-<li>Download and install Git</li>
-<li>Run the install and accept all the defaults</li>
-</ol></li>
-</ul>
-<br>
-<figure>
-<img src="images/git_os.png" />
-<figcaption>
-Click on the link to your OS
-</figcaption>
-</figure>
-<p><br></p>
-<ul>
-<li><p><strong>R</strong>: <a href="http://archive.linux.duke.edu/cran/"" target="_blank">http://archive.linux.duke.edu/cran/</a></p>
-<ul>
-<li>If you have not installed R before choose <em>install R for the first time</em></li>
-<li>If you already have R installed on your workstation I recommend running the latest version, but any reasonably current version should be fine.</li>
-</ul></li>
-<li><p><strong>RStudio</strong>: <a href="https://www.rstudio.com/products/rstudio/download/#download" target="_blank">https://www.rstudio.com/products/rstudio/download/#download</a></p></li>
-</ul>
-<br>
-<figure>
-<img src="images/rstudio_download.png" />
-</figure>
-<p><br></p>
-<p>If you haven’t yet, install each of the above applications.</p>
-</div>
-</div>
-<div id="create-github-account-and-verify-access" class="section level3">
-<h3>Create GitHub Account and Verify Access</h3>
-<p>We will use <a href="https://github.com" target="_blank">GitHub</a> to create an initial public host for the repository you create during the workshop. (GitHub is free. If you choose not to continue using GitHub, you can easily <a href="https://help.github.com/articles/deleting-your-user-account/">delete the account</a>. ) If you already have a GitHub account, you do not need to create another for this workshop.</p>
-<ol style="list-style-type: decimal">
-<li>Sign up for GitHub using the form on their front page: <a href="https://github.com" class="uri">https://github.com</a>. Use your Duke email address</li>
-<li><img src="images/github_account2.png" />, Then Create the Account</li>
-</ol>
-<div id="additional-private-repository-options" class="section level4">
-<h4>Additional Private Repository Options</h4>
-<ul>
-<li>Students can use the [GitHub Student Pack] (<a href="https://education.github.com/pack" class="uri">https://education.github.com/pack</a>) that affords free unlimited private repositories</li>
-<li>Other unlimited private repository options include the <a href="https://gitlab.oit.duke.edu">Duke University instance of GitLab</a>, <a href="http://gitlab.com">GitLab.com</a>, or <a href="https://bitbucket.org/">BitBucket</a>. Using the <code>git remote</code> features it is easy to create private repositories at one social coding site while also publishing public repositories to another social coding site. I’ve been very happy using Duke’s GitLab for my private repositories and GitHub for my public profile.</li>
+<li>Add your name and a bulleted list with three of your favorite foods</li>
+<li>Commit your changes</li>
 </ul>
 </div>
-</div>
-<div id="generate-ssh-keys-in-advance-of-the-workshop" class="section level3">
-<h3>Generate SSH keys in Advance of the Workshop</h3>
-<p>I recommend generating your SSH keys in advance of the workshop. Then add your public key to GitHub. To do so, you should have already installed Git to your laptop.</p>
-<p>We will cover key configuration in the workshop although you will find the explanation easier to follow if you generate and add your keys in advance. The instructions below are based on those found at Duke’s GitLab. If the instructions below are not clear you should consult the more complete GitHub instructions to <a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/">generate and add an SSH key</a></p>
+<div id="branch" class="section level2">
+<h2>Branch</h2>
 <ol style="list-style-type: decimal">
-<li><p>To begin, open the <strong>Terminal</strong> <em>in RStudio</em>. If you’re using the latest version of RStudio, the <em>Terminal</em> is a tab in the console quadrant (typically the bottom-left)</p>
+<li><p>Create a branch <em>version2</em></p>
 <ul>
-<li>In RStudio: Menubar <code>Tools &gt; Terminal &gt; New Terminal</code></li>
+<li>The funny icon is used to <strong>create</strong> and <strong>checkout</strong> a branch</li>
+<li>By clicking <strong>Create</strong>, <code>git checkout &lt;&lt;branch-name&gt;&gt;</code> is invoked</li>
+<li>Create a new text that lists 3 favorite movies save it as <code>movies.md</code></li>
+<li>Commit your changes</li>
 </ul></li>
 </ol>
-<br>
-<figure>
-<img src="images/shell.png" />
-</figure>
-<p><br></p>
+<p><img src="images/branch_create.png" style="display: block; margin: auto;" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Determine if you already have an SSH key pair. In the <em>Termnal</em> tab, type: <code>cat ~/.ssh/id_rsa.pub</code></p>
+<li><p>Checkout the <em>master</em> branch</p>
 <ul>
-<li><p>If you see a string starting with <code>ssh-rsa</code> you already have an SSH key pair and can simply copy that key (Step 5)</p></li>
-<li><p>If you get some kind of error, you’ll have to generate a key in the next step</p></li>
-</ul></li>
-<li><p>In the <em>Terminal</em> tab, type: <code>ssh-keygen -t rsa -C &quot;your.email@example.com&quot; -b 4096</code></p>
-<ul>
-<li>I recommend using your Duke Email address but it must be the address you used to create your GitHub account</li>
-</ul></li>
-<li><p>You will be prompted to input a file path. i.e. the location where you’ll save your SSH key pair.</p>
-<ul>
-<li><p>If you don’t already have an SSH key pair use the suggested path by pressing enter</p></li>
-<li><p>After setting the file path you will be prompted to input a password. This will secure your SSH key pair. It is a best practice to use a password for an SSH key pair, but it is not required. You can skip creating a password by pressing enter</p>
-<ul>
-<li><strong>Note</strong>: If you want to change the password of your SSH key pair, you can use <code>ssh-keygen -p &lt;keyname&gt;</code></li>
-</ul></li>
-</ul></li>
-<li><p>Copy the public SSH key to the clipboard buffer</p>
-<ul>
-<li>In the <em>Termnal</em> tab, type the appropriate code below:
-<ul>
-<li><strong>macOS</strong>: <code>cat ~/.ssh/id_rsa.pub | pbcopy</code></li>
-<li><strong>Windows</strong>: <code>cat ~/.ssh/id_rsa.pub | clip</code></li>
-</ul></li>
-</ul></li>
-<li><p>The final step is to add your public SSH key to GitHub.</p>
-<ul>
-<li><p>Navigate to the <em>SSH and GPG keys</em> section of your GitHub <em>Settings</em>. Click the green <strong>New SSH key</strong> button and paste your key in the <em>Key</em> section. Give the key a relevant <em>Title</em> Use an identifiable title like <em>Work Laptop - Windows 7</em> or <em>Home MacBook Pro 15.</em></p></li>
-<li><p>If you manually copied your public SSH key make sure you copied the entire key starting with <code>ssh-rsa</code> and ending with your email.</p></li>
+<li>Watch the <strong>Files</strong> tab as you switch back to the <em>master</em> branch. Where is the <code>movies.md</code> file?</li>
 </ul></li>
 </ol>
+<p><img src="images/branch_checkout.png" style="display: block; margin: auto;" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Checkout the <em>version2</em> branch again</p>
+<ul>
+<li>Edit the README.md file by adding 3 of your favorite books</li>
+<li>Commit your changes</li>
+<li>Push your changes</li>
+</ul></li>
+<li><p>Observe the visual representations of the branching and updating. &lt;<Git - Clock>&gt; -OR- GitHub &gt; Settings &gt; Insights &gt; Network</p></li>
+</ol>
 </div>
+<div id="merge" class="section level2">
+<h2>Merge</h2>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Checkout the <em>master</em> branch</p>
+<ul>
+<li>In the Terminal window type: <code>git merge version2</code></li>
+<li>You should see a terminal response similar to below…</li>
+<li>Then, Push your changes</li>
+</ul></li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">Updating</span> 83fb5bb..08c9267
+<span class="ex">Fast-forward</span>
+ <span class="ex">README.md</span> <span class="kw">|</span> <span class="ex">8</span> +++++++-
+ <span class="ex">movies.md</span> <span class="kw">|</span> <span class="ex">5</span> +++++
+ <span class="ex">2</span> files changed, 12 insertions(+), <span class="ex">1</span> deletion(-)
+ <span class="ex">create</span> mode 100644 movies.md</code></pre></div>
+<ol start="6" style="list-style-type: decimal">
+<li>Observe the visual representations of the version history</li>
+</ol>
+</div>
+<div id="conflict" class="section level2">
+<h2>Conflict</h2>
+<ol start="7" style="list-style-type: decimal">
+<li>Edit README.md in <em>master</em> by changing your name. Commit then Push.</li>
+<li>Edit README.md in <em>version2</em> by changing the name to something different from the step above. Commit then Push.</li>
+<li>Checkout <em>master</em>, then <code>git merge version2</code></li>
+<li>Fix Conflicts, then Save. ; Commit and Push.</li>
+</ol>
+</div>
+<div id="revert" class="section level2">
+<h2>Revert</h2>
+<ol start="11" style="list-style-type: decimal">
+<li>Checkout <em>master</em></li>
+<li>Create New text file, <code>colors.md</code> and list three of your favorite colors</li>
+<li>Commit and Push</li>
+<li>Add a fourth color to <code>colors.md</code> ; Commit and Push</li>
+<li>Observe the visual representations of the version history</li>
+<li>Now <em>revert</em> the last change because you changed your mind and you don’t have four favorite colors. In the terminal window type…</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> revert HEAD</code></pre></div>
+<ul>
+<li><code>:wq</code></li>
+</ul>
+<ol start="17" style="list-style-type: decimal">
+<li>Commit and Push.</li>
+<li>Observe the visual representations of the version history</li>
+</ol>
 </div>
 
 &nbsp;
