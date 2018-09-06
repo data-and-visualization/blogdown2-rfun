@@ -260,7 +260,7 @@ div.tocify {
 <li>RStudio</li>
 <li><a href="https://tidyverse.org/">Tidyverse</a></li>
 </ul>
-<p>This tutorial assumes you already have R and RStudio installed. Once you have launched RStudio, load the tidyverse super package of libraries: <code>library(tidyverse)</code>. Since the Tidyverse packages include the ggplot2 package you do not have to load ggplot2 separately. If the <code>library(tidyverse)</code> command gives an error, you probably want to <code>install.packages(&quot;tidyverse&quot;)</code> before attaching the library. Installation need only be done once. Attaching the tidyverse library must be done each time your script.</p>
+<p>This tutorial assumes you already have R and RStudio installed. Once you have launched RStudio, load the tidyverse super package of libraries: <code>library(tidyverse)</code>. Since the Tidyverse packages include the ggplot2 package you do not have to load ggplot2 separately. If the <code>library(tidyverse)</code> command gives an error, you probably want to <code>install.packages(&quot;tidyverse&quot;)</code> before attaching the library. Installation need only be done once. Attaching the tidyverse library must be done each time you execute your R script.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(tidyverse)
 <span class="kw">library</span>(sf)</code></pre></div>
 </div>
@@ -290,10 +290,10 @@ div.tocify {
 <p>Below is a basic example. The <code>geom_point()</code> function generates a scatter plot from the on-board <strong>mpg</strong> tibble, a dataset of fuel economy data compiled by the US government. <code>displ</code> and <code>hwy</code> are variables in the dataset assigned to the x and y axis, respectively.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/basic%20plot-1.png" width="672" /></p>
 <div id="the-data" class="section level3">
 <h3>The Data</h3>
-<p>As stated above, ggplot takes a tibble (data frame) for input. Beyond identifying the data source, one has to map the variables to a geom (~ axis). Different <em>geom_</em>s require different data types. Understanding the definitions of continuous, categorical, and discrete variables – as well understanding <strong>R</strong> data structures (factors, vectors, data/time, strings) – will be immensely helpful to you. You can read all about that in Grolemund’s &amp; Wickham’s <em>R4DS</em> book. Meanwhile, let’s have a look at the <code>mpg</code> data we just visualized. Look up the on-board dataset in the help: <code>?mpg</code> to learn more about the variables.</p>
+<p>As stated above, ggplot takes a tibble (data frame) for input. Beyond identifying the data source, one has to map the variables to a geom axis. Different <em>geom_</em>s require different data types. Understanding the definitions of continuous, categorical, and discrete variables – as well understanding <strong>R</strong> data structures (factors, vectors, date/time, strings) – will be immensely helpful to you. You can read all about that in Grolemund’s &amp; Wickham’s <em>R4DS</em> book. Meanwhile, let’s have a look at the <code>mpg</code> data we just visualized. Look up the on-board dataset in the help: <code>?mpg</code> to learn more about the variables.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">mpg</code></pre></div>
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
@@ -311,7 +311,7 @@ div.tocify {
 <div id="aesthetics-tweaking" class="section level2">
 <h2>Aesthetics / Tweaking</h2>
 <p>In the book, <em>R4DS</em>, by Grolemund &amp; Wickham the authors discuss some <code>mpg</code> data points that seem to fall outside the linear trend. Specifically, see the blue data points below. To investigate trends such as this, use <code>ggplot</code> to alter the levels of the aesthetics. We’ll discuss how to map the aesthetic levels throughout this workshop. Remember, this material is presented in <em>R4DS</em>.</p>
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/intro%20to%20levels%20and%20aethetics-1.png" width="672" /></p>
 <div id="levels" class="section level3">
 <h3>Levels</h3>
 <ul>
@@ -326,14 +326,14 @@ div.tocify {
 <p>Below, map a third variable, <code>class</code> to the color aesthetic.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">color =</span> class))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/color%20level%20by%20categorical-1.png" width="672" /></p>
 </div>
 <div id="shape" class="section level4">
 <h4>Shape</h4>
 <p>We can change the shape aesthetic in the same way as we changed the color. Notice, R will only map to six distinct shapes. (Learn more by <code>?pch</code>, or Google Search for “shapes in R”)</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">shape =</span> class))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/shape%20by%20categorical-1.png" width="672" /></p>
 </div>
 </div>
 <div id="manual-vs-automatic-aethetics" class="section level3">
@@ -344,7 +344,7 @@ div.tocify {
 </ul>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy), <span class="dt">color =</span> <span class="st">&quot;blue&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/manual%20color%20assignment-1.png" width="672" /></p>
 </div>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
@@ -353,7 +353,7 @@ div.tocify {
 <p>(<a href="http://r4ds.had.co.nz/data-visualisation.html#exercises-1">Question</a>) What’s gone wrong with this code? Why are the points not blue? (<a href="https://jrnold.github.io/r4ds-exercise-solutions/data-visualisation.html#exercise-3.3.1">Solution</a>)</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">color =</span> <span class="st">&quot;blue&quot;</span>))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/whoops-1.png" width="672" /></p>
 </div>
 <div id="section-1" class="section level4">
 <h4>3.3.1.3</h4>
@@ -376,7 +376,7 @@ div.tocify {
 <p>Below the <code>stroke</code> (line thickness) is set to 3. The color of the stroke is cadetblue4.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(mtcars, <span class="kw">aes</span>(wt, mpg)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">shape =</span> <span class="dv">21</span>, <span class="dt">color =</span> <span class="st">&quot;cadetblue4&quot;</span>, <span class="dt">fill =</span> <span class="st">&quot;lightgoldenrod1&quot;</span>, <span class="dt">size =</span> <span class="dv">5</span>, <span class="dt">stroke =</span> <span class="dv">3</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/stroke-1.png" width="672" /></p>
 </div>
 </div>
 </div>
@@ -388,7 +388,7 @@ div.tocify {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">color =</span> class)) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/layers-1.png" width="672" /></p>
 </div>
 <div id="ggplot-r-object" class="section level3">
 <h3>ggplot R object</h3>
@@ -397,25 +397,25 @@ div.tocify {
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">color =</span> class))
 
 hwy_plot</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/ggplot%20as%20object-1.png" width="672" /></p>
 <p>Now it will be easier to see the code changes. Building the same layered plot as before, this time you can more easily see the code change: <code>geom_smooth(mapping = aes(x = displ, y = hwy))</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/layer%20on%20object-1.png" width="672" /></p>
 </div>
 <div id="additional-aesthetics" class="section level3">
 <h3>Additional Aesthetics</h3>
 <p>In the next example, notice the regression_line aesthetic operates the same as before but is applied to a categorical variable. A third variable, <code>drv</code>, is used to highlight a new level in the aesthetic. In this case, we’ll show different levels of regression based on the categorical <code>drv</code> variable.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">linetype =</span> drv))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/smooth%20via%20aethetic-1.png" width="672" /></p>
 </div>
 <div id="standard-error" class="section level3">
 <h3>Standard Error</h3>
 <p>Since each geom can have it’s own unique arguments, consult the documentation to learn how to manipulate the appearance. Here we can consult <code>?geom_smooth</code> and learn how to remove the standard error shading by setting <code>se = FALSE</code>.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_smooth</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">linetype =</span> drv), <span class="dt">se =</span> <span class="ot">FALSE</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/confidence%20interval-1.png" width="672" /></p>
 </div>
 <div id="exercises-1" class="section level3">
 <h3>Exercises</h3>
@@ -444,14 +444,14 @@ hwy_plot</code></pre></div>
 <p>Facet a plot on a single discrete variable, e.g. the <code>class</code> variable that categorically identifies the type of automobile (e.g. compact, midsize, minivan, etc.)</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">facet_wrap</span>(<span class="op">~</span><span class="st"> </span>class, <span class="dt">nrow =</span> <span class="dv">2</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/facet_wrap-1.png" width="672" /></p>
 </div>
 <div id="facet_grid" class="section level3">
 <h3>facet_grid</h3>
 <p>facet a plot on two variables</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">facet_grid</span>(drv <span class="op">~</span><span class="st"> </span>cyl)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/facet_grid-1.png" width="672" /></p>
 </div>
 </div>
 <div id="statistical-transformations" class="section level2">
@@ -465,11 +465,11 @@ hwy_plot</code></pre></div>
 <p>By default the <code>geom_bar</code> and <code>stat_count</code> will total the raw numbers from the data frame.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/geom_%20v%20stat_-1.png" width="672" /></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">
 <span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">stat_count</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-17-2.png" width="672" /></p>
+<p><img src="index_files/figure-html/geom_%20v%20stat_-2.png" width="672" /></p>
 </div>
 <div id="overriding-the-default" class="section level4">
 <h4>Overriding the default</h4>
@@ -481,15 +481,15 @@ hwy_plot</code></pre></div>
 <span class="st">  </span><span class="kw">count</span>(cut) <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">ggplot</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut, <span class="dt">y =</span> n), <span class="dt">stat =</span> <span class="st">&quot;identity&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-18-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/barplot-1.png" width="672" /></p>
 </div>
 <div id="proportion" class="section level5">
 <h5>Proportion</h5>
-<p>generating a proportion automaticaly is super nifty…</p>
+<p>generating a proportion automatically is super nifty…</p>
 <p><code>y = ..prop.., group = 1</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut, <span class="dt">y =</span> ..prop.., <span class="dt">group =</span> <span class="dv">1</span>))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-19-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/propotion-1.png" width="672" /></p>
 </div>
 </div>
 <div id="fill-color" class="section level4">
@@ -497,21 +497,21 @@ hwy_plot</code></pre></div>
 <p><code>fill = cut</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut, <span class="dt">fill =</span> cut))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/fill%20barplot-1.png" width="672" /></p>
 </div>
 <div id="stacked" class="section level4">
 <h4>Stacked</h4>
 <p><code>fill = clarity</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut, <span class="dt">fill =</span> clarity))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/stacked%20barplot-1.png" width="672" /></p>
 </div>
 <div id="side-by-side" class="section level4">
 <h4>Side by Side</h4>
 <p><code>position = &quot;dodge&quot;</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_bar</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> cut, <span class="dt">fill =</span> clarity), <span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-22-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/side-by-side-1.png" width="672" /></p>
 </div>
 </div>
 </div>
@@ -520,11 +520,11 @@ hwy_plot</code></pre></div>
 <p><code>jitter</code> can help solve the problem of <strong>overplotting</strong>, as can <code>dodge</code> discussed above.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> mpg) <span class="op">+</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy), <span class="dt">position =</span> <span class="st">&quot;jitter&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/jitter-1.png" width="672" /></p>
 </div>
 <div id="other-geom_s" class="section level2">
 <h2>Other geom_s</h2>
-<p>There are a lot of options and visualizations available to you via ggplot. The challenge becomes knowning what you can create based on the characteristics of your data. The ggplot2 cheat sheet – available from the <strong>H</strong>elp menu inside RStudio – can help you choose the appropriate geom for your data. Examples on the cheat sheet will lead you to choose geom_’s based on characteristics such as, one continuous variable, two continuous, one discrete + one continuous, discrete by discrete, three variables, etc. Look closely at this useful reference.</p>
+<p>There are a lot of options and visualizations available to you via ggplot. The challenge becomes knowing what you can create based on the characteristics of your data. The ggplot2 cheat sheet – available from the <strong>H</strong>elp menu inside RStudio – can help you choose the appropriate geom for your data. Examples on the cheat sheet will lead you to choose geom_’s based on characteristics such as, one continuous variable, two continuous, one discrete + one continuous, discrete by discrete, three variables, etc. Look closely at this useful reference.</p>
 </div>
 <div id="coordinate-system" class="section level2">
 <h2>Coordinate System</h2>
@@ -535,13 +535,13 @@ hwy_plot</code></pre></div>
 <span class="st">  </span><span class="kw">mutate</span>(<span class="dt">class =</span> class <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">fct_infreq</span>() <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">fct_rev</span>()) <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(class)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_bar</span>() </code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-24-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/dynamic%20factor-1.png" width="672" /></p>
 <p><code>coord_flip()</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">mpg <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">mutate</span>(<span class="dt">class =</span> class <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">fct_infreq</span>()) <span class="op">%&gt;%</span><span class="st"> </span>
 <span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(class)) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_bar</span>() <span class="op">+</span><span class="st"> </span><span class="kw">coord_flip</span>()</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-25-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/coordinate%20flip-1.png" width="672" /></p>
 </div>
 <div id="mapping-gis" class="section level3">
 <h3>Mapping / GIS</h3>
@@ -579,7 +579,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 <span class="st">  </span><span class="kw">ylab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">xlab</span>(<span class="st">&quot;&quot;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">ggtitle</span>(<span class="st">&quot;Triangle Counties in North Carolina&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-26-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/a%20map-1.png" width="672" /></p>
 </div>
 </div>
 <div id="color-scales" class="section level2">
@@ -589,34 +589,34 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 <p><code>scale_color_brewer(palette = &quot;Dark2&quot;)</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">scale_color_brewer</span>(<span class="dt">palette =</span> <span class="st">&quot;Dark2&quot;</span>)  </code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-27-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/color%20brewer-1.png" width="672" /></p>
 <p>Viridis may work better for continuous variables, rather than discrete. However, below is an example of the viridis package changing the color scale.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span>viridis<span class="op">::</span><span class="kw">scale_color_viridis</span>(<span class="dt">discrete=</span><span class="ot">TRUE</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-28-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/viridis-1.png" width="672" /></p>
 <p>Below is another example this time using a continuous variable, <code>diamonds$price</code> to demonstrate color. The first plot uses the ggplot default.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> carat, <span class="dt">y =</span> price, <span class="dt">color =</span> price))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-29-1.png" width="672" /></p>
-<p>The second plot uses the viridis package to override the default color scale. (Aditionally, the alpha aesthetic is mapped to better represent overplotting.)</p>
+<p><img src="index_files/figure-html/orverplot%20default-1.png" width="672" /></p>
+<p>The second plot uses the viridis package to override the default color scale. (Additionally, the alpha aesthetic is mapped to better represent overplotting.)</p>
 <p><code>viridis::scale_color_viridis()</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">ggplot</span>(<span class="dt">data =</span> diamonds) <span class="op">+</span>
 <span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> carat, <span class="dt">y =</span> price, <span class="dt">color =</span> price, <span class="dt">alpha =</span> price <span class="op">/</span><span class="st"> </span><span class="dv">10000</span>)) <span class="op">+</span>
 <span class="st">  </span>viridis<span class="op">::</span><span class="kw">scale_color_viridis</span>() <span class="op">+</span>
 <span class="st">  </span><span class="kw">guides</span>(<span class="dt">alpha =</span> <span class="ot">FALSE</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-30-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/overplot%20transparency-1.png" width="672" /></p>
 </div>
 <div id="legends" class="section level2">
 <h2>Legends</h2>
 <p>You can alter the position or existence of legends. Positions include “top, bottom, left, right, and none”.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;top&quot;</span>)</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-31-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/legend-1.png" width="672" /></p>
 <p>You can control other aspects of the legend’s appearance as well. Here we control the number of rows displayed with <code>guide_legend(nrow =1)</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme</span>(<span class="dt">legend.position =</span> <span class="st">&quot;top&quot;</span>) <span class="op">+</span>
 <span class="st">  </span><span class="kw">guides</span>(<span class="dt">color =</span> <span class="kw">guide_legend</span>(<span class="dt">nrow =</span> <span class="dv">1</span>))</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-32-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/legend2-1.png" width="672" /></p>
 </div>
 <div id="labels-axis-markers-ticks" class="section level2">
 <h2>Labels: Axis / Markers / Ticks</h2>
@@ -628,7 +628,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
     <span class="dt">subtitle =</span> <span class="st">&quot;Highway mpg as a dependency of Engine Displacement&quot;</span>,
     <span class="dt">caption =</span> <span class="st">&quot;Data from www.fueleconomy.gov&quot;</span>
   )</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-33-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/labels-1.png" width="672" /></p>
 </div>
 <div id="axis-legend-titles" class="section level3">
 <h3>Axis &amp; legend titles</h3>
@@ -638,7 +638,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
     <span class="dt">y =</span> <span class="st">&quot;Highway fuel economy (mpg)&quot;</span>,
     <span class="dt">color =</span> <span class="st">&quot;Car type&quot;</span>
     )</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-34-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/axis-1.png" width="672" /></p>
 </div>
 <div id="axis-ticks-breaks" class="section level3">
 <h3>Axis ticks &amp; breaks</h3>
@@ -649,7 +649,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 </ul>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">scale_y_continuous</span>(<span class="dt">breaks =</span> <span class="kw">seq</span>(<span class="dv">15</span>, <span class="dv">40</span>, <span class="dt">by =</span> <span class="dv">5</span>)) </code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-35-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/breaks-1.png" width="672" /></p>
 </div>
 </div>
 <div id="annotations" class="section level2">
@@ -668,7 +668,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
             <span class="dt">data =</span> annotation, 
             <span class="dt">vjust =</span> <span class="st">&quot;top&quot;</span>, <span class="dt">hjust =</span> <span class="st">&quot;right&quot;</span>,
             <span class="dt">color =</span> <span class="st">&quot;coral1&quot;</span>) </code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-36-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/annotate-1.png" width="672" /></p>
 <div id="just-for-fun" class="section level3">
 <h3>Just for Fun</h3>
 <p>Let’s attempt to make the story clearer by adding regression lines along with titles, subtitles, captions and annotations.</p>
@@ -686,7 +686,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
     <span class="dt">subtitle =</span> <span class="st">&quot;Dashed line for all car types, Solid line excludes 2seater class&quot;</span>,
     <span class="dt">caption =</span> <span class="st">&quot;Data from www.fueleconomy.gov&quot;</span>
   ) </code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-37-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/fun-1.png" width="672" /></p>
 </div>
 </div>
 <div id="themes" class="section level2">
@@ -699,7 +699,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 <p><code>theme_bw()</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">hwy_plot <span class="op">+</span>
 <span class="st">  </span><span class="kw">theme_bw</span>()</code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-38-1.png" width="672" /></p>
+<p><img src="index_files/figure-html/theme-1.png" width="672" /></p>
 <div id="gridlines" class="section level3">
 <h3>Gridlines</h3>
 <p>Many people ask about removing gridlines. At this point let’s just say it’s easy and there’s plenty of documentation on how to do it (e.g. <code>theme_classic()</code> or search Google, Stack Exchange, etc.). The one exception to basic gridline management is when using geom_sf. See the **Mapping / GIS* example above for some rather obscure documentation on how to handle gridlines and axes with <code>geom_sf()</code>.</p>
@@ -724,10 +724,13 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 <div id="resources" class="section level2">
 <h2>Resources</h2>
 <ul>
-<li>R for Data Science by Grolemund &amp; Wickham. Chapter on <em>Data Visualization</em>, &amp; Chapter on <em>Graphics for Communication</em>, &amp; Chapter on <em>Exploratory Data Analysis</em></li>
-<li>Intro, Tutorials, and Reference materials by Selva Prabhakaran</li>
-<li>ggplot cookbook</li>
-<li><a href="http://socviz.co/">Data Visualization</a>: A practical introduction by Kieran Healy</li>
+<li><a href="http://r4ds.had.co.nz/">R for Data Science</a> by Grolemund &amp; Wickham. Chapter on <em>Data Visualization</em>, &amp; Chapter on <em>Graphics for Communication</em>, &amp; Chapter on <em>Exploratory Data Analysis</em></li>
+<li><a href="https://ggplot2.tidyverse.org/">ggplot2: part of the tidyverse</a> – check out all the cool on-board datasets</li>
+<li><a href="http://r-statistics.co/ggplot2-Tutorial-With-R.html">ggplot2: short tutorial</a> by Selva Prabhakaran</li>
+<li><a href="http://www.cookbook-r.com/Graphs/">ggplot cookbook</a> by Winston Chang</li>
+<li><a href="https://rgup.gitlab.io/research_cycle/02_ggplot.html">Data Visualisation</a> (web resource)</li>
+<li><a href="http://www.r-graph-gallery.com/"><strong>R Graphi Gallery</strong></a></li>
+<li><a href="http://socviz.co/">Data Visualization</a>: A practical introduction by Kieran Healy (book)</li>
 <li><a href="https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a> by Claus O. Wilke</li>
 </ul>
 </div>
@@ -743,7 +746,7 @@ triangle &lt;-<span class="st"> </span><span class="kw">cbind</span>(triangle, <
 ##  language (EN)                        
 ##  collate  English_United States.1252  
 ##  tz       America/New_York            
-##  date     2018-08-29</code></pre>
+##  date     2018-09-06</code></pre>
 <pre><code>## Packages -----------------------------------------------------------------</code></pre>
 <pre><code>##  package      * version date       source        
 ##  assertthat     0.2.0   2017-04-11 CRAN (R 3.5.1)
