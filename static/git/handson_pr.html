@@ -11,7 +11,7 @@
 
 
 
-<title>Git: Init / Clone / Pull &amp; Push</title>
+<title>Git: Remotes, Collaborate, Pull Requests</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,6 +30,49 @@
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; background-color: #f8f8f8; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+pre, code { background-color: #f8f8f8; }
+code > span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code > span.dt { color: #204a87; } /* DataType */
+code > span.dv { color: #0000cf; } /* DecVal */
+code > span.bn { color: #0000cf; } /* BaseN */
+code > span.fl { color: #0000cf; } /* Float */
+code > span.ch { color: #4e9a06; } /* Char */
+code > span.st { color: #4e9a06; } /* String */
+code > span.co { color: #8f5902; font-style: italic; } /* Comment */
+code > span.ot { color: #8f5902; } /* Other */
+code > span.al { color: #ef2929; } /* Alert */
+code > span.fu { color: #000000; } /* Function */
+code > span.er { color: #a40000; font-weight: bold; } /* Error */
+code > span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #000000; } /* Constant */
+code > span.sc { color: #000000; } /* SpecialChar */
+code > span.vs { color: #4e9a06; } /* VerbatimString */
+code > span.ss { color: #4e9a06; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #000000; } /* Variable */
+code > span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code > span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code > span.ex { } /* Extension */
+code > span.at { color: #c4a000; } /* Attribute */
+code > span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code > span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -321,143 +364,115 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Git: Init / Clone / Pull &amp; Push</h1>
+<h1 class="title toc-ignore">Git: Remotes, Collaborate, Pull Requests</h1>
 
 </div>
 
 
-<div id="generate-ssh-keys" class="section level3">
-<h3>Generate SSH Keys</h3>
-<p>This step was covered in the <a href="outline.html#generate_ssh_keys_in_advance_of_the_workshop">Outline Section</a>. This must be done on each workstation you use to <em>push</em>.</p>
+<p>This document follows set-up from the <a href="handson.html">first hands-on</a></p>
+<p>This section introduces a variety of topics: fork, pull requests, collaborators, wikis on GitHub, Issues on GitHub, and git remotes.</p>
+<div id="roll-back" class="section level2">
+<h2>Roll back</h2>
 </div>
-<div id="make-a-repository" class="section level2">
-<h2>Make a Repository</h2>
-<p>1.Login to GitHub – <a href="https://github.com" target="_blank">https://github.com</a></p>
+<div id="file" class="section level2">
+<h2>File</h2>
+<p>Sometimes the easiest thing to do is grab the file (or subtext from a file) in a previous commit that is already displayed on GitHub. To do so.</p>
 <ol style="list-style-type: decimal">
-<li>New repository <br>
+<li>Find your repository on GitHub</li>
+<li>Click the “commits” tab</li>
+<li>Click the SHA link for the commit which has the most recent working version</li>
+<li>Click the filename representing the working file you want</li>
+<li>Click View; Raw</li>
+<li>Copy what you want and over-write your local repository with the previously working version</li>
+</ol>
+</div>
+<div id="repository" class="section level2">
+<h2>Repository</h2>
 <figure>
-<img src="images/new_github_repo.png" />
-</figure>
-<p><br></p></li>
-<li>Add a repository name. Use the name <em>test-one</em> <br>
-<figure>
-<img src="images/project_name_github.png" />
+<img src="https://imgs.xkcd.com/comics/git.png" />
 <figcaption>
-Type ‘test-one’ and add a short description
+KXCD. Git: <a href="https://xkcd.com/1597/" class="uri">https://xkcd.com/1597/</a>
 </figcaption>
-</figure>
-<p><br></p></li>
-<li>Change “Add .gitignore” from <strong>None</strong> to <strong>R</strong></li>
-<li>Change “Add a license” from <strong>None</strong> to ** MIT License**</li>
-<li><p>Click <strong>Create repository</strong></p>
-<ul>
-<li>GitHub will present a new page.</li>
-</ul></li>
-<li><p>Click the green “Add a README” button</p>
-<ol style="list-style-type: decimal">
-<li><p>Make a top level heading with the word “#README”</p>
-<ul>
-<li>See <a href="markdown.html">Markdown</a> for more information on Markdown tagging</li>
-</ul></li>
-<li>After a blank line type: <code>This is my first GitLab repository.</code></li>
-<li><p>Click the green <strong>Commit new file</strong> button</p></li>
-</ol></li>
-<li><p>Congratulations. You’ve just created your first GitHub repository. Now you can see your repository – including the three files you just created.</p></li>
-</ol>
-<p> </p>
-</div>
-<div id="clone" class="section level2">
-<h2>Clone</h2>
-<p><strong>Using RStudio</strong>, clone your repository. Cloning will pull down the whole repo to your local system – including the three files you just created.</p>
-<div id="bring-the-repo-down-locally-via-rstudio" class="section level3">
-<h3>Bring the repo down locally via RStudio</h3>
-<ol style="list-style-type: decimal">
-<li><p>Copy GitHub repo URL to clipboard by clicking on the green <strong>Clone or Download</strong> button</p>
-<ul>
-<li>The repo should be at a location like this. <code>https://github.com/&lt;&lt;your-NetID&gt;&gt;/test-one</code></li>
-<li>Click the <strong>Use SSH</strong> link, then the clipboard icon to copy the repository address. This will copy the <em>git</em> URL to the clipboard <br>
-<figure>
-<img src="images/copy_repo_github.png" />
-<figcaption>
-Copy the repo URL
-</figcaption>
-</figure>
-<br></li>
-</ul></li>
-<li><p>Launch RStudio and create a <em>New Project…</em></p>
-<ol style="list-style-type: decimal">
-<li>From the RStudio menubar: <em>File &gt; New Project…</em> &gt; Version Control &gt; Git <br>
-<figure>
-<img src="images/project_version_git.png" />
-<figcaption>
-Paste the GitLab repo URL (from the step above) into the <em>Repository URL:</em> field in RStudio
-</figcaption>
-</figure>
-<br></li>
-<li>Create Project</li>
-<li>You may be prompted with a message which asks if you about the “authenticity of host”. I like to verify the IP number is correct; then the answer is <code>yes</code>.<br>
-<figure>
-<img src="images/yes.png" />
-</figure>
-<br></li>
-</ol></li>
-</ol>
-<p> </p>
-</div>
-</div>
-<div id="push-edit-and-commit" class="section level2">
-<h2>Push: Edit and Commit</h2>
-<p><strong>Continue in RStudio</strong>. This time you’ll make local changes by editing your local repository. After saving the changes you’ll <em>add</em> and <em>commit</em> the changes. Lastly, you will <em>push</em> your changes up to the remote repository.</p>
-<br>
-<figure>
-<img src="images/push.png" />
-</figure>
-<div id="edit" class="section level3">
-<h3>Edit</h3>
-<ol style="list-style-type: decimal">
-<li>In the Files Pane, Open the README.md file</li>
-<li><p>In the Editor Pane, modify your README with <a href="markdown.html">Markdown</a></p>
-<ul>
-<li><p>Make a Sub-heading with the word “Purpose”</p>
-<ul>
-<li>i.e. <code>## Purpose</code></li>
-</ul></li>
-<li>After a blank line type: <code>This is my first Git repository.  I'm going to push this file to GitLab via RStudio.  Hello World.</code></li>
-</ul></li>
-<li><p>Save the changes to this file</p></li>
-</ol>
-</div>
-<div id="commit-push" class="section level3">
-<h3>Commit &amp; Push</h3>
-<ol style="list-style-type: decimal">
-<li><p>In the Git pane:</p>
-<ol style="list-style-type: decimal">
-<li>Check each of the staged files</li>
-<li>Click <em>commit</em> and provide a message: <code>this is my first edit of a README and supporting files</code></li>
-<li>Click the <em>commit</em> button to engage your commit process with the message, then close</li>
-<li>Click the <em>Push</em> arrow, then close, then close the commit dialogue box<br />
-<br>
-<figure>
-<img src="images/commit_push.png" />
-</figure>
-<br></li>
-</ol></li>
-<li><p>View your changes back at GitLab: <code>https://gitlab.oit.duke.edu/&lt;&lt;your-NetID&gt;&gt;/test-one</code></p></li>
-</ol>
-<p> </p>
-</div>
-</div>
-<div id="pull" class="section level2">
-<h2>Pull</h2>
-<p>The next time you open your project in RStudio the first step you should take is to <em>Pull</em> from the GitLab repo. Then make your changes, then <strong>commit</strong> and push. If you forget to <em>Pull</em> you may have to resolve some conflicts. For best results, get into the habit of pulling before you make edits.</p>
-<br>
-<figure>
-<img src="images/git_push_pull.png" />
 </figure>
 <p><br></p>
-<p>Advance to Hands-On, Part 2: <a href="handson_branch.html">Branch / Merge / Revert</a></p>
-<p> </p>
-<p> </p>
+</div>
+<div id="collaborating" class="section level2">
+<h2>Collaborating</h2>
+<p>Repositories can have collaborators which have full access to change code. Alternatively, anyone can fork a repository and make their own changes their forked copy of your public repository. The author of the changes (in the forked repository) can then initiate a “Pull Request” which enables the root repository owner to consider whether those changes will be integrated into the main repository.</p>
+<div id="fork" class="section level3">
+<h3>Fork</h3>
+<p>When you fork a repository you make a copy of that repository on GitHub. The difference between fork and clone is that clone does not make a GitHub copy and will not be eligible to submit modifications as a pull request. If you simply want to run code from another repository, clone the repository locally.</p>
+<p>If you intend to submit modifications to some other repository by issuing a Pull Request, fork the repository first. Then clone the forked repository.</p>
+<p><a href="https://github.com/data-and-visualization/pr_hello-world" class="uri">https://github.com/data-and-visualization/pr_hello-world</a></p>
+<ol style="list-style-type: decimal">
+<li>[Source] Fork this repository</li>
+<li>[Partner] Clone your forked copy of the repository</li>
+<li>[Partner] Make some changse to your cloned [forked] repository. (e.g. add a file, edit the readme, etc.)</li>
+<li>[Partner] Using the git commands you’ve already learned: add, commit, and push the changes</li>
+</ol>
+</div>
+<div id="pull-requests" class="section level3">
+<h3>Pull Requests</h3>
+<ol style="list-style-type: decimal">
+<li>[Partner] From GitHub, find the <strong>Pull Request</strong> tab <code>&gt;</code> New Pull Request</li>
+</ol>
+<p>The act of initiating a new Pull Request will spawn a message to the original owners of the source repository.</p>
+<ol style="list-style-type: decimal">
+<li>[Source] Go to your repository</li>
+<li>Merge Pull request</li>
+</ol>
+</div>
+<div id="collaborators" class="section level3">
+<h3>Collaborators</h3>
+<p>To enable a collaborator (GitHub) or member (GitLab), simply edit the settings for your repository on GitHub. You collaborator can then clone the repository and use git functions just as you do.</p>
+<p>For Example, in GitHub.</p>
+<ol style="list-style-type: decimal">
+<li>Login to the repository</li>
+<li>Go to the Settings</li>
+<li>Choose Collaborators</li>
+</ol>
+</div>
+</div>
+<div id="wikis-on-github" class="section level2">
+<h2>Wikis on GitHub</h2>
+<p>The GitHub Wiki is unique to your repository. Use it to lay out a roadmap of your project.</p>
+</div>
+<div id="issues-on-github" class="section level2">
+<h2>Issues on GitHub</h2>
+<p>The issues section is a good place to track bugs with your repository. You might even use this as a public todo list.</p>
+</div>
+<div id="remotes" class="section level2">
+<h2>Remotes</h2>
+<p>In the <strong>terminal</strong>, try these <code>git</code> commands. What do they mean…</p>
+<div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="fu">git</span> branch
+<span class="fu">git</span> remote
+<span class="fu">git</span> remote -v</code></pre></div>
+<div id="add-a-remote" class="section level3">
+<h3>Add a Remote</h3>
+<p>You can push your local repository to more than one remote social coding location…</p>
+<div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="fu">git</span> remote add <span class="op">&lt;&lt;branch</span> <span class="ex">name</span><span class="op">&gt;&gt;</span> <span class="op">&lt;&lt;repo</span> <span class="ex">location</span><span class="op">&gt;&gt;</span>
+
+# e.g.  <span class="kw">`</span><span class="fu">git</span> remote add <span class="op">&lt;&lt;branch</span> <span class="ex">name</span><span class="op">&gt;&gt;</span> <span class="op">&lt;&lt;GitHub</span> <span class="ex">Repo</span> Address<span class="op">&gt;&gt;</span>
+# e.g. a GitHub Remote Address might look like this:  https://github.com/data-and-visualization/mozadrella-test.git
+
+git remote -v
+git push -u mirror-dvs master  # u stands for *upstream*
+git push mirror-dvs master</code></pre></div>
+<!-- Notes for Next Section -->
+<!-- Should cover collaboration 
+- Simplicity of the Roll-back on Social Coding sites (look at a previous version, copy/paste)
+- XKCD: sync-up ; If errors: save work elseswhere, delete and download a fresh copy.
+- pull requests 
+- revert
+- reset
+- remotes
+- triggers / Webhooks
+- add collaborators
+- Organizational Accounts
+- wiki
+- issues
+and collaboration -->
+</div>
 </div>
 
 &nbsp;
