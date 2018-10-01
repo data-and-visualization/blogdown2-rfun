@@ -266,7 +266,7 @@ $(document).ready(function () {
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(dukeslides)</code></pre></div>
 <p>If not, follow the installation instructions</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># install.packages(&quot;devtools&quot;)</span>
-devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;libjohn/dukeslides&quot;</span></code></pre></div>
+devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;libjohn/dukeslides&quot;</span>)</code></pre></div>
 </div>
 <div id="get-started" class="section level2">
 <h2>Get Started</h2>
@@ -275,13 +275,15 @@ devtools<span class="op">::</span><span class="kw">install_github</span>(<span c
 <ol style="list-style-type: decimal">
 <li>`New File -&gt; R Markdown</li>
 <li>From Template -&gt; Slide template for Duke University {dukeslides}` &gt; OK</li>
+<li>Edit your R Markdown file</li>
+<li>Click the “Knit” button in the script editor to render the document</li>
 </ol>
 <div class="figure">
 <img src="images/new_slide_deck.gif" title="New slide deck" />
 
 </div>
-<p>This will generate a plaintext .Rmd file in the script editor showing each slide separated by <code>---</code>. You must keep the YAML header but you can edit the values in the header.</p>
-<p>Using plain text and R Markdown you can customize the slide template. Importantly, this template doubles as both a demonstration and documentation. <strong>Knitting the file will generate slide output as an HTML file</strong> (with supporting files) showing the rendered ouput as a demonstration and documentation.</p>
+<p>This will generate a plain-text .Rmd file in the script editor showing each slide separated by <code>---</code>. You must keep the YAML header but you can edit the values in the header.</p>
+<p>Using plain text and R Markdown you can customize the slide template. Importantly, this template doubles as both a demonstration and documentation. <strong>Knitting the file will generate slide output as an HTML file</strong> (with supporting files) showing the rendered output as a demonstration and documentation.</p>
 <p>Edit to your hearts delight. You cannot mess up the template. Simply re-execute step one, above, you’ll have a new .Rmd file with the demonstration/instructions.</p>
 </div>
 <div id="more-documentation" class="section level2">

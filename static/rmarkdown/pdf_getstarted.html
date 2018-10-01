@@ -272,8 +272,9 @@ $(document).ready(function () {
 
 </div>
 <p> </p>
-<p>When implenting images inline, I found the following code works well for PDF documents via R Markdown:</p>
+<p>When inserting inline images, I find the following code works well for PDF documents via R Markdown:</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;images/pdf_05_newdoc.png&quot;</span>) </code></pre></div>
+<p><img src="images/pdf_05_newdoc.png" width="262" /></p>
 <p>The challenge with PDF files is generating your tables with <code>kintr::kable</code>. There’s also a kableExtra package if you need more functionality with editing your tables.</p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">knitr<span class="op">::</span><span class="kw">kable</span>(<span class="kw">head</span>(cars))</code></pre></div>
 <table>
