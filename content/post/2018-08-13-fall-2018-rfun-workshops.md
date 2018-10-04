@@ -23,7 +23,9 @@ Visualization with ggplot2 with Dr. Angela Zoss | Sept. 18<br>1:30-3:30pm | [reg
 Version Control: RStudio & Git | Sept. 25 <br>10-11am | [register](https://duke.libcal.com/event/4335577) | [resources](/2018/08/09/reproducibility-version-control-git-and-rstudio/) 
 R Markdown | Oct. 2<br> 10am-noon | [register](https://duke.libcal.com/event/4337315) | &nbsp;
 Version Control: Social Coding with GitHub & GitLab | Oct. 16<br>10-11am | [register](https://duke.libcal.com/event/4335586) | [resources](/git/)
+Intro to R | Oct. 17<br> 6pm-8pm | [register](https://duke.libcal.com/event/4662240) | [resources](/2018/08/13/introduction-to-r-workshop/) 
 Mapping with R | Oct. 23<br>1-3pm | [register](https://duke.libcal.com/event/4337318) | [resources](/map/)
+Visualization with ggplot2 with Dr. Angela Zoss | Oct. 24<br>6-8pm | [register](https://duke.libcal.com/event/4660870) |  [resources](/2018/08/10/visualization-in-r-using-ggplot2/)
 Shiny App Development<br> with Dr. Çetinkaya-Rundel | Nov. 7<br> 10am-noon | [register](https://duke.libcal.com/event/4337320) | &nbsp; 
 Tidying hierarchical data from the web with Dr. Colin Rundel | Nov. 13 | [register](https://duke.libcal.com/event/4337307) | &nbsp;
 
