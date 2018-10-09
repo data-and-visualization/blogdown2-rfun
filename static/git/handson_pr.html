@@ -371,31 +371,6 @@ div.tocify {
 
 <p>This document follows set-up from the <a href="handson.html">first hands-on</a></p>
 <p>This section introduces a variety of topics: fork, pull requests, collaborators, wikis on GitHub, Issues on GitHub, and git remotes.</p>
-<div id="roll-back" class="section level2">
-<h2>Roll back</h2>
-</div>
-<div id="file" class="section level2">
-<h2>File</h2>
-<p>Sometimes the easiest thing to do is grab the file (or subtext from a file) in a previous commit that is already displayed on GitHub. To do so.</p>
-<ol style="list-style-type: decimal">
-<li>Find your repository on GitHub</li>
-<li>Click the “commits” tab</li>
-<li>Click the SHA link for the commit which has the most recent working version</li>
-<li>Click the filename representing the working file you want</li>
-<li>Click View; Raw</li>
-<li>Copy what you want and over-write your local repository with the previously working version</li>
-</ol>
-</div>
-<div id="repository" class="section level2">
-<h2>Repository</h2>
-<figure>
-<img src="https://imgs.xkcd.com/comics/git.png" />
-<figcaption>
-KXCD. Git: <a href="https://xkcd.com/1597/" class="uri">https://xkcd.com/1597/</a>
-</figcaption>
-</figure>
-<p><br></p>
-</div>
 <div id="collaborating" class="section level2">
 <h2>Collaborating</h2>
 <p>Repositories can have collaborators which have full access to change code. Alternatively, anyone can fork a repository and make their own changes their forked copy of your public repository. The author of the changes (in the forked repository) can then initiate a “Pull Request” which enables the root repository owner to consider whether those changes will be integrated into the main repository.</p>
@@ -405,8 +380,8 @@ KXCD. Git: <a href="https://xkcd.com/1597/" class="uri">https://xkcd.com/1597/</
 <p>If you intend to submit modifications to some other repository by issuing a Pull Request, fork the repository first. Then clone the forked repository.</p>
 <p><a href="https://github.com/data-and-visualization/pr_hello-world" class="uri">https://github.com/data-and-visualization/pr_hello-world</a></p>
 <ol style="list-style-type: decimal">
-<li>[Source] Fork this repository</li>
-<li>[Partner] Clone your forked copy of the repository</li>
+<li>[Source] Make a test repository and have your parter <code>fork</code> your repository</li>
+<li>[Partner] After you forked above, <code>clone</code> your forked repository</li>
 <li>[Partner] Make some changse to your cloned [forked] repository. (e.g. add a file, edit the readme, etc.)</li>
 <li>[Partner] Using the git commands you’ve already learned: add, commit, and push the changes</li>
 </ol>

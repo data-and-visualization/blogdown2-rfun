@@ -1,31 +1,29 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Git: Hands-on</title>
-    <meta charset="utf-8">
-    <meta name="author" content="John Little" />
-    <meta name="date" content="2018-09-25" />
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/duke-blue.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/hygge-duke.css" rel="stylesheet" />
-    <link rel="stylesheet" href="libs\cc-fonts.css" type="text/css" />
-    <link rel="stylesheet" href="libs\figures.css" type="text/css" />
-  </head>
-  <body>
-    <textarea id="source">
-class: center, middle, inverse, title-slide
-
-# Git: Hands-on
-## <br>Practical Reproducibility
-### John Little
-### 2018-09-25
-
 ---
-
+title: "Git: Hands-on"
+subtitle: "<br>Practical Reproducibility"
+author: "John Little"
+date: "2018-09-25"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: 
+      - default
+      - default-fonts
+      - duke-blue
+      - hygge-duke
+      - libs/cc-fonts.css
+      - libs/figures.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
 exclude: true
 
-
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(DT)
+```
 
 
 ---
@@ -34,7 +32,7 @@ class: middle, center
 Part of the 
 ### Building Blocks for Reproducibility
 
-&amp;
+&
 
 ### [RFun](http://rfun.library.duke.edu) Learning Series
 
@@ -55,9 +53,9 @@ class: middle, center
 
 Use Git to manage version control
 
-Clone &amp;#8226; Pull &amp;#8226; Add &amp;#8226; Commit &amp;#8226; Push 
+Clone &#8226; Pull &#8226; Add &#8226; Commit &#8226; Push 
 
-(Branch &amp;#8226; Merge &amp;#8226; Revert &amp;#8226; Fork &amp;#8226; Collaborate)
+(Branch &#8226; Merge &#8226; Revert &#8226; Fork &#8226; Collaborate)
 
 ---
 class: middle, center
@@ -80,7 +78,7 @@ class: middle
 
 - **Reproducibility** is a Top Priority
 
-    - Seamless IDE integration between R &amp; Git 
+    - Seamless IDE integration between R & Git 
     - [Markdown](https://rmarkdown.rstudio.com/) 
 
 - **Git for Version Control**
@@ -160,7 +158,7 @@ For Example...
 
 4. Generate **Visualizations** in Excel
 
-5. Integrate Excel Table into **Word &gt; PDF**
+5. Integrate Excel Table into **Word > PDF**
 
 
 ---
@@ -222,20 +220,20 @@ Versioning can be used
 
 .pull-left[
 
-&lt;figure&gt;&lt;img src="images/repository_small.jpg" alt="image stack"&gt;&lt;figcaption&gt; Image Credit: &lt;a href="https://www.flickr.com/photos/dbloete/274563369"&gt;Dennis Reimann&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;br&gt;
+<figure><img src="images/repository_small.jpg" alt="image stack"><figcaption> Image Credit: <a href="https://www.flickr.com/photos/dbloete/274563369">Dennis Reimann</a></figcaption></figure><br>
 
 
 - Source Code Management
 
 - Track changes in any file set
 
-- Add &amp;#8226; Commit &amp;#8226; Branch &amp;#8226; Merge &amp;#8226; Revert
+- Add &#8226; Commit &#8226; Branch &#8226; Merge &#8226; Revert
 
 ]
 
 .pull-right[
 
-&lt;figure&gt;&lt;img src="images/file-extensions.png"&gt;&lt;figcaption&gt; Image Credit: &lt;a href="https://openclipart.org/detail/192197/file-extension-icons"&gt;OpenClipart.org&lt;/a&gt;&lt;/figcaption&gt;&lt;/figure&gt;&lt;br&gt;
+<figure><img src="images/file-extensions.png"><figcaption> Image Credit: <a href="https://openclipart.org/detail/192197/file-extension-icons">OpenClipart.org</a></figcaption></figure><br>
 
 
 ]
@@ -276,7 +274,7 @@ I want to emphasize that *R* and *Git* are ideal for *reproducible research*.  H
 class: middle
 .pull-left[
 
-&amp;nbsp; 
+&nbsp; 
 
 ```
 # Heading
@@ -306,7 +304,7 @@ Numbered list:
 
 .pull-right[
 
-&amp;nbsp;
+&nbsp;
 
 ## Sub-heading
 
@@ -348,7 +346,7 @@ class: middle, center
 
 #### Schedule Me
 
-- [http:&amp;#47;&amp;#47;v.gd&amp;#47;littleconsult](http://duke.libcal.com/appointment/2695)
+- [http:&#47;&#47;v.gd&#47;littleconsult](http://duke.libcal.com/appointment/2695)
 
 ### With...
 
@@ -360,7 +358,7 @@ class: middle, center
 
 .pull-right[
 ### We are...
-- Data &amp; Visualization Services
+- Data & Visualization Services
 - [library.duke.edu/**data**](http://library.duke.edu/data)
 - The /Edge, Bostock (1st Floor)
 
@@ -382,58 +380,10 @@ class: center, middle
 
 Data, presentation, and handouts 
 
-&lt;span class="cc"&gt;
-&lt;!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo --&gt;
+<span class="cc">
+<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
 C bn
-&lt;/span&gt;
+</span>
 
 
 [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
-    </textarea>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-<script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false
-});
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
-  window.dispatchEvent(new Event('resize'));
-});
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
-  if (!r) return;
-  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
-  d.head.appendChild(s);
-})();</script>
-
-<script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
-  for (i = 0; i < codes.length;) {
-    code = codes[i];
-    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
-      text = code.textContent;
-      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
-          /^\$\$(.|\s)+\$\$$/.test(text) ||
-          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
-        code.outerHTML = code.innerHTML;  // remove <code></code>
-        continue;
-      }
-    }
-    i++;
-  }
-})();
-</script>
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-(function () {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
-  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
-    script.src  = script.src.replace(/^https?:/, '');
-  document.getElementsByTagName('head')[0].appendChild(script);
-})();
-</script>
-  </body>
-</html>

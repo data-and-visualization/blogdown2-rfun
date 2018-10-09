@@ -380,22 +380,38 @@ div.tocify {
 <div id="branch" class="section level2">
 <h2>Branch</h2>
 <ol style="list-style-type: decimal">
-<li><p>Create a branch <em>version2</em></p>
+<li><p>Create a branch “<em>version2</em>”</p>
 <ul>
-<li>The funny icon is used to <strong>create</strong> and <strong>checkout</strong> a branch</li>
-<li>By clicking <strong>Create</strong>, <code>git checkout &lt;&lt;branch-name&gt;&gt;</code> is invoked</li>
-<li>Create a new text that lists 3 favorite movies save it as <code>movies.md</code></li>
+<li>The funny icon (see image, below) is used to <strong>create</strong> and <strong>checkout</strong> a branch</li>
+<li>Clicking the icon invokes a <em>new branch</em> function. (Don’t type the next command. Just know invoking the brach via RStudio makes git spawn the following command: <code>git checkout &lt;&lt;branch-name&gt;&gt;</code> )</li>
+<li>For a branch name, in the branch text box, type: <code>version2</code></li>
+<li>Moving back to the text editor in RStudio, create a new markdown document listing 3 favorite movies. Save the file as <code>movies.md</code></li>
 <li>Commit your changes</li>
 </ul></li>
 </ol>
-<p><img src="images/branch_create.png" style="display: block; margin: auto;" /></p>
+<div class="figure" style="text-align: center">
+<img src="images/branch_create.png" alt="Create Branch" width="197" />
+<p class="caption">
+Create Branch
+</p>
+</div>
 <ol start="2" style="list-style-type: decimal">
 <li><p>Checkout the <em>master</em> branch</p>
 <ul>
 <li>Watch the <strong>Files</strong> tab as you switch back to the <em>master</em> branch. Where is the <code>movies.md</code> file?</li>
+<li><p>See the image below…</p>
+<ol style="list-style-type: decimal">
+<li>First, click the existing branch name: <code>version2</code></li>
+<li>Then, select <code>master</code> within the “LOCAL BRANCH” context menu</li>
+</ol></li>
 </ul></li>
 </ol>
-<p><img src="images/branch_checkout.png" style="display: block; margin: auto;" /></p>
+<div class="figure" style="text-align: center">
+<img src="images/branch_checkout.png" alt="Checkout Branch" width="158" />
+<p class="caption">
+Checkout Branch
+</p>
+</div>
 <ol start="3" style="list-style-type: decimal">
 <li><p>Checkout the <em>version2</em> branch again</p>
 <ul>
@@ -403,7 +419,14 @@ div.tocify {
 <li>Commit your changes</li>
 <li>Push your changes</li>
 </ul></li>
-<li><p>Observe the visual representations of the branching and updating. &lt;<Git - Clock>&gt; -OR- GitHub &gt; Settings &gt; Insights &gt; Network</p></li>
+<li><p>Observe the visual representations of the branching and updating</p>
+<ul>
+<li><p>In the RStudio git tab, click the clock (for history)</p>
+<ul>
+<li>Observe the timestamped versions you commited as part of the <em>version2</em> branch.</li>
+</ul></li>
+<li><p>Alternatively, within your repo at GitHub.com: <code>Insights &gt; Network</code></p></li>
+</ul></li>
 </ol>
 </div>
 <div id="merge" class="section level2">
@@ -433,11 +456,12 @@ div.tocify {
 <li>Edit README.md in <em>version2</em> by changing the name to something different from the step above. Commit then Push.</li>
 <li>Checkout <em>master</em>, then <code>git merge version2</code></li>
 <li>Fix Conflicts, then Save. ; Commit and Push.</li>
+<li>Observe the visual representations of the version history</li>
 </ol>
 </div>
 <div id="revert" class="section level2">
 <h2>Revert</h2>
-<ol start="11" style="list-style-type: decimal">
+<ol start="12" style="list-style-type: decimal">
 <li>Checkout <em>master</em></li>
 <li>Create New text file, <code>colors.md</code> and list three of your favorite colors</li>
 <li>Commit and Push</li>
@@ -447,26 +471,53 @@ div.tocify {
 </ol>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="fu">git</span> revert HEAD</code></pre></div>
 <ul>
-<li><code>:wq</code></li>
+<li>This pushes you into a unix text editor. The full explanation is tedious. Just type <code>Esc</code>, then <code>:wq</code> then <code>Enter</code></li>
 </ul>
 <ol start="17" style="list-style-type: decimal">
 <li>Commit and Push.</li>
 <li>Observe the visual representations of the version history</li>
 </ol>
-<!-- Notes for Next Section -->
-<!-- Should cover collaboration 
-- Simplicity of the Roll-back on Social Coding sites (look at a previous version, copy/paste)
-- XKCD: sync-up ; If errors: save work elseswhere, delete and download a fresh copy.
-- pull requests 
-- revert
-- reset
-- remotes
-- triggers / Webhooks
-- add collaborators
-- Organizational Accounts
-- wiki
-- issues
-and collaboration -->
+<div id="note" class="section level4">
+<h4>NOTE</h4>
+<p>A full explanation of <a href="https://git-scm.com/docs/git-revert">git revert</a> and <a href="https://git-scm.com/docs/git-reset">git reset</a> will take considerably more time. If you find you do this a lot, investigate these commands fully.</p>
+</div>
+<div id="hint" class="section level4">
+<h4>HINT</h4>
+<p>For small changes, many people find a far simpler method is as follows…</p>
+<ol style="list-style-type: decimal">
+<li>At GitHub, click the “Commits” link</li>
+<li>Isolate the verion you need by clicking the <code>&lt; &gt;</code> link. This enables you to browse the repository at that point in history</li>
+<li>Navigate to the fine you need. Copy the file.</li>
+<li>Back in your editor, paste over the source version.<br />
+Commit &amp; Push</li>
+</ol>
+</div>
+</div>
+<div id="roll-back" class="section level2">
+<h2>Roll back</h2>
+<p>The above example is a trivial example of how to employ rolling back to a previous version. Rolling back is complicated. Depending on the complexity of your project, it may be more crtical to leverage git commands during a roll-back. Software applications may be an example of this complexity. However, for simpler roll-backs, the simple explanations below may save you a lot of time for an operation which you would otherwise rarely perform.</p>
+<div id="file" class="section level3">
+<h3>File</h3>
+<p>Sometimes the easiest thing to do is grab the file (or subtext from a file) in a previous commit that is already displayed on GitHub. To do so.</p>
+<ol style="list-style-type: decimal">
+<li>Find your repository on GitHub</li>
+<li>Click the “commits” tab</li>
+<li>Click the SHA link for the commit which has the most recent working version</li>
+<li>Click the filename representing the working file you want</li>
+<li>Click View; Raw</li>
+<li>Copy what you want and over-write your local repository with the previously working version</li>
+</ol>
+</div>
+<div id="repository" class="section level3">
+<h3>Repository</h3>
+<figure>
+<img src="https://imgs.xkcd.com/comics/git.png" />
+<figcaption>
+KXCD. Git: <a href="https://xkcd.com/1597/" class="uri">https://xkcd.com/1597/</a>
+</figcaption>
+</figure>
+<p><br></p>
+</div>
 </div>
 
 &nbsp;
