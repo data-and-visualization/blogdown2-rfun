@@ -1,0 +1,19 @@
+sections:
+- icon: 'fa-video-camera'
+  title: 'Recordings'
+  description: 'Watch previous workshops on your own time, in your own comfortable space'
+
+- icon: 'fa-users'
+  title: 'Workshops'
+  description: 'Skill-up with our hands-on training'
+
+- icon: 'fa-github'
+  title: 'Code & Datasets'
+  description: 'We share our example code and supporting materials under a Creative Commons license '
+
+buttons:
+- link: '/intro2r'
+  text: 'Start Learning'
+
+- link: '#portfolio'
+  text: 'Our Workshops'

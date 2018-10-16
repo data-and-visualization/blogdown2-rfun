@@ -1,0 +1,21 @@
+languageCode = "en-us"
+title = "Rfun"
+baseURL = "/"
+theme = "hugo-theme-dopetrope"
+
+[params.portfolio]
+    title = "Our Workshops"
+    foldername = "portfolio"
+    findoutmoretext = "Find out more"
+
+[params.blog]
+    title = "Rfun Blog"
+    viewalltext = "View All"
+    foldername = "blog"
+
+#[params.settings]
+#    googleanalytics = "UA-113904582-1"
+#    disqus = "hugo-dopetrope"
+    
+    
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

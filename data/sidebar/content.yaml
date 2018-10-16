@@ -1,0 +1,14 @@
+position: "right"
+
+sections:
+- image: "images/rfun_sidebar_580x272.png"
+  imagelink: "/#portfolio"
+  title: "Rfun is a DVS learning series"
+  description: "The 'R We Having Fun Yet?' learning series is part of the broader Data & Visualization Services workshop series.  DVS offers workshops on [R], Python, GIS and mapping, Research Data Management, and Visualization."
+  buttonlink: "https://library.duke.edu/data/workshops"
+  buttontext: "More DVS workshops"
+
+- title: "Rfun Blog"
+  description: "The blog features semester summaries of our workshop series and extra bits of information which may assist you in your practical data science journeys."
+  buttonlink: "/blog/"
+  buttontext: "Read More Posts"

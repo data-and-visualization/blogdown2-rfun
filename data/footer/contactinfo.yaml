@@ -1,0 +1,12 @@
+addresslines:
+- line: 'Data & Visualization Services'
+
+- line: 'Duke University Libraries'
+
+- line: 'Durham, NC 27705'
+
+email: 'AskData@Duke.edu'
+
+listserve: 'https://lists.duke.edu/sympa/subscribe/rfun'
+
+#phone: '(800) 000-0000'

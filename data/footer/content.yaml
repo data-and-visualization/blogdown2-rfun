@@ -1,0 +1,15 @@
+sections:
+- title: 'Rfun Blog'
+
+- title: "What's this all about?"
+  imagelink: '#'
+  imageurl: "images/pic11_dvslogo.png"
+  description: "Rfun is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem.  We are hosted by the Data & Visualization Services Department http://library.duke.edu/data/"
+  buttonlink: "/blog/about-rfun"
+  buttontext: "Find out more"
+
+- title: 'DVS Workshop Series'
+
+- title: 'Workshop Locations'
+
+- title: 'Connect with us...'
