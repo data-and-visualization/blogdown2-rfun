@@ -24,3 +24,29 @@
   to = "https://rmarkdown.library.duke.edu/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/map/*"
+  to = "https://map-rfun.library.duke.edu/:splat"
+  status = 301
+  force = true
+ 
+[[redirects]] 
+  from = "/intro2r/*"
+  to = "https://intro2r.library.duke.edu/:splat"
+  status = 301
+  force = true
+
+[[redirects]] 
+  from = "/git/*"
+  to = "https://git-rfun.library.duke.edu/:splat"
+  status = 301
+  force = true
+  
+[[redirects]] 
+  from = "/ggplot/*"
+  to = "https://ggplot.library.duke.edu/:splat"
+  status = 301
+  force = true
+
+
