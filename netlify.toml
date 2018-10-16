@@ -9,4 +9,18 @@
   status = 301
   force = true
   
-  
+# redirect from when rmarkdown was 
+# servied via blogdown::rfun inside the /static subdir
+# i.e. symlink from /docs to 
+# https://github.com/data-and-visualization/blogdown2-rfun/tree/master/static/rmarkdown
+# then push blogdown2-rfun when netlify would rebuild site
+# and store rmarkdown out of https://rfun.library.duke.edu/rmarkdown/
+# New location will be served by connecting the docs 
+# directory of this repo diretly netlify.  CNAME from the 
+# folks in ITS will allow rmarkdown-rfun.netlify.com to 
+# get served via rmarkdown.library.duke.edu
+[[redirects]]
+  from = "/rmarkdown/*"
+  to = "https://rmarkdown.library.duke.edu/:splat"
+  status = 301
+  force = true
