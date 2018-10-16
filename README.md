@@ -8,7 +8,7 @@ This reposistory contains the raw files for the [Rfun](https://github.com/data-a
     - devtools::install_github('rstudio/blogdown')
     - blogdown::install_hugo()  # but if you have more than one site built on your local workstation, then skip this
     
-2. `blogdown::new_site(theme = "jpescador/hugo-future-imperfect")`  # must be a completely *empty directory* except for .Rproj file
+2. `blogdown::new_site(theme = "curttimson/hugo-theme-dopetrope")`  # must be a completely *empty directory* except for .Rproj file
 
 3. `serve_site()`  or `build_site()`
 
