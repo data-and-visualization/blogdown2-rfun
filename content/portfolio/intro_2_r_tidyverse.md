@@ -11,13 +11,14 @@ draft = false
 
 *To the Tidyverse, and Beyond...*	
 
-A gentle introduction to R and the Tidyverse using RStudio. Learn about managing your R projects, data types, variable assignments, data structures, and packages such as: tidyverse (dplyR) and ggvis. Attendees will have the opportunity of supplementing the materials covered in this workshop with free academic access to the interactive training workshops at [DataCamp](http://datacamp.com/).
+A gentle introduction to R and the [Tidyverse](https://tidyverse.org/) using RStudio. This **two-hour, hands-on session** introduces **data wrangling, data types, variable assignments, and packages**.  Our focus will be the Tidyverse, specifically the dplyr and ggvis packages. Tidyverse, is an approachable set of consistent data science tools enabling the [R](https://www.r-project.org/) statistical programming language.
 
-[Joel Herndon](https://joelherndon.info/) and [I](https://johnlittle.info/) regularly offer this **Intro to R Workshop** hosted by the [Data and Visualization Services Department](https://library.duke.edu/data/).  Typically, this section is offered once a month.  The best way to find out to is subscribe to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun). 
+For **visualization** we introduce `ggvis`.  Beyond ggvis, we may also introduce `ggplot2` and `sf`  (mapping/GIS) as time allows. Both ggplot2 and sf packages are complex enough that we offer separate [workshops](/#portfolio) for each topic.
 
-The workshops -- entitled *Intro to R: Data Transformations, Data Structures, and the Tidyverse*  -- is a the two-hour, hands-on session designed to provide a gentle introduction to the basics of the [Tidyverse](https://tidyverse.org/), which is an approachable set of consistent data science tools, and the [R](https://www.r-project.org/) statistical programming language.  We use the [RStudio](https://www.rstudio.com/products/rstudio/#Desktop) development environment.  Attendees learn about managing R projects, data types, variable assignments, and data wrangling.  
+Attendees will be signed-up for up to six months of free academic access to the interactive training at [DataCamp](http://datacamp.com/).
 
-Visualization (`ggplot2`) and mapping/GIS (`sf`) are introduced as time allows. However both packages are complex enough that we offer separate workshops for each topic.
+Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
+
 
 <a href="https://duke.libcal.com/event/4662240" class="button big">Register</a>
 
