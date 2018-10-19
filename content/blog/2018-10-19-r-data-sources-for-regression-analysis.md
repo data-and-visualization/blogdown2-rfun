@@ -25,30 +25,24 @@ We work with a number of students using linear models in R.  Three of the larges
 ### R Datasets from DVS
 Data and Visualization Services has created a set of four datasets that we often suggest as a starting point for students who want to explore survey data that has been subsetted for use in R.  In addition to these four datasets, we also offer a few other sources that have been popular with Duke students.  
 
-[ANES 2012 Survey](https://guides.library.duke.edu/stat101/anes) 
-
+[ANES 2012 Survey](https://guides.library.duke.edu/stat101/anes) <br>
 The American National Elections Study (ANES) contains a variety of attitudinal and voter intention questions and is conducted both before and after an election.  This allows the study to compare intentions and beliefs before an election, and actions following an election. 
 
-[General Social Survey  (R Subset)](https://guides.library.duke.edu/stat101/anes)
-
+[General Social Survey  (R Subset)](https://guides.library.duke.edu/stat101/anes) <br>
 The General Social Survey (GSS) contains both a standard core of demographic, behavioral, and attitudinal questions, and a second group of questions on special topics that are not asked every year.  This survey has been periodically conducted in the United States since 1972, and the cumulative dataset will provide respondents from all survey years. This subset mostly includes only questions that were included every year or almost every year.
 
-[World Values Survey  (R Subset)](https://guides.library.duke.edu/stat101/wvs)
-
+[World Values Survey  (R Subset)](https://guides.library.duke.edu/stat101/wvs)<br>
 The [World Values Survey]( www.worldvaluessurvey.org) is a global network of social scientists studying changing values and their impact on social and political life, led by an international team of scholars, with the WVS association and secretariat headquartered in Stockholm, Sweden. This particular extract covers wave 6 of the WVS (2010-2014).
 
-[Behavioral Risk Factors Surveillance System (BRFSS)]( https://guides.library.duke.edu/stat101/brfss )
-
+[Behavioral Risk Factors Surveillance System (BRFSS)]( https://guides.library.duke.edu/stat101/brfss ) <br>
 BRFSS is an ongoing public health surveillance system designed to measure behavioral risk factors for the non-institutionalized adult population (18 years of age and older) residing in the US. This extract of the BRFSS provides data from 2013. 
 
 ### Other Datasets/Data Sources of Interest
 
-[IMDb Datasets](https://www.imdb.com/interfaces/)
-
+[IMDb Datasets](https://www.imdb.com/interfaces/) <br>
 Dataset(s) of movie information underlying the popular IMDB database
 
-[ICPSR](https://www.icpsr.umich.edu/icpsrweb/ICPSR/)
-
+[ICPSR](https://www.icpsr.umich.edu/icpsrweb/ICPSR/) <br>
 The world's largest social science data repository.  Some datasets are readily available for R, but many will require some processing or conversion.
 
 DVS is always happy to consult with Duke affiliates on other possibilities, please contact us at askdata@duke.edu for further possibilities.
