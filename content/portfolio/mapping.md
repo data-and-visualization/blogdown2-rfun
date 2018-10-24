@@ -20,4 +20,6 @@ Prerequisite:  Intro to R. All attendees are expected to be basically familiar w
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
 
 - [Online Guide](https://map-rfun.library.duke.edu/)
-- [GitHub Code](https://github.com/data-and-visualization/mapping-with-R)
+- [Code for Hands-on Workshop – Fall 2018](https://github.com/libjohn/map-fall2018)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cMNJdj8UGpY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
