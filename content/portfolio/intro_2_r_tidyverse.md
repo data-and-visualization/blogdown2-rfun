@@ -32,4 +32,4 @@ Learning resources and workshop materials are available and shareable so you can
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex78qBBvBLg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cMNJdj8UGpY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
