@@ -1654,9 +1654,10 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/rfun_logo_banner.png");
+		background: #CCE8F4 url("../../images/hex_bg_blue_2018.jpg");
 		background-position: center center;
-		background-size: auto 175%;
+		/* background-size: auto 175%; */
+		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -1664,6 +1665,12 @@
 		#banner header {
 			background-color: #003366;
 			background-color: rgba(0, 51, 102, 1);
+		}
+		
+		#banner header:before {
+		  content: url("../../images/Rfun3.png");
+		  margin-bottom:15px;
+		  display: block;
 		}
 
 			#banner header h2 {
@@ -2000,13 +2007,13 @@
 
 			#banner {
 				position: relative;
-				padding: 8em 0;
+				padding: 3em 0;
 				margin: 4em 0 0 0;
 			}
 
 				#banner header {
 					display: inline-block;
-					padding: 2.5em 5em;
+					padding: 2em 5em;
 					border-radius: 5px;
 				}
 
@@ -2153,7 +2160,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 6em 0;
+				padding: 3em 0;
 				margin: 3em 0 0 0;
 			}
 
@@ -2512,7 +2519,7 @@
 
 			#banner {
 				margin: 2em 0 4em 0 !important;
-				padding: 6em 0;
+				padding: 3em 0;
 			}
 
 				#banner header {
