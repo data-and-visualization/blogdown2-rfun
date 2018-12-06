@@ -13,7 +13,7 @@ This hands-on workshop will demonstrate how to plot x/y coordinates; how to gene
 
 Prerequisite:  Intro to R. All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. 
 
-<a href="https://duke.libcal.com/event/4337318" class="button big">Register</a>
+<a href="https://duke.libcal.com/event/4799239" class="button big">Register</a>
 
 ## Workshop Materials
 
