@@ -3,12 +3,16 @@ title: "R Data Sources for Regression Analysis"
 author: "Joel Herndon"
 date: 2018-10-19T09:24:11-04:00
 slug: data-sources-for-regression-analysis
+thumbnail: "images/580x272_Example_non_linear_regression_using_R.jpg"
+image: "images/1200x444_Example_non_linear_regression_using_R.jpg"
 description: 'Links to Resources for STAT210 by Joel Herndon'
 categories:
   - Resource-Links
 tags: ["STAT210"]
 draft: false
 ---
+<!-- Image Credit: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Example_non_linear_regression_using_R.jpg/1280px-Example_non_linear_regression_using_R.jpg -->
+
 While Duke Libraries Data and Visualization Services provides a number of workshops on learning how to use R for data management, mapping, and visualization, we also receive a several questions each year from students searching for datasets to use in applied statistics courses at Duke. As others have noted, finding data sets that are engaging (for students) that provide a range of data types for analysis **and** don’t present too many data loading/cleaning challenges is harder than one might think.
 
 In the hope of making the search a little easier, we offer this blog post  to share some considerations for choosing a dataset for an applied statistics course.  We also suggests few "curated" datasets designed to ease the process of data access in R.

@@ -8,7 +8,7 @@ slug = "ggplot_workshop"
 author = "John Little"
 draft = false
 +++
-Angela Zoss ([DVS Staff page](https://library.duke.edu/data/about/staff)) presents a **visualization** workshop hosted by the [Data and Visualization Services Department](https://library.duke.edu/data/).
+**Dr. Angela Zoss** presents a **visualization** workshop hosted by the [Data and Visualization Services Department](https://library.duke.edu/data/).
 
 The workshops, officially entitled *Visualization in R using ggplot2*, is a two-hour, hands-on learning session designed to introduce the **ggplot2** package, a library package within the R programming language.  **ggplot2 for R enables you to create clear and well-designed visualizations**. 
 
