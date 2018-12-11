@@ -1,13 +1,14 @@
 +++
 description = "Introduction to the most widely used visualization package"
 thumbnail = "images/hex_ggplot_374x260.png"
-#image = "images/rmarkdown_big_banner.jpg"
+image = "images/1200x444_flickr-photos-79237959atN0212210424505.png"
 title = "Visualization with ggplot2"
 weight = 2
 slug = "ggplot_workshop"
 author = "John Little"
 draft = false
 +++
+<!-- Image Credit:  https://www.flickr.com/photos/79237959@N02/12210424505/sizes/o/ -->
 **Dr. Angela Zoss** presents a **visualization** workshop hosted by the [Data and Visualization Services Department](https://library.duke.edu/data/).
 
 The workshops, officially entitled *Visualization in R using ggplot2*, is a two-hour, hands-on learning session designed to introduce the **ggplot2** package, a library package within the R programming language.  **ggplot2 for R enables you to create clear and well-designed visualizations**. 
@@ -23,3 +24,6 @@ Learning resources and workshop materials are available and shareable so you can
 - [Online Guide](https://ggplot.library.duke.edu/)
 - [GitHub Code](https://github.com/amzoss/ggplot2-F18)
 - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=91f761f6-76f7-4f13-a4d9-a94300ee20c8)
+
+
+**Image Credit:**  [dirkcuys](https://www.flickr.com/photos/79237959@N02/12210424505/) [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/)
