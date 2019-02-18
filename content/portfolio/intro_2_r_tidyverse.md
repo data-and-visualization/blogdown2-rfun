@@ -20,7 +20,7 @@ Attendees will be signed-up for up to six months of free academic access to the 
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
 
-<a href="https://duke.libcal.com/event/4799048" class="button big">Register</a>
+<a href="https://library.duke.edu/data/workshops" class="button big">Register</a>
 
 ### Workshop Materials
 
@@ -28,7 +28,7 @@ Learning resources and workshop materials are available and shareable so you can
 
 - [Online Guide](https://intro2r.library.duke.edu/)
 - [Power Point Slides](https://github.com/data-and-visualization/Intro2R/tree/master/slides)
-- [Code for Hands-on Workshop – Fall 2018](https://github.com/libjohn/map-fall2018)
+- [Practice Code for Hands-on Workshop – Spring 2019](https://github.com/libjohn/intro2r-2019spring)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex78qBBvBLg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
