@@ -20,7 +20,7 @@ Attendees will be signed-up for up to six months of free academic access to the 
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
 
-<a href="https://library.duke.edu/data/workshops" class="button big">Register</a>
+<a href="https://library.duke.edu/data/workshops" class="button big">Registration Page</a>
 
 ### Workshop Materials
 
