@@ -15,8 +15,6 @@ A gentle introduction to R and the [Tidyverse](https://tidyverse.org/) using RSt
 
 For **visualization** we introduce `ggvis`.  Beyond ggvis, we may also introduce `ggplot2` and `sf`  (mapping/GIS) as time allows. Both ggplot2 and sf packages are complex enough that we offer separate [workshops](/#portfolio) for each topic.
 
-Attendees will be signed-up for up to six months of free academic access to the interactive training at [DataCamp](http://datacamp.com/).
-
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
 
