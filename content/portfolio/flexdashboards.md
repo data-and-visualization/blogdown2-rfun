@@ -4,7 +4,7 @@ thumbnail = "images/flexdashboard_374x260.png"
 image = "images/flexdashboard_1200x444.png"
 title = "Interactive Dashboards"
 weight = 8
-slug = "scraping_workshop"
+slug = "dashboard_workshop"
 author = "John Little"
 draft = false
 +++
