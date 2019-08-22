@@ -3,7 +3,7 @@ description = "Learn how to use the sf, tmap, and tidycensus packages with ggplo
 thumbnail = "images/mapping_374x260.png"
 image = "images/1200x444_Foreign-born_population_by_citizenship_in_2016_.png"
 title = "Mapping with R"
-weight = 3
+weight = 10
 slug = "mapping_workshop"
 author = "John Little"
 draft = false
@@ -14,7 +14,7 @@ This hands-on workshop will demonstrate how to plot x/y coordinates; how to gene
 
 Prerequisite:  [Intro to R](/portfolio/intro2r_workshop/). All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. 
 
-<a href="https://duke.libcal.com/event/4799239" class="button big">Register</a>
+<a href="https://duke.libcal.com/event/5609248" class="button big">Register</a> Oct 15, 2019
 
 ## Workshop Materials
 

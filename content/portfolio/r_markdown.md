@@ -3,7 +3,7 @@ description = "Literate coding can generate many formats: HTML, MS Word, PDF, La
 thumbnail = "images/portfolio_rmarkdown.png"
 image = "images/rmarkdown_big_banner.jpg"
 title = "R Markdown Workshop"
-weight = 5
+weight = 35
 slug = "rmarkdown_workshop"
 author = "John Smith"
 draft = false
@@ -18,7 +18,7 @@ This experience-based learning workshop will help you master literate coding tec
 **Campus:** West Campus  
 **Presenter:** John Little  
 
-<a href="https://duke.libcal.com/event/4337315" class="button big">Register</a>
+<!-- a href="https://duke.libcal.com/event/4337315" class="button big">Register</a -->
 
 ### Workshop Materials
 

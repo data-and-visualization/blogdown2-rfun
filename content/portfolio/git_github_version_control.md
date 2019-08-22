@@ -3,7 +3,7 @@ description = "Create your portfolio, explore reproducibility, wade into social 
 thumbnail = "images/git_github.png"
 #image = "images/rmarkdown_big_banner.jpg"
 title = "Version Control, Git/GitHub"
-weight = 4
+weight = 40
 slug = "git_workshop"
 author = "John Little"
 draft = false
@@ -28,7 +28,7 @@ Intro to R. All attendees are expected to be basically familiar with the R Studi
 ### Note -- Bring Your Laptop
 To fully participate in this workshop, please bring your own laptop.  This workshop focuses on the practical aspects of configuring RStudio with Git.  A later git workshop will also use RStudio and Git to teach more advanced git features and social coding with GitHub/GitLab.
 
-<a href="https://duke.libcal.com/event/4799334" class="button big">Register</a>
+<!-- a href="https://duke.libcal.com/event/4799334" class="button big">Register</a -->
 
 ## Workshop Materials
 

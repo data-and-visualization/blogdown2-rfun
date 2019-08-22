@@ -3,7 +3,7 @@ description = "Introduction to the most widely used visualization package"
 thumbnail = "images/hex_ggplot_374x260.png"
 image = "images/1200x444_flickr-photos-79237959atN0212210424505.png"
 title = "Visualization with ggplot2"
-weight = 2
+weight = 5
 slug = "ggplot_workshop"
 author = "John Little"
 draft = false
@@ -15,7 +15,11 @@ The workshops, officially entitled *Visualization in R using ggplot2*, is a two-
 
 Data science skills are increasingly important for research and industry projects.  With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results.  Ultimately, an analyst's data science toolbox is incomplete without visualization skills.  Incorporating effective visualizations directly into the analysis tool you are using can facilitate quick data exploration, streamline your research process, and improve the reproducibility of your research.
 
-<a href="https://duke.libcal.com/event/4803527" class="button big">Register</a>
+- <a href="https://duke.libcal.com/event/5625194" class="button big">Register</a> Sept. 19, 2019 
+- &nbsp; 
+- <a href="https://duke.libcal.com/event/5625195" class="button big">Register</a> Oct 9, 2019  
+- &nbsp; 
+- <a href="https://duke.libcal.com/event/5625200" class="button big">Register</a> Oct 25, 2019  (Advanced) 
 
 ## Workshop Materials
 
