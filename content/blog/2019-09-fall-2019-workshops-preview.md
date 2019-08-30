@@ -17,12 +17,12 @@ We invite you to join us for an informative semester of workshops about R, RStud
 
 ### New this fall
 
-**We are launching** [**R Open Labs**](/portfolio/r_open_labs/) as semi-structure lab time designed to help you learn R and polish your skills. We will meet on Monday evenings at 6pm in the Edge Workshop Room.  Registration is recommended (secure your seat) but not required.  Please [check our schedule](https://duke.libcal.com/event/5497862) or see our [FAQ](https://rfun.library.duke.edu/portfolio/r_open_labs/).
+**We are launching** [**R Open Labs**](/portfolio/r_open_labs/) as semi-structure lab time designed to help you learn R and polish your skills. We will meet on Monday evenings at 6pm in the Edge Workshop Room.  Registration is recommended (secure your seat) but not required.  Please [check our schedule](https://duke.libcal.com/event/5497862) or see our [FAQ](/portfolio/r_open_labs/).
 
 ### September through November
 
-Title | Date | Registration | Past Workshop 
---- | --- | --- | ---
+**Title** | **Date** | **Registration** | **Code/Video** 
+:--- |:--- |:--- |:---
 Intro to R | Sept. 12 <br> 1-3pm| [register](https://duke.libcal.com/event/5497129) | [resources](/portfolio/intro2r_workshop/) 
 Visualization with ggplot2 with Dr. Angela Zoss | Sept. 19<br>1-3pm | [register](https://duke.libcal.com/event/5625194) |  [resources](https://github.com/amzoss/ggplot2-S19)
 Intro to R | Oct. 3 <br> 1-3pm| [register](https://duke.libcal.com/event/5497151) | [resources](/portfolio/intro2r_workshop/) 
