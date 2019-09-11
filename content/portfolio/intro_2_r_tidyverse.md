@@ -28,7 +28,7 @@ Typically, this workshop is offered once a month.  The best way to find out abou
 Learning resources and workshop materials are available and shareable so you can learn at your own pace.  
 
 - [Online Guide](https://intro2r.library.duke.edu/)
-- [Power Point Slides](https://github.com/data-and-visualization/Intro2R/tree/master/slides)
+- [Slides](https://intro2r.library.duke.edu/slides/)
 - [Practice Code for Hands-on Workshop – Spring 2019](https://github.com/libjohn/intro2r-2019spring)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex78qBBvBLg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
