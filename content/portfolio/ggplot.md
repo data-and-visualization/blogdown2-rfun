@@ -15,8 +15,6 @@ The workshops, officially entitled *Visualization in R using ggplot2*, is a two-
 
 Data science skills are increasingly important for research and industry projects.  With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results.  Ultimately, an analyst's data science toolbox is incomplete without visualization skills.  Incorporating effective visualizations directly into the analysis tool you are using can facilitate quick data exploration, streamline your research process, and improve the reproducibility of your research.
 
-- <a href="https://duke.libcal.com/event/5625194" class="button big">Register</a> Sept. 19, 2019 
-- &nbsp; 
 - <a href="https://duke.libcal.com/event/5625195" class="button big">Register</a> Oct 9, 2019  
 - &nbsp; 
 - <a href="https://duke.libcal.com/event/5625200" class="button big">Register</a> Oct 25, 2019  (Advanced) 
