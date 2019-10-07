@@ -13,7 +13,7 @@ draft = false
 
 A gentle introduction to R and the [Tidyverse](https://tidyverse.org/) using RStudio. This **two-hour, hands-on session** introduces **data wrangling, data types, variable assignments, and packages**.  Our focus will be the Tidyverse, specifically the dplyr and ggvis packages. Tidyverse, is an approachable set of consistent data science tools enabling the [R](https://www.r-project.org/) statistical programming language.
 
-For **visualization** we introduce `ggvis`.  Beyond ggvis, we may also introduce `ggplot2` and `sf`  (mapping/GIS) as time allows. Both ggplot2 and sf packages are complex enough that we offer separate [workshops](/#portfolio) for each topic.
+For **visualization** we introduce `ggplot2`.  We may also introduce`sf`  (mapping/GIS) as time allows. Both ggplot2 and sf packages are complex enough that we offer separate [workshops](/#portfolio) for each topic.
 
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
@@ -31,6 +31,5 @@ Learning resources and workshop materials are available and shareable so you can
 - [Slides](https://intro2r.library.duke.edu/slides/)
 - [Practice Code for Hands-on Workshop – Spring 2019](https://github.com/libjohn/intro2r-2019spring)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ex78qBBvBLg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NtfHcNlwSEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
