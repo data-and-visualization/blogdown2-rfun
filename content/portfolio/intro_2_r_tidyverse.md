@@ -18,9 +18,7 @@ For **visualization** we introduce `ggplot2`.  We may also introduce`sf`  (mappi
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
 
-- <a href="https://duke.libcal.com/event/5497129" class="button big">Registration Page</a> Sept. 12, 2019 
-- &nbsp; 
-- <a href="https://duke.libcal.com/event/5497151" class="button big">Registration Page</a> Oct. 3, 2019 
+- <a href="https://duke.libcal.com/event/5497158" class="button big">Registration Page</a> Nov. 7, 2019 
 
 
 ### Workshop Materials
