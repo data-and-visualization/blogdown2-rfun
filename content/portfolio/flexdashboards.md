@@ -15,6 +15,12 @@ Prerequisite:  [Intro to R](/portfolio/intro2r_workshop/). All attendees are exp
 
 <!-- a href="https://duke.libcal.com/event/4799239" class="button big">Register</a -->
 
+### Register
+
+This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [R Markdown](/portfolio/rmarkdown_workshop) workshop
+
+- <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
+
 ## Workshop Materials
 
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 

@@ -12,11 +12,13 @@ Learn how to use this lightweight markup language to compose reproducible report
 
 This experience-based learning workshop will help you master literate coding techniques for a whole new level of productivity through reproducibility.  The workshop will use the RStudio IDE to introduce and reinforce concepts.  Gain practical knowledge integrating analysis code chunks with your report analysis and prose.  Write once, report often while reducing effort and errors.  
 
-**Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse.  
-**Date & Time:** 10:00am - 12:00pm, Tuesday, October 2, 2018  
-**Location:** Bostock 023 Training Room  
-**Campus:** West Campus  
-**Presenter:** John Little  
+**Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
+
+### Register
+
+This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop
+
+- <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
 
 <!-- a href="https://duke.libcal.com/event/4337315" class="button big">Register</a -->
 

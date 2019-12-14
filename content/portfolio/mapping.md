@@ -1,5 +1,5 @@
 +++
-description = "Learn how to use the sf, tmap, and tidycensus packages with ggplot2::geom_sf()"
+description = "sf, leaflet, mapview, and tidycensus packages. Plus ggplot2::geom_sf()"
 thumbnail = "images/mapping_374x260.png"
 image = "images/1200x444_Foreign-born_population_by_citizenship_in_2016_.png"
 title = "Mapping with R"
@@ -10,11 +10,15 @@ draft = false
 +++
 
 <!-- Image Credit  https://en.wikipedia.org/wiki/File:Foreign-born_population_by_citizenship_in_2016_.png  -->
-This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic chloropleths with US Census and other federal data; import shapefiles; and create interactive maps on the web.
+This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import shapefiles; and create interactive maps on the web.
 
 Prerequisite:  [Intro to R](/portfolio/intro2r_workshop/). All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. 
 
-<a href="https://duke.libcal.com/event/5609248" class="button big">Register</a> Oct 15, 2019
+- <a href="https://duke.libcal.com/event/6097351" class="button big">Register</a> Feb. 12, 2020 - **Mapping with R**
+
+- <a href="https://duke.libcal.com/event/6104281" class="button big">Register</a> Feb 19, 2020 - **Spatial Analysis with R**
+
+- <a href="https://duke.libcal.com/event/6097134" class="button big">Register</a> Feb 20, 2020 - **Spatial Analysis with R and Python (Showcase)**
 
 ## Workshop Materials
 

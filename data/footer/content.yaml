@@ -4,7 +4,7 @@ sections:
 - title: "What's this all about?"
   imagelink: '#'
   imageurl: "images/pic11_dvslogo.png"
-  description: "Rfun is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem.  We are hosted by the Data & Visualization Services Department http://library.duke.edu/data/"
+  description: "Rfun is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem.  We are hosted by the Center for Data & Visualization Sciences Department http://library.duke.edu/data/"
   buttonlink: "/blog/about-rfun"
   buttontext: "Find out more"
 

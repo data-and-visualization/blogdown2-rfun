@@ -9,28 +9,31 @@ author = "John Little"
 draft = false
 +++
 
-	
-In response to a growing focus on the importance of reproducibility, replication, and transparency in the research endeavor, scholars are adapting their practices and learning new skills and tools. DVS is offering a workshop series that will introduce the concepts, practices and tools that will help increase the reproducibility of your work.
+Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories.  Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
 
+Come learn how all this works and create your own "Hello World" GitHub repository.
+
+**Past workshops have focused on using RStudio**, which happens to be an excellent git client.  This time, we'll be more general.  We will discuss RStudio but focus mostly on git and GitHub.
+	
 ### Version Control & Git
 
-In this hands-on workshop you will discover how to harness Git via RStudio to support the execution of more reproducible research projects. Git is a powerful version control system.  RStudio is an open-source data science platform/ecosystem supporting reproducible analysis and report generation. 
+In this hands-on workshop you will discover how to harness Git to support the execution of more reproducible research projects. Git is a powerful version control system.  
 
 ### GitHub: Portfolios & Social Coding
 
-GitHub and GitLab are social coding platforms which enable collaboration.  Built upon the Git (version control) framework these tools make social coding and code sharing more accessible.  Learn how to create branches, create remote repositories, leverage the GitHub/GitLab interface for simpler "reverts", and collaborate with others.  
+GitHub and GitLab are social coding platforms which enable collaboration.  Built upon the Git (version control) application these tools make social coding and code sharing more accessible.  Learn how to create branches, create remote repositories, leverage the GitHub/GitLab interface for simpler reverts, and collaborate with others.  
 
-
-### Prerequisites  
-
-Intro to R. All attendees are expected to be basically familiar with the R Studio environment.  
 
 ### Note -- Bring Your Laptop
-To fully participate in this workshop, please bring your own laptop.  This workshop focuses on the practical aspects of configuring RStudio with Git.  A later git workshop will also use RStudio and Git to teach more advanced git features and social coding with GitHub/GitLab.
+To fully participate in this workshop, please bring your own laptop.  
 
-<!-- a href="https://duke.libcal.com/event/4799334" class="button big">Register</a -->
+<a href="https://duke.libcal.com/event/6096055" class="button">Register</a> - Feb. 26, 2020
 
-## Workshop Materials
+or
+
+<a href="https://duke.libcal.com/event/6104205" class="button">Register</a> - March 31, 2020.  This workshop will cover research protocols including the TIER protocol, git and GitHub, and online containerization tools such as Binder and Code Ocean.
+
+## RStudio Specific Workshop Materials
 
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
 
