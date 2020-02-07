@@ -1,8 +1,8 @@
 +++
 title = "R Open Labs"
 description = "Semi-structure lab time to help you learn R and polish your skills"
-thumbnail = "https://live.staticflickr.com/648/22359007740_443dbf3447_n.jpg"
-image = "https://live.staticflickr.com/648/22359007740_443dbf3447_b.jpg"
+thumbnail = "images/ropenlabs_thumbnail.jpg"
+image = "images/ropenlabs_large.jpg"
 weight = 15
 slug = "r_open_labs"
 author = "John Little"
@@ -18,10 +18,6 @@ This is your chance to polish R skills in a comfortable and supportive setting. 
 **Bring your laptop!**
 
 **No Prerequisites**:  But please bring your laptop. **No skill level expected**. Beginners, intermediate, and advanced are all welcome.  One of the great characteristics of the R community is the supportive culture.  While we hope you have attended our [Intro to R](/portfolio/intro2r_workshop/) (or watched the video, or equivalent).  This is an opportunity to learn more about R and to demystify some part of R that your find confusing.
-
-- <a href="https://duke.libcal.com/event/6095541" class="button">Register</a> - Jan. 13, 2020
-
-- <a href="https://duke.libcal.com/event/6095544" class="button">Register</a> - Feb. 03, 202
 
 - <a href="https://duke.libcal.com/event/6095545" class="button">Register</a> - Feb. 10, 2020
 
