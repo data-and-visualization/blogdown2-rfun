@@ -10,6 +10,8 @@ draft = false
 +++
 Learn how to use this lightweight markup language to compose reproducible reports in many formats: MS Word, PDF, R Notebooks, Web Pages, Slide Presentations, and more.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VHJrWXHDWpc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 This experience-based learning workshop will help you master literate coding techniques for a whole new level of productivity through reproducibility.  The workshop will use the RStudio IDE to introduce and reinforce concepts.  Gain practical knowledge integrating analysis code chunks with your report analysis and prose.  Write once, report often while reducing effort and errors.  
 
 **Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
@@ -20,8 +22,6 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 
 - <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
 
-<!-- a href="https://duke.libcal.com/event/4337315" class="button big">Register</a -->
-
 ### Workshop Materials
 
 
@@ -29,4 +29,4 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 - [Workshop Slide Deck](https://rfun.library.duke.edu/rmarkdown/slides/)
 - [GitHub Code](https://github.com/libjohn/workshop-rmarkdown)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VHJrWXHDWpc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+

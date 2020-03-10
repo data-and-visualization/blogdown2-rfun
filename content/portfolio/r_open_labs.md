@@ -19,13 +19,7 @@ This is your chance to polish R skills in a comfortable and supportive setting. 
 
 **No Prerequisites**:  But please bring your laptop. **No skill level expected**. Beginners, intermediate, and advanced are all welcome.  One of the great characteristics of the R community is the supportive culture.  While we hope you have attended our [Intro to R](/portfolio/intro2r_workshop/) (or watched the video, or equivalent).  This is an opportunity to learn more about R and to demystify some part of R that your find confusing.
 
-- <a href="https://duke.libcal.com/event/6095545" class="button">Register</a> - Feb. 10, 2020
-
-- <a href="https://duke.libcal.com/event/6095546" class="button">Register</a> - Feb. 17, 2020
-
-- <a href="https://duke.libcal.com/event/6095547" class="button">Register</a> - Feb. 24, 2020
-
-- <a href="https://duke.libcal.com/event/6095548" class="button">Register</a> - March 2, 2020
+<!-- a href="https://duke.libcal.com/event/6095545" class="button">Register</a> - Feb. 10, 2020 -->
 
 ## FAQ
 

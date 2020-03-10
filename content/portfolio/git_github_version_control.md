@@ -11,6 +11,8 @@ draft = false
 
 Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories.  Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ao4uwcbMp-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Come learn how all this works and create your own "Hello World" GitHub repository.
 
 **Past workshops have focused on using RStudio**, which happens to be an excellent git client.  This time, we'll be more general.  We will discuss RStudio but focus mostly on git and GitHub.
@@ -27,7 +29,7 @@ GitHub and GitLab are social coding platforms which enable collaboration.  Built
 ### Note -- Bring Your Laptop
 To fully participate in this workshop, please bring your own laptop.  
 
-<a href="https://duke.libcal.com/event/6096055" class="button">Register</a> - Feb. 26, 2020
+<!-- a href="https://duke.libcal.com/event/6096055" class="button">Register</a> - Feb. 26, 2020 -->
 
 or
 
@@ -40,4 +42,4 @@ Learning resources and workshop materials are available and shareable so you can
 - [Online Guide](https://git-rfun.library.duke.edu/)
 - [GitHub Code](https://github.com/data-and-visualization/git-tutorial)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ao4uwcbMp-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
