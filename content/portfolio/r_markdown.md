@@ -16,11 +16,14 @@ This experience-based learning workshop will help you master literate coding tec
 
 **Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
 
+<!-- 
 ### Register
 
 This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop
 
-- <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
+<!-- - <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
+--> 
+
 
 ### Workshop Materials
 

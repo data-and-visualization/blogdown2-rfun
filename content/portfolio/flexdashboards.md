@@ -15,13 +15,13 @@ Learn to layout dashboards with interactive filters; Using crosstalk, enable you
 
 Prerequisite:  [Intro to R](/portfolio/intro2r_workshop/). All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse.  Strongly recommended: [Visualization with ggplot2](/portfolio/ggplot_workshop/).
 
-<!-- a href="https://duke.libcal.com/event/4799239" class="button big">Register</a -->
-
+<!-- 
 ### Register
 
 This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [R Markdown](/portfolio/rmarkdown_workshop) workshop
 
 - <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
+-->
 
 ## Workshop Materials
 
