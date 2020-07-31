@@ -22,6 +22,8 @@ Prerequisite:  [Intro to R](/portfolio/intro2r_workshop/). All attendees are exp
 
 - <a href="https://duke.libcal.com/event/6097134" class="button big">Register</a> Feb 20, 2020 - **Spatial Analysis with R and Python (Showcase)**  -->
 
+<a href="https://duke.libcal.com/event/6878039" class="button big">Register</a> October 7, 2020 - **Mapping with R**
+
 ## Workshop Materials
 
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
