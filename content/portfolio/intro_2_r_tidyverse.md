@@ -25,9 +25,8 @@ Typically, this workshop is offered once a month.  The best way to find out abou
 
 <!-- - <a href="https://duke.libcal.com/event/6094419" class="button">Register</a> Jan. 14, 2020 -->
 
-<a href="https://duke.libcal.com/event/6867861" class="button">Register</a> Part 1. Sept. 1, 2020 
-
-<a href="https://duke.libcal.com/event/6867922" class="button">Register</a> Part 1. Sept. 18, 2020
+<a href="https://duke.libcal.com/event/6867861" class="button">Register</a> Sept. 1
+<a href="https://duke.libcal.com/event/6867922" class="button">Register</a> Sept. 18, 2020
 
 ### Workshop Materials
 
