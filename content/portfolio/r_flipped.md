@@ -45,4 +45,4 @@ This event is offered virtually in accordance with Duke's Coronavirus events pol
 
 <a href="https://duke.libcal.com/event/6867956" class="button">Register</a> Part 2. Sept. 25, 2020 
 
-*Image Credit* [Data Vizualization: Bang Wong.  Peter Durand.](https://www.flickr.com/photos/alphachimpstudio/15654262247/). 
+*Image Credit* [Data Vizualization: Bang Wong.  Peter Durand](https://www.flickr.com/photos/alphachimpstudio/15654262247/)
