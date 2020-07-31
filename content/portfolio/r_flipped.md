@@ -37,12 +37,12 @@ This event is offered virtually in accordance with Duke's Coronavirus events pol
 
 ### Register
 
-<a href="https://duke.libcal.com/event/6867861" class="button">Register</a> - Part 1. Sept. 1, 2020 
+<a href="https://duke.libcal.com/event/6867861" class="button">Register</a> Part 1. Sept. 1, 2020 
 
-<a href="https://duke.libcal.com/event/6874814" class="button">Register</a> - Part 2. Sept. 9, 2020 
+<a href="https://duke.libcal.com/event/6874814" class="button">Register</a> Part 2. Sept. 9, 2020 
 
-<a href="https://duke.libcal.com/event/6867922" class="button">Register</a> - Part 1. Sept. 18, 2020 
+<a href="https://duke.libcal.com/event/6867922" class="button">Register</a> Part 1. Sept. 18, 2020 
 
-<a href="https://duke.libcal.com/event/6867956" class="button">Register</a> - Part 2. Sept. 25, 2020 
+<a href="https://duke.libcal.com/event/6867956" class="button">Register</a> Part 2. Sept. 25, 2020 
 
 *Image Credit* [Data Vizualization: Bang Wong.  Peter Durand.](https://www.flickr.com/photos/alphachimpstudio/15654262247/). 

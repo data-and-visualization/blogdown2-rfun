@@ -21,6 +21,10 @@ Data science skills are increasingly important for research and industry project
 - <a href="https://duke.libcal.com/event/6158216" class="button">Register</a> Feb 18, 2020
 -->
 
+<a href="https://duke.libcal.com/event/6874814" class="button">Register</a> Sept. 9, 2020 
+
+<a href="https://duke.libcal.com/event/6867956" class="button">Register</a> Part 2. Sept. 25, 2020 
+
 ## Workshop Materials
 
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
