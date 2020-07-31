@@ -21,13 +21,17 @@ This is a two-part workshop.  In **Part 1** you’ll learn the fundamentals of R
 
 <iframe height="360" width="640" src="https://warpwire.duke.edu/w/6_YDAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
-Additional [background and explanatory videos](https://warpwire.duke.edu/w/n_YDAA/) are available.
+#### Additional background and explanatory videos
+
+<iframe height="450" width="100%" src="https://warpwire.duke.edu/w/n_YDAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture; camera; microphone;" allowfullscreen></iframe>
 
 **Part 2 requires the familiarity of part 1.**  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins and pivots, and gain an introduction to linear regression.
 
 <iframe height="360" width="640" src="https://warpwire.duke.edu/w/pfYDAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
-Additional [background and explanatory videos](https://warpwire.duke.edu/w/n_YDAA/) are available.
+#### Additional background and explanatory videos
+
+<iframe height="450" width="100%" src="https://warpwire.duke.edu/w/n_YDAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture; camera; microphone;" allowfullscreen></iframe>
 
 This event is offered virtually in accordance with Duke's Coronavirus events policies. A zoom link will be sent via email to registered participants to join the workshop. We will use the flipped classroom model.  Quickstart videos will be distributed one week prior to the event.
 
