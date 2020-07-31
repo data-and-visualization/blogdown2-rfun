@@ -3,7 +3,7 @@ title = "R Open Labs"
 description = "Semi-structure lab time to help you learn R and polish your skills"
 thumbnail = "images/ropenlabs_thumbnail.jpg"
 image = "images/ropenlabs_large.jpg"
-weight = 15
+weight = 50
 slug = "r_open_labs"
 author = "John Little"
 draft = false
@@ -31,9 +31,9 @@ The Open Labs model was established by our colleagues at [Columbia](https://blog
 
 ### How do I Get Started?
 
-**Attend an R Open Lab**.  Labs occur on Mondays, 6pm-7pm in the [Edge Workshop Room](https://library.duke.edu/edge/spaces) in the Bostock Library. 
+**Attend an R Open Lab**.  Prior to the COVID-19 pandemic, Labs occur on Mondays in the [Edge Workshop Room](https://library.duke.edu/edge/spaces) in the Bostock Library. The **alternative option** is a [two-part,  quickstart workshop](/portfolio/r_flipped/).  This alternative -- a flipped classroom model -- will host Zoom-meeting Q/A, after watching videos.
 
-Event Dates are all on Mondays:  Jan. 13, Feb. 3, Feb. 10, Feb. 17, Feb. 24, March 2.
+<!-- Event Dates are all on Mondays:  Jan. 13, Feb. 3, Feb. 10, Feb. 17, Feb. 24, March 2.  -->
 
 In our first meeting we will decide, as a group, which resource will guide us.  We will pick one of the following resources...
 
