@@ -6,7 +6,7 @@ image = "images/viz_ink_durand5_big.svg"
 weight = 1
 slug = "r_flipped"
 author = "John Little"
-draft = true
+draft = false
 +++
 
 <!-- images/ropenlabs_thumbnail.jpg -->
