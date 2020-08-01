@@ -13,7 +13,7 @@ draft = false
 
 R and the Tidyverse are a data-first coding language that enables reproducible workflows.  In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
 
-This is a two-part workshop.  In **Part 1** you’ll learn the fundamentals of R, everything you need to know to quickly get started. You’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA), and how to generate reports.  In **Part 2** you’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.
+In **Part 1** you’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA), and how to generate reports.  In **Part 2** you’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.
 
 **Part 1 has no prerequisites** and no prior experience is necessary. By the end of part 1 you will import data, edit and save scripts, subset data, use projects to organize your work, and develop self-help techniques. 
 
