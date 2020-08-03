@@ -1,6 +1,6 @@
 +++
 title = "quickStart with R"
-description = "Getting started: EDA, data wrangling, visualization.  A flipped online workshop."
+description = "Data science: EDA, data wrangling, visualization.  A flipped online workshop."
 thumbnail = "images/viz_ink_durand4.svg"
 image = "images/viz_ink_durand5_big.svg"
 weight = 1
@@ -11,7 +11,7 @@ draft = false
 
 <!-- images/ropenlabs_thumbnail.jpg -->
 
-R and the Tidyverse are a data-first coding language that enables reproducible workflows.  In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
+R and the Tidyverse are a data-first coding language that enables reproducible analytics workflows.  In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
 
 In **Part 1** you’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA), and how to generate reports.  In **Part 2** you’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.
 
