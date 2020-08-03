@@ -374,14 +374,16 @@
     </clipPath>
   </defs>
   <sodipodi:namedview
+     inkscape:snap-global="false"
+     inkscape:snap-others="true"
      inkscape:snap-nodes="false"
      inkscape:window-maximized="0"
      inkscape:window-y="0"
      inkscape:window-x="248"
      inkscape:window-height="1041"
      inkscape:window-width="1274"
-     inkscape:snap-to-guides="false"
-     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-grids="true"
      units="px"
      showgrid="false"
      inkscape:document-rotation="0"
