@@ -1,7 +1,7 @@
 +++
 description = "Introduction to the most widely used visualization package"
-thumbnail = "images/hex_ggplot_374x260.png"
-image = "images/1200x444_flickr-photos-79237959atN0212210424505.png"
+thumbnail = "images/ggplot_thumb.svg"
+image = "images/ggplot_example.svg"
 title = "Visualization with ggplot2"
 weight = 5
 slug = "ggplot_workshop"
@@ -42,4 +42,4 @@ Learning resources and workshop materials are available and shareable so you can
 - [Streaming Video](https://library.capture.duke.edu/Panopto/Pages/Viewer.aspx?id=91f761f6-76f7-4f13-a4d9-a94300ee20c8)
 
 
-**Image Credit:**  [dirkcuys](https://www.flickr.com/photos/79237959@N02/12210424505/) [CC BY-SA](https://creativecommons.org/licenses/by-sa/2.0/)
+**Image Credit:**  [	Karsten Adam](https://commons.wikimedia.org/wiki/File:Beta-distribution.svg)
