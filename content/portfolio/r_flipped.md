@@ -27,7 +27,7 @@ In **Part 1** you’ll learn how to access and install RStudio, how to wrangle d
 
 **Part 2 requires the familiarity of part 1.**  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins and pivots, and gain an introduction to linear regression.
 
-<iframe height="360" width="640" src="https://warpwire.duke.edu/w/V0QEAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
+<iframe height="360" width="640" src="https://warpwire.duke.edu/w/80YEAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
 <iframe height="360" width="640" src="https://warpwire.duke.edu/w/pfYDAA/?start=1173&end=1327" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
