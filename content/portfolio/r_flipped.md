@@ -9,7 +9,7 @@ author = "John Little"
 draft = false
 +++
 
-<!-- images/ropenlabs_thumbnail.jpg -->
+<!-- image credit https://www.flickr.com/photos/alphachimpstudio/15654262247/ -->
 
 R and the Tidyverse are a data-first coding language that enables reproducible analytics workflows.  In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
 
@@ -50,5 +50,15 @@ This event is offered virtually in accordance with Duke's Coronavirus events pol
 <a href="https://duke.libcal.com/event/6867922" class="button">Register</a> Part 1. Sept. 18, 2020 
 
 <a href="https://duke.libcal.com/event/6867956" class="button">Register</a> Part 2. Sept. 25, 2020 
+
+### Code Repositories
+
+- https://github.com/libjohn/rfun_flipped
+- https://github.com/libjohn/intro2r-code
+- https://github.com/data-and-visualization/ggplot2-S20
+
+### Resources
+
+- https://ggplot.library.duke.edu/
 
 *Image Credit* [Data Vizualization: Bang Wong.  Peter Durand](https://www.flickr.com/photos/alphachimpstudio/15654262247/)
