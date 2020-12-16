@@ -40,11 +40,12 @@ This next video starts at timestamp 19:42 and covers how to handle linear regres
 
 ### Register
 
-<a href="https://duke.libcal.com/event/7299608" class="button">Register</a> Part 1. Jan. 28, 2021  
+<a href="https://duke.libcal.com/event/7299608" class="button">Register: Part 1. Jan. 28, 2021</a>   
 
-<a href="https://duke.libcal.com/event/7299572" class="button">Register</a> Part 2. Feb. 4, 2021   
+<a href="https://duke.libcal.com/event/7299572" class="button">Register: Part 2. Feb. 4, 2021 &nbsp; </a>  
 
-<a href="https://duke.libcal.com/event/7300155" class="button">Register</a> Part 1. Mar. 16, 2021   
+ &nbsp; &nbsp; &nbsp; Repeat...  
+<a href="https://duke.libcal.com/event/7300155" class="button">Register:  Part 1. Mar. 16, 2021</a>   
 
 
 ### Code Repositories

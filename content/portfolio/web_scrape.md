@@ -3,7 +3,7 @@ description = "Scraping and Tidying hierarchical data from the web with rvest an
 thumbnail = "images/scrape_374x260.png"
 #image = "images/rmarkdown_big_banner.jpg"
 title = "Web Scraping with rvest "
-weight = 25
+weight = 18
 slug = "scraping_workshop"
 author = "John Little"
 draft = false
@@ -13,7 +13,7 @@ draft = false
 
 Prerequisite:  Intro to R. All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. 
 
-<!-- a href="https://duke.libcal.com/event/4799239" class="button big">Register</a -->
+<a href="https://duke.libcal.com/event/7300069" class="button big">Register<br>R case study: web scraping<br>March 4, 2021</a>
 
 ## Workshop Materials
 

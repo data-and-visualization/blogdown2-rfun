@@ -22,7 +22,9 @@ This hands-on workshop will demonstrate how to plot x/y coordinates; how to gene
 
 - <a href="https://duke.libcal.com/event/6097134" class="button big">Register</a> Feb 20, 2020 - **Spatial Analysis with R and Python (Showcase)**  -->
 
-<a href="https://duke.libcal.com/event/6878039" class="button big">Register</a> October 7, 2020
+<a href="https://duke.libcal.com/event/7305910" class="button big">Register: Mapping. Feb 1. 2021</a>  
+  
+<a href="https://duke.libcal.com/event/7305911" class="button big">Register: Processing and Analysis. Feb 15. 2021</a>  
 
 ## Workshop Materials
 

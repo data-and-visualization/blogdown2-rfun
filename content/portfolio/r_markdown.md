@@ -3,12 +3,12 @@ description = "Literate coding can generate many formats: HTML, MS Word, PDF, La
 thumbnail = "images/portfolio_rmarkdown.png"
 image = "images/rmarkdown_big_banner.jpg"
 title = "R Markdown Workshop"
-weight = 35
+weight = 13
 slug = "rmarkdown_workshop"
-author = "John Smith"
+author = "John Little"
 draft = false
 +++
-Learn how to use this lightweight markup language to compose reproducible reports in many formats: MS Word, PDF, R Notebooks, Web Pages, Slide Presentations, and more.
+This lightweight markup language will leverage your [literate coding techniques](https://en.wikipedia.org/wiki/Literate_programming) as you compose reproducible reports in many formats: Slide decks, MS Word, PDF, R Notebooks, Web Pages, and more.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VHJrWXHDWpc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -19,10 +19,9 @@ This experience-based learning workshop will help you master literate coding tec
 <!-- 
 ### Register
 
-This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop
+This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop  -->
 
-<!-- - <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
---> 
+<a href="https://duke.libcal.com/event/7300231" class="button">Register:<br>Slides with Rmarkdown (Xaringan)<br>April 6, 2021</a> 
 
 
 ### Workshop Materials
