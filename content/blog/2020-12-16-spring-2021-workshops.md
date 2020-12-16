@@ -33,3 +33,8 @@ R case study: sentiment analysis                               | 15_Apr&nbsp;| h
 Full descriptions, links to streaming video, slides, and code for all Rfun workshops can be [found at the workshops section](/#portfolio) of this Rfun site.
 
 New from last fall and reprised for the spring is the [Flipped quick-start to R series](/portfolio/r_flipped/).  The flipped series' aim is to make remote learning more engaging, less fatiguing.  You will watch the introductory video in advance.  You control the pace of the thirty-minuted advance video.  Optionally watch additional explanatory videos at your discretion.  Exercises, referenced within the video, are recommended and at your own pace.  The Zoom-workshop will start with an open Question/Answer period; questions that arise from the video(s) and exercises.
+
+---
+**Image Credits**  
+[Jirka Matousek. ISC Language Teaching Workshop Spring 2012](https://www.flickr.com/photos/jirka_matousek/8482332566/)  
+[Universiti Malaysia Sarawak Malaysia. Big Data Workshop](https://www.flickr.com/photos/unimasimage/39818066392)
