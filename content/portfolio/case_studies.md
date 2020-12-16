@@ -29,4 +29,7 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 -->
 
 
+---
+**Image Credits**  
+[Jinho Jung](https://www.flickr.com/photos/phploveme/13163985014/)  
 
