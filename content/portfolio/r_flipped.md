@@ -21,13 +21,14 @@ In **Part 1** you’ll learn how to access and install RStudio, how to wrangle d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGSXf-NMWVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-[Rfun flipped playlist](https://youtube.com/playlist?list=PLIUcX1JrVUNWBUl4Cwu8psxxDVZCvrJHk) | &nbsp;  
---- | --- 
+Additonal videos... | &nbsp; 
+--- | ---
 [Import data / get code](https://youtu.be/BKDkj7I4L-Y)           | [Projects / Reproducibility](https://youtu.be/w_xCkbf7iYw)  
 [Exploratory Data Analysis (EDA)](https://youtu.be/UVxgc2SY608)  | [Assignment `<-` / Pipes `%>%`](https://youtu.be/FK5UKBT-8iw)  
 [Join / Merge (left_join)](https://youtu.be/GJUcnEV_6O0)         | [Packages / Tidyverse](https://youtu.be/v4tmOymwznQ) 
 [Pivot data (pivot_longer)](https://youtu.be/sspFC2m8fog)        | [RStudio IDE](https://youtu.be/ALtCStU1aNE) 
 [R Markdown](https://youtu.be/Sm3uuVVtXak)                       | [Download](https://youtu.be/udPgQWHDpz8)
+Or see the complete ["Rfun flipped" YouTube playlist](https://youtube.com/playlist?list=PLIUcX1JrVUNWBUl4Cwu8psxxDVZCvrJHk) | &nbsp; 
 
 
 **Part 2 requires the familiarity of part 1.**  By the end of part 2 you will have a familiarity with the grammar of graphics, be introduced to interactivity techniques, be able to invoke data joins and pivots, and gain an introduction to linear regression.
