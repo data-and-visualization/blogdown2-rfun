@@ -57,4 +57,4 @@ This next video starts at timestamp 19:42 and covers how to handle linear regres
 
 - https://ggplot.library.duke.edu/
 
-*Image Credit* [Data Vizualization: Bang Wong.  Peter Durand](https://www.flickr.com/photos/alphachimpstudio/15654262247/)
+*Image Credit* [Data Visualization: Bang Wong.  Peter Durand](https://www.flickr.com/photos/alphachimpstudio/15654262247/)
