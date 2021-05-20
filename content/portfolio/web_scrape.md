@@ -1,9 +1,9 @@
 +++
 description = "Scraping and Tidying hierarchical data from the web with rvest and purrr"
 thumbnail = "images/scrape_374x260.png"
-#image = "images/rmarkdown_big_banner.jpg"
+image = "images/rmarkdown_big_banner.jpg"
 title = "Web Scraping with rvest "
-weight = 18
+weight = 50
 slug = "scraping_workshop"
 author = "John Little"
 draft = false
