@@ -1,6 +1,6 @@
 +++
 description = "Make reproducible slides via literate coding and R Markdown"
-thumbnail = "images/xaringan_thumnail.jpg"
+thumbnail = "images/xaringan_thumbnail.jpg"
 image = "images/rmarkdown_big_banner.jpg"
 title = "Slides with library(xaringan)"
 weight = 14
