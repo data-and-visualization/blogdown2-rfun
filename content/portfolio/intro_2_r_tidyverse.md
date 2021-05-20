@@ -23,7 +23,7 @@ As time allows we may introduce visualization and mapping.  See:  Next Steps (be
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
 
-<!-- - <a href="https://duke.libcal.com/event/6094419" class="button">Register</a> Jan. 14, 2020 -->
+<!-- - <a href="https://duke.libcal.com/event/6094419" class="button">Register</a> Jan. 14, 2020 
 
 <a href="https://duke.libcal.com/event/7299608" class="button">Register: Part 1. Jan. 28, 2021</a>   
 
@@ -31,6 +31,8 @@ Typically, this workshop is offered once a month.  The best way to find out abou
 
  &nbsp; &nbsp; &nbsp; Repeat...  
 <a href="https://duke.libcal.com/event/7300155" class="button">Register:  Part 1. Mar. 16, 2021</a> 
+
+-->
 
 ### Workshop Materials
 
