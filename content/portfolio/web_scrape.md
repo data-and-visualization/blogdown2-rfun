@@ -16,8 +16,6 @@ draft = false
 
 UseRs will be introduced to web crawling and HTML parsing.  In this introductory web scraping workshop the `rvest` package is used to deconstruct a target site by transforming web site data into structured data.  A brief and limited introduction to the HTML specifications is provided along with basic Tidyverse-style iteration (i.e. `purrr::map()`. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Prerequisite:  Intro to R. All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. 
 
 <!--
@@ -26,11 +24,9 @@ Prerequisite:  Intro to R. All attendees are expected to be basically familiar w
 
 -->
 
-#### Web Scraping aka screen scraping with `library(rvest)`
+## Web Scraping aka screen scraping with `library(rvest)`
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-
-code: 
 
 ## Workshop Materials
 
