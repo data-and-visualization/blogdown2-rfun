@@ -15,9 +15,12 @@ draft = false
 
 Data science skills are increasingly important for research and industry projects.  With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results.  Ultimately, an analyst's data science toolbox is incomplete without visualization skills.  Incorporating effective visualizations directly into the analysis tool you are using can facilitate quick data exploration, streamline your research process, and improve the reproducibility of your research.
 
+<!--
 <a href="https://duke.libcal.com/event/7299572" class="button">Register:<br>R for data science: visualization, pivot, join, regression<br> Feb. 4, 2021</a>  
 
 <a href="https://duke.libcal.com/event/7336057" class="button">Register<br>Visualization in R using ggplot2<br> Mar. 23, 2021</a>  
+
+-->
 
 ## Workshop Materials
 
