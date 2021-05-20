@@ -10,25 +10,42 @@ draft = false
 +++
 This lightweight markup language will leverage your [literate coding techniques](https://en.wikipedia.org/wiki/Literate_programming) as you compose reproducible reports in many formats: Slide decks, MS Word, PDF, R Notebooks, Web Pages, and more.
 
+### Specific use-cases for R markdown
+
+#### Slides with library(xaringan)  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3n9nASHg9gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+code: https://github.com/libjohn/workshop_slides_markdown_xaringan/  
+
+#### Dashboards with library(flexdashboards)  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RGXUkXNrVxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+code: https://github.com/libjohn/workshop_flexdashboards  
+
+### General workshop on R markdown. Oct. 2018  
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VHJrWXHDWpc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-This experience-based learning workshop will help you master literate coding techniques for a whole new level of productivity through reproducibility.  The workshop will use the RStudio IDE to introduce and reinforce concepts.  Gain practical knowledge integrating analysis code chunks with your report analysis and prose.  Write once, report often while reducing effort and errors.  
+This experience-based learning workshop will help you master literate coding techniques for a whole new level of productivity through reproducibility.  The workshop will use the RStudio IDE to introduce and reinforce concepts.  Gain practical knowledge integrating analysis code chunks with your report analysis and prose.  Write once, report often while reducing effort and errors.
+
+- [Online Guide](https://rmarkdown.library.duke.edu/)
+- [Workshop Slide Deck](https://rfun.library.duke.edu/rmarkdown/slides/)
+- [GitHub Code](https://github.com/libjohn/workshop-rmarkdown)
 
 **Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
 
 <!-- 
 ### Register
 
-This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop  -->
+This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop  
 
 <a href="https://duke.libcal.com/event/7300231" class="button">Register:<br>Slides with Rmarkdown (Xaringan)<br>April 6, 2021</a> 
 
+-->
 
-### Workshop Materials
 
 
-- [Online Guide](https://rmarkdown.library.duke.edu/)
-- [Workshop Slide Deck](https://rfun.library.duke.edu/rmarkdown/slides/)
-- [GitHub Code](https://github.com/libjohn/workshop-rmarkdown)
 
 
