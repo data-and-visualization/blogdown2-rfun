@@ -12,17 +12,26 @@ RStudio is an interface that assists your reproducible workflows.  Explore how t
 
 In the spring of 2021, we explored the following as case studies...
 
-#### Web Scraping aka screen scraping
+#### Web Scraping aka screen scraping with `library(rvest)`
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Slides with library(xaringan) and R markdown
+#### Slides with `library(xaringan)` and R markdown
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3n9nASHg9gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### 
+#### Sentiment analysis with `library(tidytext)`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P5ihIzoZivc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Twitter data with `library(rtweet)`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v7xmPnclDok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+#### Public datasets and BigQuery with `library(c("dplyr", "DBI", "bigrquery"))` aka using dplyr verbs to query remote SQL databases
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6j27h_17C1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Prerequisite:**  Intro to R.  All attendees are expected to h ave a familiarity with R, RStudio, and the Tidyverse. 
 
