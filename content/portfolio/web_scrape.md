@@ -24,15 +24,15 @@ Prerequisite:  Intro to R. All attendees are expected to be basically familiar w
 
 -->
 
-## Web Scraping aka screen scraping with `library(rvest)`
+### Web Scraping aka screen scraping with `library(rvest)`  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
 
-## Workshop Materials
+### Workshop Materials  
 
-Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
+Learning resources and workshop materials are available and shareable so you can learn at your own pace.  
 
-- Code: https://github.com/libjohn/workshop_webscraping  
+- Code: https://github.com/libjohn/workshop_webscraping   
 
 <!-- 
 - [Code](https://github.com/rundel/Presentations/tree/master/Duke%202018%20-%20DVS)
