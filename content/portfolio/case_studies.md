@@ -1,6 +1,6 @@
 +++
 description = "Practical examples of RStudio/Tidyverse.  Your interface to reproducible workflows."
-thumbnail = "images/jinho_jung_ux-case-study.jpg"
+thumbnail = "images/jinho_jung_ux-case-study2.jpg"
 image = "images/rmarkdown_big_banner.jpg"
 title = "R case studies"
 weight = 45
