@@ -1,7 +1,7 @@
 +++
 title = "R Open Labs"
 description = "Semi-structure lab time to help you learn R and polish your skills"
-thumbnail = "images/ropenlabs_thumbnail.jpg"
+thumbnail = "images/ropenlabs_thumbnail2.jpg"
 image = "images/ropenlabs_large.jpg"
 weight = 60
 slug = "r_open_labs"
