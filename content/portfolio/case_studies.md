@@ -10,12 +10,19 @@ draft = false
 +++
 RStudio is an interface that assists your reproducible workflows.  Explore how the Tidyverse environment is more than statistics.  These hands-on concepts explore practical features of data gathering and data manipulation.  Go beyond the rudimentary to expand your ideas of analysis.
 
-In the spring of 2021, we will explore the following as case studies...
+In the spring of 2021, we explored the following as case studies...
 
-<a href="https://duke.libcal.com/event/7299976" class="button">Register<br>Public datasets in Google BigQuery using DBplyr<br>25 Feb.,   20201</a> <br>  
-<a href="https://duke.libcal.com/event/7300069" class="button">Register<br>Web scraping                                   <br>04 Mar.,   20201</a> <br>  
-<a href="https://duke.libcal.com/event/7300183" class="button">Register<br>Twitter data                                   <br>25 Mar.,   20201</a> <br>  
-<a href="https://duke.libcal.com/event/7300289" class="button">Register<br>Sentiment analysis                             <br>15 Apr.,   20201</a>  
+#### Web Scraping aka screen scraping
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Slides with library(xaringan) and R markdown
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3n9nASHg9gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### 
+
+
 
 **Prerequisite:**  Intro to R.  All attendees are expected to h ave a familiarity with R, RStudio, and the Tidyverse. 
 
