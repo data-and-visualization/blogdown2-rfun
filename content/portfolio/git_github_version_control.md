@@ -11,9 +11,13 @@ draft = false
 
 Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories.  Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
 
+#### Setting up git with RStudio via library(usethis) -- 3 minute video
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ao4uwcbMp-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Come learn how all this works and create your own "Hello World" GitHub repository.
+#### Workshop recording:  Designing a reproducible workflow with R and GitHub
+
+<iframe height="560" width="315" src="https://warpwire.duke.edu/w/t0oFAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
 <!-- **Past workshops have focused on using RStudio**, which happens to be an excellent git client.  This time, we'll be more general.  We will discuss RStudio but focus mostly on git and GitHub. -->
 	
@@ -26,16 +30,14 @@ In this hands-on workshop you will discover how to harness Git to support the ex
 GitHub is a social coding platform<!-- which enable collaboration.-->  Built upon the Git (version control) application these tools make social coding and code sharing more accessible.  Learn how to <!-- create branches, create remote repositories--> Use RStudio and the [usethis](https://usethis.r-lib.org/) package to leverage version conrol with git & GitHub. <!-- /GitLab interface for simpler reverts, and collaborate with others.-->  
 
 <!-- 
-### Note -- Bring Your Laptop
-To fully participate in this workshop, please bring your own laptop.  
-
-a href="https://duke.libcal.com/event/6096055" class="button">Register</a> - Feb. 26, 2020 -->
 
 <a href="https://duke.libcal.com/event/7301907" class="button">Register:<br>
 Designing a Reproducible workflow with R and GitHub<br>
 Feb 17. 2021</a>
 
-### Resources <!-- RStudio Specific Workshop Materials -->
+ -->
+
+### Resources 
 
 Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
 
