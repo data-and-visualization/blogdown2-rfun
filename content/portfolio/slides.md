@@ -1,6 +1,6 @@
 +++
 description = "Make reproducible slides via literate coding and R Markdown"
-thumbnail = "images/xaringan_thumbnail.jpg"
+thumbnail = "images/xaringan_thumbnail2.jpg"
 image = "images/rmarkdown_big_banner.jpg"
 title = "Slides with library(xaringan)"
 weight = 40
@@ -28,6 +28,8 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 
 -->
 
+
+<small>Thumbnail image credit:  technofaq.org</small>
 
 
 
