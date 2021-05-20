@@ -7,7 +7,8 @@ weight = 13
 slug = "rmarkdown_workshop"
 author = "John Little"
 draft = false
-+++
++++  
+
 This lightweight markup language will leverage your [literate coding techniques](https://en.wikipedia.org/wiki/Literate_programming) as you compose reproducible reports in many formats: Slide decks, MS Word, PDF, R Notebooks, Web Pages, and more.
 
 ### Specific use-cases for R markdown
