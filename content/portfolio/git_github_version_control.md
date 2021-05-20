@@ -17,7 +17,7 @@ Version control enables single authors or group collaborators to create and shar
 
 #### Workshop recording:  Designing a reproducible workflow with R and GitHub
 
-<iframe height="560" width="315" src="https://warpwire.duke.edu/w/t0oFAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://warpwire.duke.edu/w/t0oFAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
 <!-- **Past workshops have focused on using RStudio**, which happens to be an excellent git client.  This time, we'll be more general.  We will discuss RStudio but focus mostly on git and GitHub. -->
 	
