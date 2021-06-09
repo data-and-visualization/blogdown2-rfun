@@ -13,7 +13,7 @@ draft: false
 
 **Now streaming**: All spring 2021 Rfun workshop videos.  
 
-Hundreds of you signed-up and attended our workshops last semester.  Now, we are pleased to present the Spring 2021 Rfun workshop series on video.  As always the content for each workshop is available for sharing via [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/) (i.e. Attibrution, Non-Commercial.)  We encourage you to share the videos, the data, and the code.  
+Hundreds of you signed-up and attended our workshops last semester.  Now, we are pleased to present the Spring 2021 Rfun workshop series on video.  As always, the content for each workshop is available for sharing via [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/) (i.e. Attribution, Non-Commercial.)  We encourage you to share the videos, the data, and the code.  
 
 Within the description of each video (and/or often within the video) you'll find links to the code and data stored on GitHub.  Let us know if you have questions.
 
