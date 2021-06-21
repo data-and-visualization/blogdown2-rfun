@@ -13,7 +13,7 @@ Version control enables single authors or group collaborators to create and shar
 
 #### Setting up git with RStudio via library(usethis) -- 3 minute video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ao4uwcbMp-0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r5_v5f6128M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Workshop recording:  Designing a reproducible workflow with R and GitHub
 
