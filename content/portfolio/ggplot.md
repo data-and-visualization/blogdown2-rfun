@@ -42,7 +42,7 @@ Advanced ggplot [code repository](https://github.com/amzoss/adv-ggplot2-F19)
 
 - * [Visualization Basics](https://rstudio.cloud/learn/primers/1.1)  (Interactive primer)
 - * [Visualization](https://rstudio.cloud/learn/primers/3)  (Interactive primer)
-- * [Online Guide](https://ggplot.library.duke.edu/)
+- * [Online Guide](https://ggplot.library.duke.edu/guide.html)
 - * [Slide deck](https://ggplot.library.duke.edu/slides/index.html)
 
 ***
