@@ -2,7 +2,7 @@
 description = "Use dplyr verbs to query remote databases e.g. Google BigQuery public databases"
 thumbnail = "images/sql_374x260.svg"
 image = "images/sql_dbi_bigquery_2_1200x222.svg"
-title = "Manage SQL with R"
+title = "remote SQL queries with R"
 weight = 450
 slug = "sql_and_databases"
 author = "John Little"
