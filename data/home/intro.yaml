@@ -12,7 +12,7 @@ sections:
   description: 'We share our example code and supporting materials under a Creative Commons license '
 
 buttons:
-- link: '/intro2r'
+- link: '/portfolio/r_flipped/'
   text: 'Start Learning'
 
 - link: '#portfolio'
