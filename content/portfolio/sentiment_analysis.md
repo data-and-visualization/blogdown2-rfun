@@ -40,7 +40,7 @@ GitHub code: https://github.com/libjohn/workshop_textmining
 
 <!-- badges: start -->
 [![Launch Rstudio
-Binder](http://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_textmining/main?urlpath=rstudio)
+Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_textmining/main?urlpath=rstudio)
 
 [![Creative Commons CC
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)

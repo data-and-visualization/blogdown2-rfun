@@ -39,7 +39,7 @@ GitHub code: https://github.com/libjohn/workshop_twitter_analysis
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 [![Launch Rstudio
-Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/libjohn/workshop_twitter_analysis/main?urlpath=rstudio)
+Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/libjohn/workshop_twitter_analysis/main?urlpath=rstudio)
 <!-- badges: end -->
 
 
