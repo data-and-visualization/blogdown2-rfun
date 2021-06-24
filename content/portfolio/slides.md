@@ -15,8 +15,6 @@ R markdown is a means of applying structure to the prose in your coding document
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3n9nASHg9gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/workshop_slides_markdown_xaringan/  
-
 **Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
 
 <!-- 
@@ -28,6 +26,19 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 
 -->
 
+### Resources
+
+<!-- badges: start -->
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_slides_markdown_xaringan/ )
+[![Creative Commons CC
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Launch Rstudio
+Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_slides_markdown_xaringan/master?urlpath=rstudio)
+
+<!-- badges: end -->
+
+
+***
 
 <small>Thumbnail image credit:  technofaq.org</small>
 

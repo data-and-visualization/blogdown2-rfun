@@ -23,12 +23,17 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 - <a href="https://duke.libcal.com/event/6096020" class="button">Register</a> March 24, 2020 
 -->
 
-## Workshop Materials
+### Resources
 
-Learning resources and workshop materials are available and shareable so you can learn at your own pace. 
 
-- [Code](https://github.com/libjohn/workshop_flexdashboards)
-- [Slides](https://rfun-flexdashboards.netlify.com/slides/)
+[Slides](https://rfun-flexdashboards.netlify.com/slides/)  
+<!-- badges: start -->
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_flexdashboards)
+[![Creative Commons CC
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Launch Rstudio
+Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_flexdashboards/master?urlpath=rstudio)
 
+<!-- badges: end -->
 
 

@@ -29,7 +29,7 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 -->
 
 
-### Code Repository and packages used
+### Library packages
 
 GitHub code: https://github.com/libjohn/workshop_textmining  
 
@@ -38,13 +38,16 @@ GitHub code: https://github.com/libjohn/workshop_textmining
 
 <br>
 
-<!-- badges: start -->
-[![Launch Rstudio
-Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_textmining/main?urlpath=rstudio)
+### Resources
 
+<!-- badges: start -->
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_textmining)
 [![Creative Commons CC
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![Launch Rstudio
+Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_textmining/main?urlpath=rstudio)
 <!-- badges: end -->
 
+***  
 
 <small>Image credit:  [Emotion Card](https://flickr.com/photos/luigimengato/23670146340/in/photolist-C4DFRo-27Bce9b-nHcY3-6bCrBn-5aQRgm-Y2Ja4K-Xi8M8S-nyQGP-axv1UW-CWEpFr-9wuDCa-66p863-2g6LzPp-6N9E3e-RPpNCj-nK8yLR-6vwPuf-4qC1z5-2iPQ2TC-2j31QyV-ndnRtD-REMxYK-5r6oaB-ejfNQ-bxorqT-7JCzFj-8kriXA-JTqSFZ-nyQGT-4VniCi-nyQGS-Fdorm3-6hCZAA-nzbwz-rEnBe-nzbwB-5a1w8K-2g7oRb8-Kt9oWk-t4fRBz-4wuYac-p9qBFP-p9qnTD-ku34KK-nyQGL-Cwqnbs-23s7zJA-nyQGH-4VrtNm-bSibKR) by [Luigi Mengato](https://flickr.com/photos/luigimengato/")</small>
