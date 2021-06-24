@@ -15,12 +15,10 @@ A brief introduction to text mining and sentiment analysis with visualization.  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P5ihIzoZivc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-
-
-**Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
-
 <!-- 
 ### Register
+
+**Prerequisite:**  Intro to R.  All attendees are expected to have a familiarity with R, RStudio, and the Tidyverse. 
 
 This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop  
 
@@ -28,11 +26,9 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 
 -->
 
+<br>
 
 ### Library packages
-
-GitHub code: https://github.com/libjohn/workshop_textmining  
-
 
 > `install.packages(c("tidyverse", "tidytext", "janeaustenr", "wordcloud2"))`
 

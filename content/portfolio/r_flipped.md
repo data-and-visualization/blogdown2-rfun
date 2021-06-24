@@ -38,8 +38,6 @@ Or see the complete ["Rfun flipped" YouTube playlist](https://youtube.com/playli
 This next video starts at timestamp 19:42 and covers how to handle linear regression models.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wmozk2qEsL0?start=1182" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-
-
 <!-- 
 ### Register
 
@@ -49,10 +47,14 @@ This next video starts at timestamp 19:42 and covers how to handle linear regres
 
  &nbsp; &nbsp; &nbsp; Repeat...  
 <a href="https://duke.libcal.com/event/7300155" class="button">Register:  Part 1. Mar. 16, 2021</a>   
-
-
 -->
 
+
+### Library packages
+
+> `install.packages("tidyverse")`
+
+<br>
 
 ### Resources
 
