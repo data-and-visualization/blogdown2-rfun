@@ -62,7 +62,7 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 <!-- badges: start -->
 [![Guide](https://img.shields.io/badge/%3F-Guide: usethis & holepunch-informational "git, GitHub, binder")](https://rmarkdown.library.duke.edu/)
 [![Creative Commons CC
-BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
 <!-- badges: end -->
 
 Book:  [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown/) by Yihui Xie, J. J. Allaire, Garrett Grolemund

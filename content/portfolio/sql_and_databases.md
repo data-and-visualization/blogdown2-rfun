@@ -39,7 +39,7 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 <!-- badges: start -->
 [![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/casestudy_bigquery_dbplyr)
 [![Creative Commons CC
-BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Launch Rstudio
 Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder/Container")](https://mybinder.org/v2/gh/libjohn/casestudy_bigquery_dbplyr/master?urlpath=rstudio)
 <!-- badges: end -->

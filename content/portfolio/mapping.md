@@ -35,7 +35,7 @@ This hands-on workshop will demonstrate how to plot x/y coordinates; how to gene
 [![Guide](https://img.shields.io/badge/%3F-Guide-informational "Guide")](https://map-rfun.library.duke.edu/)
 [![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/engine143/map-spring2020)
 [![Creative Commons CC
-BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
 <!-- badges: end -->
 
 ***  
