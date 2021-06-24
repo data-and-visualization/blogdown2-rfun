@@ -16,7 +16,7 @@ Data science skills are increasingly important for research and industry project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TIJzx5eQbgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_ggplot2)
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/rfun_flipped)
 
 ### Full introduction ⭐
 
