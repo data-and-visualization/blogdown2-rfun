@@ -39,13 +39,16 @@ Data science skills are increasingly important for research and industry project
 
 ### Resources
 
+Book:  [_ggplot2: Elegant Graphics for Data Analysis_](https://ggplot2-book.org/) by Hadley Wichkam, Danielle Navarro, Thomas Lin Pedersen  
+[Visualization Basics](https://rstudio.cloud/learn/primers/1.1)  (Interactive primer)  
+[Visualization](https://rstudio.cloud/learn/primers/3)  (Interactive primer)  
+[Slide deck](https://ggplot.library.duke.edu/slides/index.html)  
+
+
 <!-- badges: start -->
 [![Guide](https://img.shields.io/badge/%3F-ggplot2 guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/)
 <!-- badges: end -->
 
-- * [Visualization Basics](https://rstudio.cloud/learn/primers/1.1)  (Interactive primer)
-- * [Visualization](https://rstudio.cloud/learn/primers/3)  (Interactive primer)
-- * [Slide deck](https://ggplot.library.duke.edu/slides/index.html)
 
 ***
 

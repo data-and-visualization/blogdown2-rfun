@@ -17,13 +17,11 @@ A gentle introduction to R and the Tidyverse.  This suite of data savvy tools an
 
 The workshop begins with a measured and deliberate orientation to the RStudio interface.  Participants will import data (readr).  We continue with a step-by-step approach to transform and wrangle data (dplyr).  Finally, we introduce basic exploratory data analysis (EDA.)  Participants can expect **explanation**, **demonstration** and code examples along **with hands-on learning**.
 
-As time allows we may introduce visualization and mapping.  See:  Next Steps (below.)
-
+<!-- 
 ### Register
 Typically, this workshop is offered once a month.  The best way to find out about future workshops is by subscribing to Rfun [workshop annoucement list](https://lists.duke.edu/sympa/subscribe/rfun) or browsing our broader listing of [DVS workshops](https://library.duke.edu/data/workshops). 
 
-
-<!-- - <a href="https://duke.libcal.com/event/6094419" class="button">Register</a> Jan. 14, 2020 
+- <a href="https://duke.libcal.com/event/6094419" class="button">Register</a> Jan. 14, 2020 
 
 <a href="https://duke.libcal.com/event/7299608" class="button">Register: Part 1. Jan. 28, 2021</a>   
 
@@ -34,17 +32,24 @@ Typically, this workshop is offered once a month.  The best way to find out abou
 
 -->
 
-### Workshop Materials
+<br>
 
-Learning resources and workshop materials are available and shareable so you can learn at your own pace.  
+### Library packages
 
-- [Online Guide](https://intro2r.library.duke.edu/)
-- [Slides](https://intro2r.library.duke.edu/slides/)
-- [Practice Code for Hands-on Workshop – Spring 2019](https://github.com/libjohn/intro2r-2019spring)
+> `install.packages("tidyverse")`  
 
-### Next Steps.
-Many researchers will want to add **visualization** and **spatial analysis** to their research workflow.  We recommend `ggplot2` and `sf` packages, respectively.  Both ggplot2 and sf packages are complex enough that we offer separate [workshops](/#portfolio) for each topic.  
+<br>
 
-For **visualization** offer at least one level of formal workshop on [visualization with ggplot2](/portfolio/ggplot_workshop/).  
+### Resources
 
-Mapping and spatial analysis using the `sf`, `leaflet`, and `mapview` packages. We offer at least one level of workshops on [spatial analysis with R](/portfolio/mapping_workshop/).  
+Book:  [_R for Data Science_ by Hadley Wickham & Garret Grolemund](https://r4ds.had.co.nz/)  
+[Interactive primers](https://rstudio.cloud/learn/primers)  
+[Slides](https://intro2r.library.duke.edu/slides/)  
+
+<!-- badges: start -->
+[![Guide](https://img.shields.io/badge/%3F-Guide-informational "Guide")](https://intro2r.library.duke.edu/)
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/intro2r-code)
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub "GitHub Code Repository: exercises")](https://github.com/libjohn/intro2r_exercises)
+[![Creative Commons CC
+BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+<!-- badges: end -->

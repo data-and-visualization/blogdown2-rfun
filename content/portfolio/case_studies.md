@@ -16,25 +16,27 @@ In the spring of 2021, we explored the following as case studies...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ISc8V9GDAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/workshop_webscraping  
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_webscraping)
 
 #### Slides with `library(xaringan)` and R markdown  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3n9nASHg9gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/workshop_slides_markdown_xaringan/  
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_slides_markdown_xaringan/)
 
 #### Sentiment analysis with `library(tidytext)`  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P5ihIzoZivc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/workshop_textmining  
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_textmining)
+  
 
 #### Twitter data with `library(rtweet)`  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v7xmPnclDok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/workshop_twitter_analysis  
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/workshop_twitter_analysis)
+  
 
 
 #### Public datasets and BigQuery with `library(c("dplyr", "DBI", "bigrquery"))`  
@@ -43,12 +45,13 @@ aka using dplyr verbs to query remote SQL databases
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6j27h_17C1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-code: https://github.com/libjohn/casestudy_bigquery_dbplyr  
-
-**Prerequisite:**  Intro to R.  All attendees are expected to h ave a familiarity with R, RStudio, and the Tidyverse. 
+[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/casestudy_bigquery_dbplyr)
+  
 
 <!-- 
 ### Register
+
+**Prerequisite:**  Intro to R.  All attendees are expected to h ave a familiarity with R, RStudio, and the Tidyverse. 
 
 This semester the **Dashboards, slides, and R Markdown** workshop combines elements of this workshop with the [Interactive Dashboards](/portfolio/dashboard_workshop) workshop  
 
@@ -58,6 +61,5 @@ This semester the **Dashboards, slides, and R Markdown** workshop combines eleme
 
 
 ---
-**Image Credits**  
-[Jinho Jung](https://www.flickr.com/photos/phploveme/13163985014/)  
+**Image Credits**  [Jinho Jung](https://www.flickr.com/photos/phploveme/13163985014/)  
 
