@@ -46,7 +46,7 @@ Book:  [_ggplot2: Elegant Graphics for Data Analysis_](https://ggplot2-book.org/
 
 
 <!-- badges: start -->
-[![Guide](https://img.shields.io/badge/%3F-ggplot2 guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/)
+[![Guide](https://img.shields.io/badge/%3F-ggplot2 guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/guide.html)
 <!-- badges: end -->
 
 
