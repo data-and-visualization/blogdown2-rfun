@@ -1,7 +1,7 @@
 +++
 description = "Interactivity and HTMLWidgets using FlexDashboards"
 thumbnail = "images/flexdashboard_374x260.png"
-image = "images/flexdashboard_1200x444.png"
+image = "images/Infruids_Self-Service_BI_Tool_Dashboard_1200x222.png"
 title = "Interactive Dashboards"
 weight = 300
 slug = "dashboard_workshop"
@@ -35,5 +35,9 @@ BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creati
 Binder](https://mybinder.org/badge_logo.svg "Launch RStudio Binder")](https://mybinder.org/v2/gh/libjohn/workshop_flexdashboards/master?urlpath=rstudio)
 
 <!-- badges: end -->
+
+***
+
+Image credit:  [Growthlakes | Wikimedia](https://commons.wikimedia.org/wiki/File:Infruid%27s_Self-Service_BI_Tool_Dashboard.jpg)
 
 
