@@ -57,3 +57,7 @@ We'll start at the beginning, however, R Open Labs recommends that you attend ou
 
 **Is R help available outside of Open Labs?**
 If you require one-on-one help with R outside of the Open Labs, in-person assistance is available from the Library's [Center for Data & Visualization Sciences](https://library.duke.edu/data), our Center's [Rfun workshops](https://rfun.library.duke.edu), or our [walk-in consulting](https://library.duke.edu/data/about/schedule) in the Brandaleone Data and Visualization Lab (1st Floor Bostock Library). 
+
+***
+⭐  🚲   🍩   ✅ 
+***
