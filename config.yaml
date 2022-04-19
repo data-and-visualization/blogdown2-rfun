@@ -1,5 +1,5 @@
 languageCode: en-us
-title: RFUN-ZZZ
+title: RFUN
 baseURL: /
 theme: hugo-theme-dopetrope
 params:
