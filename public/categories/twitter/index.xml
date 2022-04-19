@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on RFUN-ZOPE</title>
+    <link>/categories/twitter/</link>
+    <description>Recent content in Twitter on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Aug 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RFun@duke.edu email list</title>
+      <link>/blog/rfun-duke-edu-email-list/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rfun-duke-edu-email-list/</guid>
+      <description>Last spring we introduced the RFun email list as a way of communicating about upcoming events. The intent of this list is to further announcements for our workshop audience regarding the RFun series. We hope you will find this list both informative and low-traffic. Below is a review of ways you can keep in touch with our activities:
+This RFun list: rfun@duke.edu. Manage your subscription via https://lists.duke.edu/sympa/info/rfun
+This RFun webpage: http://rfun.</description>
+    </item>
+    
+  </channel>
+</rss>

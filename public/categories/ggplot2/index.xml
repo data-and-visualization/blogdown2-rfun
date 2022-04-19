@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot2 on RFUN-ZOPE</title>
+    <link>/categories/ggplot2/</link>
+    <description>Recent content in ggplot2 on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visualization in R using ggplot2</title>
+      <link>/blog/visualization-in-r-using-ggplot2/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/visualization-in-r-using-ggplot2/</guid>
+      <description>Angela Zoss (DVS Staff page) presents a visualization workshop hosted by the Data and Visualization Services Department.
+The workshops, officially entitled Visualization in R using ggplot2, is a two-hour, hands-on learning session designed to introduce the ggplot2 package, a programming library within the R programming language. The ggplot2 library for R creates clear and well-designed visualizations that plays well with other tidyverse packages.
+Data science skills are increasingly important for research and industry projects.</description>
+    </item>
+    
+    <item>
+      <title>Visualization in R using ggplot2 -- Workshop, Fall 2017</title>
+      <link>/blog/visualization-in-r-using-ggplot2-workshop-fall-2017/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/visualization-in-r-using-ggplot2-workshop-fall-2017/</guid>
+      <description>On September 25, 2017 Angela Zoss (DVS Staff page) presented a visualization workshop hosted by the Data and Visualization Services Department.
+The workshops, officially entitled Visualization in R using ggplot2, is a two-hour, hands-on learning session designed to introduce the ggplot2 package, a programming library within the R programming language. The ggplot2 library for R creates clear and well-designed visualizations that plays well with other tidyverse packages.
+Data science skills are increasingly important for research and industry projects.</description>
+    </item>
+    
+  </channel>
+</rss>

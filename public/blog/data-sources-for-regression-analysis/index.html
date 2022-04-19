@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+
+<html><head>
+    <title>RFUN-ZOPE</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    
+    </head><body class="homepage">
+	<div id="page-wrapper">
+
+		
+		<div id="header-wrapper">
+			<div id="header">
+
+				
+<h1><a href="/">RFUN-ZOPE</a></h1>
+				
+<nav id="nav">
+    <ul>
+        <li class="current"><a href="/">Home</a></li>
+        <li>
+            <a href="/#portfolio">Our Workshops</a>
+        </li>
+        <li>
+            <a href="/blog">Rfun Blog</a>
+            <ul>
+                <li><a href="/blog/2022-04-14-hello-world/">hello world</a></li>
+                <li><a href="/blog/spring-videos-2021/">Workshop video recordings (2021)</a></li>
+                <li><a href="/blog/spring-2021/">Spring 2021 Workshops</a></li>
+                <li><a href="/blog/spring-case-studies/">Spring 2021: case studies</a></li>
+                <li><a href="/blog/fall-2019-rfun/">Fall 2019 Rfun Workshops</a></li>
+            </ul>
+        </li>
+        <li><a href="/#contact">Contact</a></li>
+    </ul>
+</nav>
+
+			</div>
+		</div>
+
+		
+		<div id="main-wrapper">
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="8u 12u(mobile)">
+						
+<article class="box post">
+    <a href="#" class="image featured"><img src="/images/1200x444_Example_non_linear_regression_using_R.jpg" alt="" /></a>
+    <header>
+        <h2>R Data Sources for Regression Analysis</h2>
+        
+        <p>Posted 19 Oct 2018</p>
+        
+    </header>
+    <!-- Image Credit: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Example_non_linear_regression_using_R.jpg/1280px-Example_non_linear_regression_using_R.jpg -->
+<p>While Duke Libraries Data and Visualization Services provides a number of workshops on learning how to use R for data management, mapping, and visualization, we also receive a several questions each year from students searching for datasets to use in applied statistics courses at Duke. As others have noted, finding data sets that are engaging (for students) that provide a range of data types for analysis <strong>and</strong> don’t present too many data loading/cleaning challenges is harder than one might think.</p>
+<p>In the hope of making the search a little easier, we offer this blog post  to share some considerations for choosing a dataset for an applied statistics course.  We also suggests few &ldquo;curated&rdquo; datasets designed to ease the process of data access in R.</p>
+<h3 id="guidelines">Guidelines</h3>
+<p>We work with a number of students using linear models in R.  Three of the largest data access and management challenges for students in these courses include:</p>
+<ul>
+<li>
+<p><strong>Format</strong> - Are the data in a format that is easy to import into R?  R can readily input delimited files. Using packages like <a href="https://cran.r-project.org/web/packages/googlesheets/vignettes/basic-usage.html">googlesheets</a>, <a href="https://readxl.tidyverse.org/">readxl</a>, and <a href="https://haven.tidyverse.org/">haven</a> allows one to import google sheets, excel worksheets, and statistical formats. No matter which package you employ, it&rsquo;s always a great idea to run descriptive statistics on your data after loading any data into R.</p>
+</li>
+<li>
+<p><strong>Missing data</strong> - It&rsquo;s important to determine if there are enough observations of the variables of interest in your data.  Fortunately, R makes it fairly easy to generate summary statistics and identify <a href="https://www.statmethods.net/input/missingdata.html">missing observations</a>.</p>
+</li>
+<li>
+<p><strong>Factors</strong> - Several years ago we had many questions about how to deal with non-numeric data that R automatically transformed into factors.  With the rise of the <a href="https://www.tidyverse.org/">tidyverse</a>, these questions have declined, but it remains important to know how to create (and occasionally remove) factors for statistical analysis.</p>
+</li>
+</ul>
+<h3 id="r-datasets-from-dvs">R Datasets from DVS</h3>
+<p>Data and Visualization Services has created a set of four datasets that we often suggest as a starting point for students who want to explore survey data that has been subsetted for use in R.  In addition to these four datasets, we also offer a few other sources that have been popular with Duke students.</p>
+<p><a href="https://guides.library.duke.edu/stat101/anes">ANES 2012 Survey</a> <br>
+The American National Elections Study (ANES) contains a variety of attitudinal and voter intention questions and is conducted both before and after an election.  This allows the study to compare intentions and beliefs before an election, and actions following an election.</p>
+<p><a href="https://guides.library.duke.edu/stat101/anes">General Social Survey  (R Subset)</a> <br>
+The General Social Survey (GSS) contains both a standard core of demographic, behavioral, and attitudinal questions, and a second group of questions on special topics that are not asked every year.  This survey has been periodically conducted in the United States since 1972, and the cumulative dataset will provide respondents from all survey years. This subset mostly includes only questions that were included every year or almost every year.</p>
+<p><a href="https://guides.library.duke.edu/stat101/wvs">World Values Survey  (R Subset)</a><br>
+The <a href="www.worldvaluessurvey.org">World Values Survey</a> is a global network of social scientists studying changing values and their impact on social and political life, led by an international team of scholars, with the WVS association and secretariat headquartered in Stockholm, Sweden. This particular extract covers wave 6 of the WVS (2010-2014).</p>
+<p><a href="https://guides.library.duke.edu/stat101/brfss">Behavioral Risk Factors Surveillance System (BRFSS)</a> <br>
+BRFSS is an ongoing public health surveillance system designed to measure behavioral risk factors for the non-institutionalized adult population (18 years of age and older) residing in the US. This extract of the BRFSS provides data from 2013.</p>
+<h3 id="other-datasetsdata-sources-of-interest">Other Datasets/Data Sources of Interest</h3>
+<p><a href="https://www.imdb.com/interfaces/">IMDb Datasets</a> <br>
+Dataset(s) of movie information underlying the popular IMDB database</p>
+<p><a href="https://www.icpsr.umich.edu/icpsrweb/ICPSR/">ICPSR</a> <br>
+The world&rsquo;s largest social science data repository.  Some datasets are readily available for R, but many will require some processing or conversion.</p>
+<p>DVS is always happy to consult with Duke affiliates on other possibilities, please contact us at <a href="mailto:askdata@duke.edu">askdata@duke.edu</a> for further possibilities.</p>
+
+</article>
+
+
+					</div>
+					
+					<div class="4u 12u(mobile)">
+						
+
+
+
+<section class="box">
+    
+    <a href="/#portfolio" class="image featured"><img src="/images/rfun_sidebar_580x272.png" alt="" /></a>
+    
+    <header>
+        <h3>Rfun is a DVS learning series</h3>
+    </header>
+    <p>The &#39;R We Having Fun Yet?&#39; learning series is part of the broader Data &amp; Visualization Services workshop series.  DVS offers workshops on [R], Python, GIS and mapping, Research Data Management, and Visualization.</p>
+    <footer>
+        <a href="https://library.duke.edu/data/workshops" class="button alt">More DVS workshops</a>
+    </footer>
+</section>
+<section class="box">
+    <header>
+        <h3>Rfun Blog</h3>
+    </header>
+    <p>The blog features semester summaries of our workshop series and extra bits of information which may assist you in your practical data science journeys.</p>
+    <ul class="divided">
+        
+        <li><a href="/blog/">Blogs</a></li>
+        
+        <li><a href="/blog/2022-04-14-hello-world/">hello world</a></li>
+        
+        <li><a href="/blog/spring-videos-2021/">Workshop video recordings (2021)</a></li>
+        
+        <li><a href="/blog/spring-2021/">Spring 2021 Workshops</a></li>
+        
+    </ul>
+    <footer>
+        <a href="/blog/" class="button alt">Read More Posts</a>
+    </footer>
+</section>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+
+		
+<div id="footer-wrapper">
+    <section id="footer" class="container">
+        <div class="row">
+            <div class="8u 12u(mobile)">
+    <section>
+        
+        <header>
+            <h2>Rfun Blog</h2>
+        </header>
+        
+        <ul class="dates">
+            
+            <li>
+                <span class="date">Apr <strong>14</strong></span>
+                <h3><a href="/blog/2022-04-14-hello-world/">hello world</a></h3>
+                <p></p>
+            </li>
+            
+            <li>
+                <span class="date">Jun <strong> 9</strong></span>
+                <h3><a href="/blog/spring-videos-2021/">Workshop video recordings (2021)</a></h3>
+                <p>All workshops were recorded and are now available for streaming</p>
+            </li>
+            
+            <li>
+                <span class="date">Dec <strong>16</strong></span>
+                <h3><a href="/blog/spring-2021/">Spring 2021 Workshops</a></h3>
+                <p>Registration links for our spring 2021 workshops</p>
+            </li>
+            
+            <li>
+                <span class="date">Dec <strong>16</strong></span>
+                <h3><a href="/blog/spring-case-studies/">Spring 2021: case studies</a></h3>
+                <p>Learn to apply new skills with these case study workshops</p>
+            </li>
+            
+            <li>
+                <span class="date">Aug <strong>30</strong></span>
+                <h3><a href="/blog/fall-2019-rfun/">Fall 2019 Rfun Workshops</a></h3>
+                <p>Registration links for our fall workshops</p>
+            </li>
+            
+        </ul>
+    </section>
+</div>
+            <div class="4u 12u(mobile)">
+                <section>
+                    
+                    <header>
+                        <h2>What&#39;s this all about?</h2>
+                    </header>
+                    <a href="#" class="image featured"><img src="images/pic11_dvslogo.png" alt="" /></a>
+                    <p>
+                        Rfun is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem.  We are hosted by the Center for Data &amp; Visualization Sciences http://library.duke.edu/data
+                    </p>
+                    <footer>
+                        <a href="/blog/about-rfun" class="button">Find out more</a>
+                    </footer>
+                    
+                </section>
+            </div>
+        </div>
+        <div id="contact" class="row">
+            <div class="4u 12u(mobile)">
+                <section>
+                    <header>
+                        <h2>DVS Workshop Series</h2>
+                    </header>
+                    <ul class="divided">
+                        
+                        <li><a href="https://library.duke.edu/data/workshops">Upcoming DVS Workshops</a></li>
+                        
+                        <li><a href="https://library.duke.edu/data/tutorials">Past DVS Workshops</a></li>
+                        
+                        <li><a href="https://library.duke.edu/data/tutorials">DVS Online Tutorials</a></li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="4u 12u(mobile)">
+                <section>
+                    <header>
+                        <h2>Workshop Locations</h2>
+                    </header>
+                    <ul class="divided">
+                        
+                        <li><a href="https://library.duke.edu/sites/default/files/dul/about/perkins-bostock-rubenstein-aug2017.pdf">Room 023 (Lower Level 1: Library Classroom)</a></li>
+                        
+                        <li><a href="https://library.duke.edu/edge/spaces">The Edge, Workshop Room (First Floor, Bostock)</a></li>
+                        
+                        <li><a href="https://library.duke.edu/edge/spaces">Brandaleone Data &amp; Vis Lab</a></li>
+                        
+                        <li><a href="https://library.duke.edu/data/consulting">Walk-in Hours</a></li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="4u 12u(mobile)">
+                <section>
+                    <header>
+                        <h2>Connect with us...</h2>
+                    </header>
+                    <ul class="social">
+    
+    
+    <li><a class="icon fa-github" href="https://github.com/data-and-visualization"><span class="label">GitHub</span></a></li>
+    
+    
+    
+    <li><a class="icon fa-twitter" href="https://twitter.com/duke_data"><span class="label">Twitter</span></a></li>
+    
+    
+    
+    
+    
+    <li><a class="icon fa-globe" href="https://library.duke.edu/data/"><span class="label">Website</span></a></li>
+    
+    
+</ul>
+                    <ul class="contact">
+    
+    <li>
+        <h3>Address</h3>
+        <p>
+            
+            
+             Center for Data &amp; Visualization Sciences
+            
+             <br/>  Duke University Libraries
+            
+             <br/>  Durham, NC 27708
+            
+
+        </p>
+    </li>
+    
+    
+    <li>
+        <h3>Mail</h3>
+        <p><a href="mailto:AskData@Duke.edu">AskData@Duke.edu</a></p>
+    </li>
+    
+    
+    <li>
+        <h3>Email List</h3>
+        <p><a href="https://lists.duke.edu/sympa/subscribe/rfun">lists.duke.edu/.../rfun</a></p>
+    </li>
+    
+</ul>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+    <div class="12u">
+
+        
+            <div id="copyright">
+                <ul class="links">
+                    <li>RFUN-ZOPE <i class="fa fa-creative-commons"></i>
+                    <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+                    <i class="fa fa-creative-commons-by"></i> BY
+                    <i class="fa fa-creative-commons-nc"></i> NC
+                    </a>
+                    </li>
+                    <li>Repository: <a href="https://github.com/data-and-visualization/blogdown2-rfun">GitHub</a></li>
+                    <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                    <li>Hugo Port/Theme: <a href="https://themes.gohugo.io/hugo-theme-dopetrope/">dopetrope</a></li>
+                    <li>Implementation: <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a></li>
+                    <li>Hosted: <a href="https://www.netlify.com/">Netlify</a></li>
+                </ul>
+            </div>
+
+    </div>
+</div>
+    </section>
+</div>
+
+	</div>
+
+	
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.dropotron.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/skel-viewport.min.js"></script>
+<script src="/assets/js/util.js"></script>
+
+<script src="/assets/js/main.js"></script>
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on RFUN-ZOPE</title>
+    <link>/categories/summary/</link>
+    <description>Recent content in Summary on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/summary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Winter/Spring 2018 R Workshops:  Summary Review</title>
+      <link>/blog/winter-spring-2018-r-workshops-summary-review/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/winter-spring-2018-r-workshops-summary-review/</guid>
+      <description>This past spring the Data &amp;amp; Visualization Services Department hosted a six-part workshop series on the R programming language. Our goals for the workshop series is to introduce R as a language for modern data manipulation. We do this by highlighting a basic set of packages that enable functional and practical data science. We approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2017 R Workshops: Summary Review</title>
+      <link>/blog/fall-2017-r-workshops/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2017-r-workshops/</guid>
+      <description>This fall the Data &amp;amp; Visualization Services Department hosted a five-part workshop series on the R programming language. Our goal: introduce R as a language for modern data manipulation by highlighting a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse. We believe this tool-set provides a context that enables and reinforces workflows, analysis and reporting.</description>
+    </item>
+    
+  </channel>
+</rss>

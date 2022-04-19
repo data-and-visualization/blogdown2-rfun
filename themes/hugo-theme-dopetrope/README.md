@@ -1,4 +1,6 @@
-# Dopetrope
+# Hugo Theme Dopetrope
+
+![](https://img.shields.io/badge/Hugo-%5E0.94.2-ff4088?style=flat-square&logo=hugo)
 
 Dopetrope theme ported from [HTML5 UP](https://html5up.net/) for use with the [Hugo static site generator](https://gohugo.io/).
 
@@ -19,7 +21,7 @@ https://hugo-theme-dopetrope.netlify.com/
 
 See the demo's configuration as an example:
 
-https://github.com/curttimson/hugo-theme-dopetrope/blob/master/exampleSite/config-prod.toml
+https://github.com/curtiscde/hugo-theme-dopetrope/blob/master/exampleSite/config-prod.toml
 
 ### Front Matter
 

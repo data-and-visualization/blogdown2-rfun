@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STAT210 on RFUN-ZOPE</title>
+    <link>/tags/stat210/</link>
+    <description>Recent content in STAT210 on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Oct 2018 09:24:11 -0400</lastBuildDate><atom:link href="/tags/stat210/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R Data Sources for Regression Analysis</title>
+      <link>/blog/data-sources-for-regression-analysis/</link>
+      <pubDate>Fri, 19 Oct 2018 09:24:11 -0400</pubDate>
+      
+      <guid>/blog/data-sources-for-regression-analysis/</guid>
+      <description>While Duke Libraries Data and Visualization Services provides a number of workshops on learning how to use R for data management, mapping, and visualization, we also receive a several questions each year from students searching for datasets to use in applied statistics courses at Duke. As others have noted, finding data sets that are engaging (for students) that provide a range of data types for analysis and don’t present too many data loading/cleaning challenges is harder than one might think.</description>
+    </item>
+    
+  </channel>
+</rss>

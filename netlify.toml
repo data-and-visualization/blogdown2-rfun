@@ -1,10 +1,21 @@
-# [build]
-#   command = "hugo"
-#   publish = "public"
-# 
-# [build.environment]
-#   HUGO_VERSION = "0.19"
-#   
+[build]
+command = 'hugo'
+publish = 'public'
+[build.environment]
+HUGO_VERSION = '0.96.0'
+
+
+[context]
+[context.branch-deploy]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.deploy-preview]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.production]
+[context.production.environment]
+HUGO_ENV = 'production'
+
 # COMMENT: redirect rules with all the fields expanded
 # According to netlify domain management
 # https://app.netlify.com/sites/libjohn/settings/domain#domains

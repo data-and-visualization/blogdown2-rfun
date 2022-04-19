@@ -17,7 +17,7 @@ Data science skills are increasingly important for research and industry project
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TIJzx5eQbgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
 [![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/rfun_flipped)
-[![GitHub Code Repository: exercises](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub "GitHub Code Repository: exercises")](https://github.com/libjohn/workshop_ggplot2)
+[![GitHub Code Repository: exercises](https://img.shields.io/badge/GitHub-Code%20Repository:%20exercises-lightgrey?logo=GitHub "GitHub Code Repository: exercises")](https://github.com/libjohn/workshop_ggplot2)
 
 ### Full introduction ⭐
 
@@ -47,7 +47,7 @@ Book:  [_ggplot2: Elegant Graphics for Data Analysis_](https://ggplot2-book.org/
 
 
 <!-- badges: start -->
-[![Guide](https://img.shields.io/badge/%3F-ggplot2 guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/guide.html)
+[![Guide](https://img.shields.io/badge/%3F-ggplot2%20guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/guide.html)
 <!-- badges: end -->
 
 

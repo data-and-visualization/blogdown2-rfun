@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog_origs on RFUN-ZOPE</title>
+    <link>/blog_orig/</link>
+    <description>Recent content in Blog_origs on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/blog_orig/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog_orig/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/blog_orig/2020-12-01-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Comment Example</title>
+      <link>/blog_orig/comment-example/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/comment-example/</guid>
+      <description>Example of a post with comments using Disqus.
+Hugo Themes have requested that 3rd party services are disabled on the example sites, therefore please view the markdown file for this post for the example.</description>
+    </item>
+    
+    <item>
+      <title>No Comments Allowed</title>
+      <link>/blog_orig/no-comments-allowed/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/no-comments-allowed/</guid>
+      <description>This is an example of a blog post where comments are not allowed.</description>
+    </item>
+    
+    <item>
+      <title>No Sidebar</title>
+      <link>/blog_orig/no-sidebar/</link>
+      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/no-sidebar/</guid>
+      <description>An example of a post without a sidebar.
++++hidesidebar = true+++ </description>
+    </item>
+    
+    <item>
+      <title>Third post</title>
+      <link>/blog_orig/third-post/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/third-post/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Second post</title>
+      <link>/blog_orig/second-post/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/second-post/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>/blog_orig/first-post/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/first-post/</guid>
+      <description>Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo. Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante. Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus. Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor hendrerit libero placerat. Nulla facilisi.</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-1/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-1/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-2/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-2/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-3/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-3/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-4/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-4/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-5/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-5/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+  </channel>
+</rss>

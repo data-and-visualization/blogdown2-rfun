@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring-2018 on RFUN-ZOPE</title>
+    <link>/categories/spring-2018/</link>
+    <description>Recent content in Spring-2018 on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/spring-2018/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Winter/Spring 2018 R Workshops:  Summary Review</title>
+      <link>/blog/winter-spring-2018-r-workshops-summary-review/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/winter-spring-2018-r-workshops-summary-review/</guid>
+      <description>This past spring the Data &amp;amp; Visualization Services Department hosted a six-part workshop series on the R programming language. Our goals for the workshop series is to introduce R as a language for modern data manipulation. We do this by highlighting a basic set of packages that enable functional and practical data science. We approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Tidyverse Workshops coming in January</title>
+      <link>/blog/tidyverse-workshops-coming-in-january/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tidyverse-workshops-coming-in-january/</guid>
+      <description>This winter the Data &amp;amp; Visualization Services Department will once again host a workshop series on the R programming language. Our spring offering is modeled on our well received R we having fun yet‽ (Rfun) fall workshop series. The four-part series will introduce R as a language for modern data manipulation by highlighting a set of tidyverse packages that enable functional data science. We will approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+  </channel>
+</rss>

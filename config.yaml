@@ -1,0 +1,23 @@
+languageCode: en-us
+title: RFUN-ZZZ
+baseURL: /
+theme: hugo-theme-dopetrope
+params:
+  blog:
+    foldername: blog
+    title: Rfun Blog
+    viewalltext: View All
+  portfolio:
+    findoutmoretext: Find out more
+    foldername: portfolio
+    title: Our Workshops
+  settings:
+    disqus: ''
+    googleanalytics: ''
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]

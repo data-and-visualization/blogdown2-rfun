@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on RFUN-ZOPE</title>
+    <link>/tags/about/</link>
+    <description>Recent content in About on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Rfun learning series</title>
+      <link>/blog/about-rfun/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/about-rfun/</guid>
+      <description>Rfun, or R We Having Fun Yet‽, is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the Data &amp;amp; Visualization Services Department.
+Our goals is to promote a friendly environment for exploring the extensible capabilities of the open source R languagee specifically supported through Tidyverse and RStudio. Beginner’s are welcome, experts will be encouraged to share topical expertise.</description>
+    </item>
+    
+  </channel>
+</rss>

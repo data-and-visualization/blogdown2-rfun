@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapping on RFUN-ZOPE</title>
+    <link>/categories/mapping/</link>
+    <description>Recent content in Mapping on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/mapping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping with R -- Workshop, Fall 2017</title>
+      <link>/blog/mapping-with-r-workshop-fall-2017/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/mapping-with-r-workshop-fall-2017/</guid>
+      <description>On October 2nd, I presented a Mapping with R workshop hosted by the Data and Visualization Services Department.
+R has become a popular and reproducible option for supporting spatial and statistical analysis. This hands-on workshop will demonstrate how to plot x/y coordinates using leaflet; how to generate thematic choropleths with US Census and other federal data (using tmap and tidycensus); import, view and produce shapefiles; and create leaflet maps for viewing on the web.</description>
+    </item>
+    
+  </channel>
+</rss>

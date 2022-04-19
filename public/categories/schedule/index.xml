@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schedule on RFUN-ZOPE</title>
+    <link>/categories/schedule/</link>
+    <description>Recent content in Schedule on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/schedule/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fall 2019 Rfun Workshops</title>
+      <link>/blog/fall-2019-rfun/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2019-rfun/</guid>
+      <description>We invite you to join us for an informative semester of workshops about R, RStudio, and the Tidyverse. Our Rfun workshops provide a gentle hands-on introduction to a powerful &amp;ldquo;data first&amp;rdquo; programming language, R. The R ecosystem is tweaked for research through data analysis and will grow gracefully with your needs. Best of all, R anticipates reproducibility as a foundational asset of your research workflow. We look forward to showing you how R can work for you.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 Rfun Review</title>
+      <link>/blog/fall-2018-rfun-review/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2018-rfun-review/</guid>
+      <description>Below please find a brief list of workshop titles offered through the Fall of 2018. Each title will link to further information about the workshop including a streamable recording of the workshop (if available), shareable code, presentation slide decks, and any further information.
+Currently, the Data &amp;amp; Visualization Services Department is actively organizing our Spring 2019 workshop series &amp;ndash; including the Rfun subseries. Stay tuned to our channels (DVS list | Rfun list | DVS Twitter) or websites (DVS | Rfun) for details on the upcoming workshop schedule.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 Rfun Workshops</title>
+      <link>/blog/fall-2018-rfun-workshops/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2018-rfun-workshops/</guid>
+      <description>The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the Tidyverse. These workshops will provide you with a gentle hands-on introduction to a most powerful data science toolkit. Attend one or attend them all.
+The cost is free and registration is for in-person attendance only. Fortunately the resources are shareable. You can find links to previous workshop resources (code, video, github) on this very website: https://rfun.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2017 RFUN Workshops</title>
+      <link>/blog/fall-2017-rfun-workshops/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2017-rfun-workshops/</guid>
+      <description>The RFun Series is BackIntroducing the Fall 2017 RFun Series. We’ve expanded and transformed the series to add more hands-on training opportunities. Links to registration are below.
+Each R workshop will take place on a Monday, beginning in mid-September. Individual workshops will last two hours. The series will extend over four consecutive weeks followed by a brief respite. The fifth and final workshop will introduce Shiny, a package for developing interactive web visualizations.</description>
+    </item>
+    
+  </channel>
+</rss>

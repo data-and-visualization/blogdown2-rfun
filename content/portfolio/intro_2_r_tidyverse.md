@@ -49,7 +49,7 @@ Book:  [_R for Data Science_ by Hadley Wickham & Garret Grolemund](https://r4ds.
 <!-- badges: start -->
 [![Guide](https://img.shields.io/badge/%3F-Guide-informational "Guide")](https://intro2r.library.duke.edu/)
 [![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/libjohn/intro2r-code)
-[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub "GitHub Code Repository: exercises")](https://github.com/libjohn/intro2r_exercises)
+[![GitHub Code Repository Exercises](https://img.shields.io/badge/GitHub-Code%20Repository:%20exercises-lightgrey?logo=GitHub "GitHub Code Repository: exercises")](https://github.com/libjohn/intro2r_exercises)
 [![Creative Commons CC
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
 <!-- badges: end -->

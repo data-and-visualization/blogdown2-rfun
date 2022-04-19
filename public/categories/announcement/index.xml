@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Announcement on RFUN-ZOPE</title>
+    <link>/categories/announcement/</link>
+    <description>Recent content in Announcement on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring 2021 Workshops</title>
+      <link>/blog/spring-2021/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spring-2021/</guid>
+      <description>Winter/Spring 2021 brings new Rfun workshops. Due to COVID The Center for Data &amp;amp; Visualization Sciences will continue our remote workshop series via Zoom. Please find the registration links below.
+If you missed anything last fall, you can find links to past workshop resources including streaming video and shareable code. Beyond Rfun, check out the whole array of CDVS workshop resources. Register and join us.
+   Title Date Registration     R for data science: getting started, EDA, data wrangling 28_Jan  https://duke.</description>
+    </item>
+    
+    <item>
+      <title>Tidyverse Workshops coming in January</title>
+      <link>/blog/tidyverse-workshops-coming-in-january/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tidyverse-workshops-coming-in-january/</guid>
+      <description>This winter the Data &amp;amp; Visualization Services Department will once again host a workshop series on the R programming language. Our spring offering is modeled on our well received R we having fun yet‽ (Rfun) fall workshop series. The four-part series will introduce R as a language for modern data manipulation by highlighting a set of tidyverse packages that enable functional data science. We will approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>RFun@duke.edu email list</title>
+      <link>/blog/rfun-duke-edu-email-list/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rfun-duke-edu-email-list/</guid>
+      <description>Last spring we introduced the RFun email list as a way of communicating about upcoming events. The intent of this list is to further announcements for our workshop audience regarding the RFun series. We hope you will find this list both informative and low-traffic. Below is a review of ways you can keep in touch with our activities:
+This RFun list: rfun@duke.edu. Manage your subscription via https://lists.duke.edu/sympa/info/rfun
+This RFun webpage: http://rfun.</description>
+    </item>
+    
+  </channel>
+</rss>

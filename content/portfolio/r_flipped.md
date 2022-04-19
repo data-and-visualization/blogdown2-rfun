@@ -21,8 +21,7 @@ In **Part 1** you’ll learn how to access and install RStudio, how to wrangle d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGSXf-NMWVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-[![quick reference guide: dplyr](https://img.shields.io/badge/%3F-quick reference: dplyr-informational "dplyr quick reference ")](https://intro2r.library.duke.edu/data_wrangling.html)
-
+[![quick reference guide: dplyr](https://img.shields.io/badge/%3F-quick%20reference:%20dplyr-informational "dplyr quick reference ")](https://intro2r.library.duke.edu/data_wrangling.html)
 
 
 **Additional videos...** | &nbsp; 
@@ -39,7 +38,7 @@ Or see the complete [![YouTube Playlist](https://img.shields.io/badge/YouTube-Pl
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TIJzx5eQbgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-[![Guide](https://img.shields.io/badge/%3F-ggplot2 guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/)
+[![Guide](https://img.shields.io/badge/%3F-ggplot2%20guide-informational "ggplot2 Guide")](https://ggplot.library.duke.edu/)
 
 This next video starts at timestamp 19:42 and covers how to handle linear regression models.  
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Wmozk2qEsL0?start=1182" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  

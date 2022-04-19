@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny on RFUN-ZOPE</title>
+    <link>/categories/shiny/</link>
+    <description>Recent content in Shiny on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Oct 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing Interactive Websites with R and Shiny -- Workshop, Fall 2017</title>
+      <link>/blog/developing-interactive-websites-with-r-and-shiny-workshop-fall-2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/developing-interactive-websites-with-r-and-shiny-workshop-fall-2017/</guid>
+      <description>On October 2nd, Joel Herndon presented a workshop on Shiny hosted by the Data and Visualization Services Department: Developing Interactive Websites with R and Shiny.
+Learn how to leverage your knowledge of R and R Markdown to create compelling, interactive website and interactive documents using the Shiny web application framework. Shiny makes it easy to transition from desktop based analysis and visualizations to interactive websites without having to learn HTML, CSS, and javascript.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on RFUN-ZOPE</title>
+    <link>/portfolio/</link>
+    <description>Recent content in Portfolios on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>quickStart with R</title>
+      <link>/portfolio/r_flipped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/r_flipped/</guid>
+      <description>R and the Tidyverse are a data-first coding language that enables reproducible analytics workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
+In Part 1 you’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA), and how to generate reports. In Part 2 you’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.</description>
+    </item>
+    
+    <item>
+      <title>Visualization with ggplot2</title>
+      <link>/portfolio/ggplot_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/ggplot_workshop/</guid>
+      <description>Data science skills are increasingly important for research and industry projects. With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results. Incorporating effective visualizations directly into analysis will facilitate quick data exploration. Complete your data science toolbox with visualization skills.
+quickStart introduction   ![GitHub Code Repository: exercises](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub &amp;ldquo;GitHub Code Repository: exercises&amp;rdquo;)
+Full introduction ⭐ 
+Advanced 
+Register:
+R for data science: visualization, pivot, join, regression</description>
+    </item>
+    
+    <item>
+      <title>Mapping with R</title>
+      <link>/portfolio/mapping_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/mapping_workshop/</guid>
+      <description>Mapping in R This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import shapefiles; and create interactive maps on the web.
+--  
+Geospatial data in R: Processing and Analysis 
+Register Feb. 12, 2020 - **Mapping with R**Register: Mapping. Feb 1. 2021 Register: Processing and Analysis. Feb 15. 2021 -- Image Credit: Wikipedia</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>/portfolio/sentiment_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/sentiment_analysis/</guid>
+      <description>A brief introduction to text mining and sentiment analysis with visualization. Analyze public domain novels by Jane Austen, wrangle text-data into submission, tokenize corpora, visualize sentiment and generate word clouds.
+Sentiment Analysis with library(tidytext)  Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;tidytext&amp;quot;, &amp;quot;janeaustenr&amp;quot;, &amp;quot;wordcloud2&amp;quot;))
+ Resources   
+ Image credit: Emotion Card by Luigi Mengato</description>
+    </item>
+    
+    <item>
+      <title>Interactive Dashboards</title>
+      <link>/portfolio/dashboard_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/dashboard_workshop/</guid>
+      <description>Learn to layout dashboards with interactive filters; Using crosstalk, enable your audience to filter or subset one plot via subsetting an independent plot (i.e. linked brushing); add interactivity to your ggplot2 plots with easy-to-use HTMLWidgets such as plotly via the ggplotly() function.
+Prerequisite: Intro to R. All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. Strongly recommended: Visualization with ggplot2.
+Register March 24, 2020 --Resources Slides</description>
+    </item>
+    
+    <item>
+      <title>Slides with library(xaringan)</title>
+      <link>/portfolio/slides_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/slides_workshop/</guid>
+      <description>R Markdown is a means of applying structure to the prose in your coding document. Using R Markdown and the xaringan package, attendees will integrate code with natural language (i.e. prose) to render presentation slides as a reproducible report. The method of integrating code with prose is known as literate coding techniques.
+ Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(&amp;quot;xaringan&amp;quot;)
+ Resources</description>
+    </item>
+    
+    <item>
+      <title>Web Scraping with rvest </title>
+      <link>/portfolio/scraping_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/scraping_workshop/</guid>
+      <description>UseRs will be introduced to web crawling and HTML parsing. In this introductory web scraping workshop the rvest package is used to deconstruct a target site by transforming web site data into structured data. A brief and limited introduction to the HTML specifications is provided along with basic Tidyverse-style iteration (i.e. purrr::map().
+Register
+R case study: web scraping
+March 4, 2021-- Library packages  install.packages(&amp;quot;rvest&amp;quot;)
+ Resources</description>
+    </item>
+    
+    <item>
+      <title>remote SQL queries with R</title>
+      <link>/portfolio/sql_and_databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/sql_and_databases/</guid>
+      <description>SQL database queries using dplyr; connetcting to databases via DBI This case study uses library(DBI) and library(bigrquery) to introduce the dBplyr package. dbplyr enables Tidyverse users to leverage dplyr functions, rather than composing SQL queries because basic dplyr verbs are transformed into SQL. Additionaly, the DBI package is used to broker database connections (such as ODBC.)
+ Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;DBI&amp;quot;, &amp;quot;dbplyr&amp;quot;, &amp;quot;bigrquery&amp;quot;))</description>
+    </item>
+    
+    <item>
+      <title>Twitter data with rtweet</title>
+      <link>/portfolio/twitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/twitter/</guid>
+      <description>A case study to demonstrate the twitter API and tweet analysis. Learn how to gather and analyze tweets with the rtweet package.
+Use rtweet to access the twitter academic research API  Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;rtweet&amp;quot;))
+ Resources   
+ Image credit: Social Media Marketing Mix by Blogtrepreneur</description>
+    </item>
+    
+    <item>
+      <title>Version Control, Git/GitHub</title>
+      <link>/portfolio/git_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/git_workshop/</guid>
+      <description>Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories. Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
+Setting up git with RStudio via library(usethis) &amp;ndash; 3 minute video Workshop recording: Designing a reproducible workflow with R and GitHub Version Control &amp;amp; Git In this hands-on workshop you will discover how to harness Git to support the execution of more reproducible research projects.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown Workshop</title>
+      <link>/portfolio/rmarkdown_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/rmarkdown_workshop/</guid>
+      <description>This lightweight markup language will leverage your literate coding techniques as you compose reproducible reports in many formats: Slide decks, MS Word, PDF, R Notebooks, Web Pages, and more.
+Literate coding techniques will help you reach a new level of productivity through reproducibility. The workshop will use the RStudio IDE to introduce and reinforce concepts. Gain practical knowledge integrating analysis code chunks with your report analysis and prose. Write once, report often while reducing effort and errors.</description>
+    </item>
+    
+    <item>
+      <title>R case studies</title>
+      <link>/portfolio/case_study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/case_study/</guid>
+      <description>RStudio is an interface that assists your reproducible workflows. Explore how the Tidyverse environment is more than statistics. These hands-on concepts explore practical features of data gathering and data manipulation. Go beyond the rudimentary to expand your ideas of analysis.
+In the spring of 2021, we explored the following as case studies&amp;hellip;
+Web Scraping aka screen scraping with library(rvest)  
+Slides with library(xaringan) and R markdown  
+Sentiment analysis with library(tidytext)</description>
+    </item>
+    
+    <item>
+      <title>Shiny App Development</title>
+      <link>/portfolio/shiny_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/shiny_workshop/</guid>
+      <description>Dr. Mine Çetinkaya-Rundel presents Shiny. Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host stand-alone apps on a webpage or embed them in R Markdown documents or build dashboards. This short course will introduce you to building web applications with Shiny, reactive programming, and customizing and deploying your apps for others to use.
+RegisterLibrary packages  install.packages(&amp;quot;shiny&amp;quot;)
+ Resources !</description>
+    </item>
+    
+    <item>
+      <title>R Open Labs</title>
+      <link>/portfolio/r_open_labs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/r_open_labs/</guid>
+      <description>Come once or come each week: This six-week, semi-guided hour provides a safe and comfortable environment for learning more about the R programming language, RStudio, and the Tidyverse. The curriculum is based on the Master the Tidyverse workshop. The series goal is to enable researchers and students a low-stress hour to hone your own data savvy skills. Attendees will gain greater familiarity with a tool-suite designed to foster reproducibility and transparency vital for the researcher&amp;rsquo;s workflow.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R: the data science Tidyverse</title>
+      <link>/portfolio/intro2r_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/intro2r_workshop/</guid>
+      <description>To the Tidyverse, and Beyond&amp;hellip;
+A gentle introduction to R and the Tidyverse. This suite of data savvy tools and techniques enable flexible reporting via literate programming as a means to achieve reproducible and transparent analysis.
+The workshop begins with a measured and deliberate orientation to the RStudio interface. Participants will import data (readr). We continue with a step-by-step approach to transform and wrangle data (dplyr). Finally, we introduce basic exploratory data analysis (EDA.</description>
+    </item>
+    
+  </channel>
+</rss>

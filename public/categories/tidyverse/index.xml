@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidyverse on RFUN-ZOPE</title>
+    <link>/categories/tidyverse/</link>
+    <description>Recent content in Tidyverse on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to R -- Workshop</title>
+      <link>/blog/introduction-to-r-workshop/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/introduction-to-r-workshop/</guid>
+      <description>Joel Herndon and I regularly present sections of the Intro to R Workshop hosted by the Data and Visualization Services Department.
+The workshops &amp;ndash; official entitled Intro to R: Data Transformations, Data Structures, and the Tidyverse &amp;ndash; is a the two-hour, hands-on session designed to provide a gentle introduction to the basics of the Tidyverse data science approach to the R statistical programming language. We use the RStudio development environment. Attendees learn about managing R projects, data types, variable assignments, data wrangling and visualization, and mapping using a focused approach to modern data science known as the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Tidyverse Workshops coming in January</title>
+      <link>/blog/tidyverse-workshops-coming-in-january/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tidyverse-workshops-coming-in-january/</guid>
+      <description>This winter the Data &amp;amp; Visualization Services Department will once again host a workshop series on the R programming language. Our spring offering is modeled on our well received R we having fun yet‽ (Rfun) fall workshop series. The four-part series will introduce R as a language for modern data manipulation by highlighting a set of tidyverse packages that enable functional data science. We will approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+  </channel>
+</rss>

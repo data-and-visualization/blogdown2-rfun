@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RFUN-ZOPE</title>
+    <link>/</link>
+    <description>Recent content on RFUN-ZOPE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>quickStart with R</title>
+      <link>/portfolio/r_flipped/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/r_flipped/</guid>
+      <description>R and the Tidyverse are a data-first coding language that enables reproducible analytics workflows. In this two-part workshop, you’ll learn the fundamentals of R, everything you need to know to quickly get started.
+In Part 1 you’ll learn how to access and install RStudio, how to wrangle data for analysis, gain a brief introduction to visualization, practice Exploratory Data Analysis (EDA), and how to generate reports. In Part 2 you’ll learn about visualization using ggplot2, how to make interactive charts for use in dashboards, how to reshape and merge data, and be introduced to models.</description>
+    </item>
+    
+    <item>
+      <title>Visualization with ggplot2</title>
+      <link>/portfolio/ggplot_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/ggplot_workshop/</guid>
+      <description>Data science skills are increasingly important for research and industry projects. With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results. Incorporating effective visualizations directly into analysis will facilitate quick data exploration. Complete your data science toolbox with visualization skills.
+quickStart introduction   ![GitHub Code Repository: exercises](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub &amp;ldquo;GitHub Code Repository: exercises&amp;rdquo;)
+Full introduction ⭐ 
+Advanced 
+Register:
+R for data science: visualization, pivot, join, regression</description>
+    </item>
+    
+    <item>
+      <title>Mapping with R</title>
+      <link>/portfolio/mapping_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/mapping_workshop/</guid>
+      <description>Mapping in R This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import shapefiles; and create interactive maps on the web.
+--  
+Geospatial data in R: Processing and Analysis 
+Register Feb. 12, 2020 - **Mapping with R**Register: Mapping. Feb 1. 2021 Register: Processing and Analysis. Feb 15. 2021 -- Image Credit: Wikipedia</description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>/portfolio/sentiment_analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/sentiment_analysis/</guid>
+      <description>A brief introduction to text mining and sentiment analysis with visualization. Analyze public domain novels by Jane Austen, wrangle text-data into submission, tokenize corpora, visualize sentiment and generate word clouds.
+Sentiment Analysis with library(tidytext)  Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;tidytext&amp;quot;, &amp;quot;janeaustenr&amp;quot;, &amp;quot;wordcloud2&amp;quot;))
+ Resources   
+ Image credit: Emotion Card by Luigi Mengato</description>
+    </item>
+    
+    <item>
+      <title>Interactive Dashboards</title>
+      <link>/portfolio/dashboard_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/dashboard_workshop/</guid>
+      <description>Learn to layout dashboards with interactive filters; Using crosstalk, enable your audience to filter or subset one plot via subsetting an independent plot (i.e. linked brushing); add interactivity to your ggplot2 plots with easy-to-use HTMLWidgets such as plotly via the ggplotly() function.
+Prerequisite: Intro to R. All attendees are expected to be basically familiar with R, R Studio, and the Tidyverse. Strongly recommended: Visualization with ggplot2.
+Register March 24, 2020 --Resources Slides</description>
+    </item>
+    
+    <item>
+      <title>Slides with library(xaringan)</title>
+      <link>/portfolio/slides_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/slides_workshop/</guid>
+      <description>R Markdown is a means of applying structure to the prose in your coding document. Using R Markdown and the xaringan package, attendees will integrate code with natural language (i.e. prose) to render presentation slides as a reproducible report. The method of integrating code with prose is known as literate coding techniques.
+ Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(&amp;quot;xaringan&amp;quot;)
+ Resources</description>
+    </item>
+    
+    <item>
+      <title>Web Scraping with rvest </title>
+      <link>/portfolio/scraping_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/scraping_workshop/</guid>
+      <description>UseRs will be introduced to web crawling and HTML parsing. In this introductory web scraping workshop the rvest package is used to deconstruct a target site by transforming web site data into structured data. A brief and limited introduction to the HTML specifications is provided along with basic Tidyverse-style iteration (i.e. purrr::map().
+Register
+R case study: web scraping
+March 4, 2021-- Library packages  install.packages(&amp;quot;rvest&amp;quot;)
+ Resources</description>
+    </item>
+    
+    <item>
+      <title>remote SQL queries with R</title>
+      <link>/portfolio/sql_and_databases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/sql_and_databases/</guid>
+      <description>SQL database queries using dplyr; connetcting to databases via DBI This case study uses library(DBI) and library(bigrquery) to introduce the dBplyr package. dbplyr enables Tidyverse users to leverage dplyr functions, rather than composing SQL queries because basic dplyr verbs are transformed into SQL. Additionaly, the DBI package is used to broker database connections (such as ODBC.)
+ Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;DBI&amp;quot;, &amp;quot;dbplyr&amp;quot;, &amp;quot;bigrquery&amp;quot;))</description>
+    </item>
+    
+    <item>
+      <title>Twitter data with rtweet</title>
+      <link>/portfolio/twitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/twitter/</guid>
+      <description>A case study to demonstrate the twitter API and tweet analysis. Learn how to gather and analyze tweets with the rtweet package.
+Use rtweet to access the twitter academic research API  Register:
+Slides with Rmarkdown (Xaringan)
+April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;quot;, &amp;quot;rtweet&amp;quot;))
+ Resources   
+ Image credit: Social Media Marketing Mix by Blogtrepreneur</description>
+    </item>
+    
+    <item>
+      <title>Version Control, Git/GitHub</title>
+      <link>/portfolio/git_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/git_workshop/</guid>
+      <description>Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories. Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
+Setting up git with RStudio via library(usethis) &amp;ndash; 3 minute video Workshop recording: Designing a reproducible workflow with R and GitHub Version Control &amp;amp; Git In this hands-on workshop you will discover how to harness Git to support the execution of more reproducible research projects.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown Workshop</title>
+      <link>/portfolio/rmarkdown_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/rmarkdown_workshop/</guid>
+      <description>This lightweight markup language will leverage your literate coding techniques as you compose reproducible reports in many formats: Slide decks, MS Word, PDF, R Notebooks, Web Pages, and more.
+Literate coding techniques will help you reach a new level of productivity through reproducibility. The workshop will use the RStudio IDE to introduce and reinforce concepts. Gain practical knowledge integrating analysis code chunks with your report analysis and prose. Write once, report often while reducing effort and errors.</description>
+    </item>
+    
+    <item>
+      <title>R case studies</title>
+      <link>/portfolio/case_study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/case_study/</guid>
+      <description>RStudio is an interface that assists your reproducible workflows. Explore how the Tidyverse environment is more than statistics. These hands-on concepts explore practical features of data gathering and data manipulation. Go beyond the rudimentary to expand your ideas of analysis.
+In the spring of 2021, we explored the following as case studies&amp;hellip;
+Web Scraping aka screen scraping with library(rvest)  
+Slides with library(xaringan) and R markdown  
+Sentiment analysis with library(tidytext)</description>
+    </item>
+    
+    <item>
+      <title>Shiny App Development</title>
+      <link>/portfolio/shiny_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/shiny_workshop/</guid>
+      <description>Dr. Mine Çetinkaya-Rundel presents Shiny. Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host stand-alone apps on a webpage or embed them in R Markdown documents or build dashboards. This short course will introduce you to building web applications with Shiny, reactive programming, and customizing and deploying your apps for others to use.
+RegisterLibrary packages  install.packages(&amp;quot;shiny&amp;quot;)
+ Resources !</description>
+    </item>
+    
+    <item>
+      <title>R Open Labs</title>
+      <link>/portfolio/r_open_labs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/r_open_labs/</guid>
+      <description>Come once or come each week: This six-week, semi-guided hour provides a safe and comfortable environment for learning more about the R programming language, RStudio, and the Tidyverse. The curriculum is based on the Master the Tidyverse workshop. The series goal is to enable researchers and students a low-stress hour to hone your own data savvy skills. Attendees will gain greater familiarity with a tool-suite designed to foster reproducibility and transparency vital for the researcher&amp;rsquo;s workflow.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R: the data science Tidyverse</title>
+      <link>/portfolio/intro2r_workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio/intro2r_workshop/</guid>
+      <description>To the Tidyverse, and Beyond&amp;hellip;
+A gentle introduction to R and the Tidyverse. This suite of data savvy tools and techniques enable flexible reporting via literate programming as a means to achieve reproducible and transparent analysis.
+The workshop begins with a measured and deliberate orientation to the RStudio interface. Participants will import data (readr). We continue with a step-by-step approach to transform and wrangle data (dplyr). Finally, we introduce basic exploratory data analysis (EDA.</description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>/blog/2022-04-14-hello-world/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022-04-14-hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop video recordings (2021)</title>
+      <link>/blog/spring-videos-2021/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spring-videos-2021/</guid>
+      <description>Now streaming: All spring 2021 Rfun workshop videos.
+Hundreds of you signed-up and attended our workshops last semester. Now, we are pleased to present the Spring 2021 Rfun workshop series on video. As always, the content for each workshop is available for sharing via CC BY-NC license (i.e. Attribution, Non-Commercial.) We encourage you to share the videos, the data, and the code.
+Within the description of each video (and/or often within the video) you&amp;rsquo;ll find links to the code and data stored on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2021 Workshops</title>
+      <link>/blog/spring-2021/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spring-2021/</guid>
+      <description>Winter/Spring 2021 brings new Rfun workshops. Due to COVID The Center for Data &amp;amp; Visualization Sciences will continue our remote workshop series via Zoom. Please find the registration links below.
+If you missed anything last fall, you can find links to past workshop resources including streaming video and shareable code. Beyond Rfun, check out the whole array of CDVS workshop resources. Register and join us.
+   Title Date Registration     R for data science: getting started, EDA, data wrangling 28_Jan  https://duke.</description>
+    </item>
+    
+    <item>
+      <title>Spring 2021: case studies</title>
+      <link>/blog/spring-case-studies/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/spring-case-studies/</guid>
+      <description>RStudio is an interface that assists your reproducible workflows. Explore how the Tidyverse environment is more than statistics. These hands-on concepts explore practical features of data gathering and data manipulation. Go beyond the rudimentary to expand your ideas of analysis.
+In the spring of 2021, we will explore the following as case studies…
+Register    Title Date Registration     Public datasets in Google BigQuery using DBplyr 25_Feb  https://duke.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog_orig/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/blog_orig/2020-12-01-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2019 Rfun Workshops</title>
+      <link>/blog/fall-2019-rfun/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2019-rfun/</guid>
+      <description>We invite you to join us for an informative semester of workshops about R, RStudio, and the Tidyverse. Our Rfun workshops provide a gentle hands-on introduction to a powerful &amp;ldquo;data first&amp;rdquo; programming language, R. The R ecosystem is tweaked for research through data analysis and will grow gracefully with your needs. Best of all, R anticipates reproducibility as a foundational asset of your research workflow. We look forward to showing you how R can work for you.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 Rfun Review</title>
+      <link>/blog/fall-2018-rfun-review/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2018-rfun-review/</guid>
+      <description>Below please find a brief list of workshop titles offered through the Fall of 2018. Each title will link to further information about the workshop including a streamable recording of the workshop (if available), shareable code, presentation slide decks, and any further information.
+Currently, the Data &amp;amp; Visualization Services Department is actively organizing our Spring 2019 workshop series &amp;ndash; including the Rfun subseries. Stay tuned to our channels (DVS list | Rfun list | DVS Twitter) or websites (DVS | Rfun) for details on the upcoming workshop schedule.</description>
+    </item>
+    
+    <item>
+      <title>R Data Sources for Regression Analysis</title>
+      <link>/blog/data-sources-for-regression-analysis/</link>
+      <pubDate>Fri, 19 Oct 2018 09:24:11 -0400</pubDate>
+      
+      <guid>/blog/data-sources-for-regression-analysis/</guid>
+      <description>While Duke Libraries Data and Visualization Services provides a number of workshops on learning how to use R for data management, mapping, and visualization, we also receive a several questions each year from students searching for datasets to use in applied statistics courses at Duke. As others have noted, finding data sets that are engaging (for students) that provide a range of data types for analysis and don’t present too many data loading/cleaning challenges is harder than one might think.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2018 Rfun Workshops</title>
+      <link>/blog/fall-2018-rfun-workshops/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2018-rfun-workshops/</guid>
+      <description>The Rfun series welcomes you back to the Duke University campus and we invite you to join us for an informative semester of workshops about R using RStudio and the Tidyverse. These workshops will provide you with a gentle hands-on introduction to a most powerful data science toolkit. Attend one or attend them all.
+The cost is free and registration is for in-person attendance only. Fortunately the resources are shareable. You can find links to previous workshop resources (code, video, github) on this very website: https://rfun.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to R -- Workshop</title>
+      <link>/blog/introduction-to-r-workshop/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/introduction-to-r-workshop/</guid>
+      <description>Joel Herndon and I regularly present sections of the Intro to R Workshop hosted by the Data and Visualization Services Department.
+The workshops &amp;ndash; official entitled Intro to R: Data Transformations, Data Structures, and the Tidyverse &amp;ndash; is a the two-hour, hands-on session designed to provide a gentle introduction to the basics of the Tidyverse data science approach to the R statistical programming language. We use the RStudio development environment. Attendees learn about managing R projects, data types, variable assignments, data wrangling and visualization, and mapping using a focused approach to modern data science known as the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Visualization in R using ggplot2</title>
+      <link>/blog/visualization-in-r-using-ggplot2/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/visualization-in-r-using-ggplot2/</guid>
+      <description>Angela Zoss (DVS Staff page) presents a visualization workshop hosted by the Data and Visualization Services Department.
+The workshops, officially entitled Visualization in R using ggplot2, is a two-hour, hands-on learning session designed to introduce the ggplot2 package, a programming library within the R programming language. The ggplot2 library for R creates clear and well-designed visualizations that plays well with other tidyverse packages.
+Data science skills are increasingly important for research and industry projects.</description>
+    </item>
+    
+    <item>
+      <title>Reproducibility: Version Control, Git, and RStudio</title>
+      <link>/blog/reproducibility-version-control-git-and-rstudio/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/reproducibility-version-control-git-and-rstudio/</guid>
+      <description>Sophia Lafferty-Hess (DVS Staff page), Jen Darragh (DVS Staff page), and I presented a Reproducibility workshop hosted by the Data and Visualization Services Department and cross-listed with the Responsible Conduct of Research (RCR) training efforts.
+The workshops, officially entitled Reproducibility: RStudio and Git is a hands-on response to the importance of reproducibility, replication, and transparency in the research endeavor. General data management strategies are introduced to assist researchers in their efforts towards increased research reproducibility.</description>
+    </item>
+    
+    <item>
+      <title>Winter/Spring 2018 R Workshops:  Summary Review</title>
+      <link>/blog/winter-spring-2018-r-workshops-summary-review/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/winter-spring-2018-r-workshops-summary-review/</guid>
+      <description>This past spring the Data &amp;amp; Visualization Services Department hosted a six-part workshop series on the R programming language. Our goals for the workshop series is to introduce R as a language for modern data manipulation. We do this by highlighting a basic set of packages that enable functional and practical data science. We approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Comment Example</title>
+      <link>/blog_orig/comment-example/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/comment-example/</guid>
+      <description>Example of a post with comments using Disqus.
+Hugo Themes have requested that 3rd party services are disabled on the example sites, therefore please view the markdown file for this post for the example.</description>
+    </item>
+    
+    <item>
+      <title>No Comments Allowed</title>
+      <link>/blog_orig/no-comments-allowed/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/no-comments-allowed/</guid>
+      <description>This is an example of a blog post where comments are not allowed.</description>
+    </item>
+    
+    <item>
+      <title>No Sidebar</title>
+      <link>/blog_orig/no-sidebar/</link>
+      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/no-sidebar/</guid>
+      <description>An example of a post without a sidebar.
++++hidesidebar = true+++ </description>
+    </item>
+    
+    <item>
+      <title>Tidyverse Workshops coming in January</title>
+      <link>/blog/tidyverse-workshops-coming-in-january/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tidyverse-workshops-coming-in-january/</guid>
+      <description>This winter the Data &amp;amp; Visualization Services Department will once again host a workshop series on the R programming language. Our spring offering is modeled on our well received R we having fun yet‽ (Rfun) fall workshop series. The four-part series will introduce R as a language for modern data manipulation by highlighting a set of tidyverse packages that enable functional data science. We will approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2017 R Workshops: Summary Review</title>
+      <link>/blog/fall-2017-r-workshops/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2017-r-workshops/</guid>
+      <description>This fall the Data &amp;amp; Visualization Services Department hosted a five-part workshop series on the R programming language. Our goal: introduce R as a language for modern data manipulation by highlighting a basic set of packages that enable functional and practical data science. To that end, we approach R using the free RStudio IDE, an intent to make reproducible literate code, and a bias towards the tidyverse. We believe this tool-set provides a context that enables and reinforces workflows, analysis and reporting.</description>
+    </item>
+    
+    <item>
+      <title>Third post</title>
+      <link>/blog_orig/third-post/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/third-post/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Developing Interactive Websites with R and Shiny -- Workshop, Fall 2017</title>
+      <link>/blog/developing-interactive-websites-with-r-and-shiny-workshop-fall-2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/developing-interactive-websites-with-r-and-shiny-workshop-fall-2017/</guid>
+      <description>On October 2nd, Joel Herndon presented a workshop on Shiny hosted by the Data and Visualization Services Department: Developing Interactive Websites with R and Shiny.
+Learn how to leverage your knowledge of R and R Markdown to create compelling, interactive website and interactive documents using the Shiny web application framework. Shiny makes it easy to transition from desktop based analysis and visualizations to interactive websites without having to learn HTML, CSS, and javascript.</description>
+    </item>
+    
+    <item>
+      <title>Mapping with R -- Workshop, Fall 2017</title>
+      <link>/blog/mapping-with-r-workshop-fall-2017/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/mapping-with-r-workshop-fall-2017/</guid>
+      <description>On October 2nd, I presented a Mapping with R workshop hosted by the Data and Visualization Services Department.
+R has become a popular and reproducible option for supporting spatial and statistical analysis. This hands-on workshop will demonstrate how to plot x/y coordinates using leaflet; how to generate thematic choropleths with US Census and other federal data (using tmap and tidycensus); import, view and produce shapefiles; and create leaflet maps for viewing on the web.</description>
+    </item>
+    
+    <item>
+      <title>Visualization in R using ggplot2 -- Workshop, Fall 2017</title>
+      <link>/blog/visualization-in-r-using-ggplot2-workshop-fall-2017/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/visualization-in-r-using-ggplot2-workshop-fall-2017/</guid>
+      <description>On September 25, 2017 Angela Zoss (DVS Staff page) presented a visualization workshop hosted by the Data and Visualization Services Department.
+The workshops, officially entitled Visualization in R using ggplot2, is a two-hour, hands-on learning session designed to introduce the ggplot2 package, a programming library within the R programming language. The ggplot2 library for R creates clear and well-designed visualizations that plays well with other tidyverse packages.
+Data science skills are increasingly important for research and industry projects.</description>
+    </item>
+    
+    <item>
+      <title>Reproducibility: Data Management, Git, and RStudio -- Workshop, Fall 2017</title>
+      <link>/blog/reproducibility-data-management-git-and-rstudio-workshop-fall-2017/</link>
+      <pubDate>Mon, 18 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/reproducibility-data-management-git-and-rstudio-workshop-fall-2017/</guid>
+      <description>On September 18, 2017 Sophia Lafferty-Hess (DVS Staff page), Jen Darragh (DVS Staff page), and I presented a Reproducibility workshop hosted by the Data and Visualization Services Department and cross-listed with the Responsible Conduct of Research (RCR) training efforts.
+The workshops, officially entitled Reproducibility: Data Management, Git, and RStudio is a two-hour, hands-on response to a growing focus on the importance of reproducibility, replication, and transparency in the research endeavor. General data management strategies are introduced to assist researchers in their efforts towards increased research reproducibility.</description>
+    </item>
+    
+    <item>
+      <title>Fall 2017 RFUN Workshops</title>
+      <link>/blog/fall-2017-rfun-workshops/</link>
+      <pubDate>Tue, 29 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fall-2017-rfun-workshops/</guid>
+      <description>The RFun Series is BackIntroducing the Fall 2017 RFun Series. We’ve expanded and transformed the series to add more hands-on training opportunities. Links to registration are below.
+Each R workshop will take place on a Monday, beginning in mid-September. Individual workshops will last two hours. The series will extend over four consecutive weeks followed by a brief respite. The fifth and final workshop will introduce Shiny, a package for developing interactive web visualizations.</description>
+    </item>
+    
+    <item>
+      <title>RFun@duke.edu email list</title>
+      <link>/blog/rfun-duke-edu-email-list/</link>
+      <pubDate>Mon, 28 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rfun-duke-edu-email-list/</guid>
+      <description>Last spring we introduced the RFun email list as a way of communicating about upcoming events. The intent of this list is to further announcements for our workshop audience regarding the RFun series. We hope you will find this list both informative and low-traffic. Below is a review of ways you can keep in touch with our activities:
+This RFun list: rfun@duke.edu. Manage your subscription via https://lists.duke.edu/sympa/info/rfun
+This RFun webpage: http://rfun.</description>
+    </item>
+    
+    <item>
+      <title>Second post</title>
+      <link>/blog_orig/second-post/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/second-post/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>About Rfun learning series</title>
+      <link>/blog/about-rfun/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/about-rfun/</guid>
+      <description>Rfun, or R We Having Fun Yet‽, is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the Data &amp;amp; Visualization Services Department.
+Our goals is to promote a friendly environment for exploring the extensible capabilities of the open source R languagee specifically supported through Tidyverse and RStudio. Beginner’s are welcome, experts will be encouraged to share topical expertise.</description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>/blog_orig/first-post/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/first-post/</guid>
+      <description>Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo. Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante. Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus. Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor hendrerit libero placerat. Nulla facilisi.</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-1/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-1/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-2/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-2/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-3/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-3/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-4/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-4/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post-5/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post-5/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>Old post</title>
+      <link>/blog_orig/old-post/</link>
+      <pubDate>Mon, 06 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_orig/old-post/</guid>
+      <description>Old post to show pagination</description>
+    </item>
+    
+    <item>
+      <title>3 Portfolio item</title>
+      <link>/portfolio_orig/3-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/3-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>/portfolio_orig/first-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/first-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>/portfolio_orig/2-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/2-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>/portfolio_orig/4-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/4-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>/portfolio_orig/5-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/5-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+    <item>
+      <title>Portfolio item</title>
+      <link>/portfolio_orig/6-portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/portfolio_orig/6-portfolio/</guid>
+      <description>Testing content</description>
+    </item>
+    
+  </channel>
+</rss>
