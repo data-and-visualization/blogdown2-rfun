@@ -21,8 +21,8 @@ This hands-on workshop will demonstrate how to plot x/y coordinates; how to gene
 <iframe height="315" width="560" src="https://warpwire.duke.edu/w/JZ8EAA/" frameborder="0" scrolling="0" allow="autoplay; encrypted-media; fullscreen;  picture-in-picture;" allowfullscreen></iframe>
 
 <!-- badges: start -->
+[![Box code repository](https://img.shields.io/badge/workshop%20code%20repository-blue?logo=box&labelColor=lightgrey&color=0061D5 "Box code repository")](https://duke.box.com/v/r-mapping-spring22)  
 [![Guide](https://img.shields.io/badge/%3F-Guide-informational "Guide")](https://map-rfun.library.duke.edu/)
-[![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/engine143/map-spring2020)
 [![Creative Commons CC
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
 <!-- badges: end -->
@@ -33,7 +33,7 @@ BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creati
 <iframe height="315" width="560" src="https://warpwire.duke.edu/w/cUoFAA/" frameborder="0" scrolling="0" allow="autoplay *; encrypted-media *; fullscreen *; picture-in-picture *;" allowfullscreen></iframe>
 
 <!-- badges: start -->
-[![Box code repository](https://img.shields.io/badge/workshop%20code%20repository-blue?logo=box&labelColor=lightgrey&color=0061D5 "Box code repository")](https://duke.app.box.com/v/r-geospatial-spring2021)
+[![Box code repository](https://img.shields.io/badge/workshop%20code%20repository-blue?logo=box&labelColor=lightgrey&color=0061D5 "Box code repository")](https://duke.box.com/v/r-geo-spring2022)
 <!-- badges: end -->
 
 
