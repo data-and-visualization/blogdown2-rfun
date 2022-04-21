@@ -12,7 +12,7 @@ params:
     foldername: portfolio
     title: Our Workshops
   settings:
-    disqus: ''
+    disqus: 'UA-113904582-2'
     googleanalytics: ''
 
 markup:
