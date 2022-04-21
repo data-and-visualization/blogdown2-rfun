@@ -1,6 +1,7 @@
 # README
 
 <!-- badges: start -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/696a42bb-8979-4275-b2ac-360c00d0df51/deploy-status)](https://app.netlify.com/sites/rfun/deploys)
 <!-- badges: end -->
 
 The process of upgrading versions of blogdown and blogdown's Hugo instance is fraught.  Here are some investigations and tips.
