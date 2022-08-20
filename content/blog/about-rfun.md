@@ -12,7 +12,7 @@ draft: false
 # weight: 1
 #disqusid: "6"
 ---
-**Rfun**, or *R We Having Fun Yet‽*, is a campus/community-oriented **data science training-series** focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the [Data & Visualization Services Department](https://library.duke.edu/data/).
+**Rfun**, or *R We Having Fun Yet‽*, is a campus/community-oriented **data science training-series** focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the [Center for Data and Visualization Sciences](https://library.duke.edu/data/).
 
 Our goals is to promote a friendly environment for exploring the extensible capabilities of the open source R languagee specifically supported through Tidyverse and RStudio. Beginner’s are welcome, experts will be encouraged to share topical expertise. 
 
@@ -25,4 +25,4 @@ Topical themes include:
 **Reproducibility Best Practices** <br>
 **Research Data Management** <br>
 
-For more information on our departmental themes and **supported areas**, please see the [Data & Visualization Services](https://library.duke.edu/data/) website.
+For more information on our departmental themes and **supported areas**, please see the [Center for Data and Visualization Sciences](https://library.duke.edu/data/) website.
