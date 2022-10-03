@@ -20,6 +20,10 @@ Version control enables single authors or group collaborators to create and shar
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VjDM-XsoHUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- **Past workshops have focused on using RStudio**, which happens to be an excellent git client.  This time, we'll be more general.  We will discuss RStudio but focus mostly on git and GitHub. -->
+
+#### Designing a Reproducible Workflow with R and GitHub
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cn-72tbRNFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 ### Version Control & Git
 
