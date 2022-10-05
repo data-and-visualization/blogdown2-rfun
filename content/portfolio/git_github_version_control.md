@@ -47,14 +47,13 @@ Feb 17. 2021</a>
 ### Library packages
 
 > `install.packages("usethis")`  
-> `install.packages("holepunch")`  
 
 <br>
 
 ### Resources
 
 <!-- badges: start -->
-[![Guide](https://img.shields.io/badge/%3F-Guide:%20usethis%20%26%20holepunch-informational "git, GitHub, binder")](https://git-rfun.library.duke.edu/)
+[![Guide](https://img.shields.io/badge/%3F-Guide:%20usethis-informational "git, GitHub, binder")](https://git-rfun.library.duke.edu/)
 [![GitHub Code Repository](https://img.shields.io/badge/GitHub-Code%20Repository-lightgrey?logo=GitHub "GitHub Code Repository")](https://github.com/data-and-visualization/git-tutorial)
 [![Creative Commons CC
 BY-NC](https://img.shields.io/badge/Creative%20Commons-BY--NC-EF9421?logo=creative%20commons&logoColor=EF9421 "CC BY-NC")](https://creativecommons.org/licenses/by-nc/4.0/)
