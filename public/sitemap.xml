@@ -33,25 +33,13 @@
     <loc>/portfolio/intro2r_workshop/</loc>
   </url><url>
     <loc>/blog/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/2022-04-14-hello-world/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/introduction/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/spring-videos-2021/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
@@ -74,6 +62,9 @@
     <loc>/blog_orig/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
     <loc>/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
@@ -81,6 +72,9 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/tags/regression/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>/categories/calendar/</loc>
@@ -105,6 +99,9 @@
     <lastmod>2018-10-19T09:24:11-04:00</lastmod>
   </url><url>
     <loc>/blog/fall-2018-rfun-workshops/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/introduction/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/introduction-to-r-workshop/</loc>
@@ -146,11 +143,23 @@
     <loc>/blog/winter-spring-2018-r-workshops-summary-review/</loc>
     <lastmod>2018-05-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/blog_examples/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/comment-example/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/blog_orig/comment-example/</loc>
     <lastmod>2018-02-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/blog_examples/no-comments-allowed/</loc>
+    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/blog_orig/no-comments-allowed/</loc>
     <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/no-sidebar/</loc>
+    <lastmod>2017-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog_orig/no-sidebar/</loc>
     <lastmod>2017-12-25T00:00:00+00:00</lastmod>
@@ -163,6 +172,9 @@
   </url><url>
     <loc>/categories/fall-2017/</loc>
     <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/third-post/</loc>
+    <lastmod>2017-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog_orig/third-post/</loc>
     <lastmod>2017-10-31T00:00:00+00:00</lastmod>
@@ -212,6 +224,9 @@
     <loc>/categories/twitter/</loc>
     <lastmod>2017-08-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/blog_examples/second-post/</loc>
+    <lastmod>2017-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/blog_orig/second-post/</loc>
     <lastmod>2017-07-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -221,8 +236,29 @@
     <loc>/blog/about-rfun/</loc>
     <lastmod>2017-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/blog_examples/first-post/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/blog_orig/first-post/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post-1/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post-2/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post-3/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post-4/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post-5/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog_examples/old-post/</loc>
+    <lastmod>2012-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog_orig/old-post-1/</loc>
     <lastmod>2012-02-06T00:00:00+00:00</lastmod>
@@ -244,6 +280,8 @@
   </url><url>
     <loc>/portfolio_orig/3-portfolio/</loc>
   </url><url>
+    <loc>/workshop_portfolio_examples/3-portfolio/</loc>
+  </url><url>
     <loc>/portfolio_orig/first-portfolio/</loc>
   </url><url>
     <loc>/portfolio_orig/2-portfolio/</loc>
@@ -254,8 +292,20 @@
   </url><url>
     <loc>/portfolio_orig/6-portfolio/</loc>
   </url><url>
+    <loc>/workshop_portfolio_examples/first-portfolio/</loc>
+  </url><url>
+    <loc>/workshop_portfolio_examples/2-portfolio/</loc>
+  </url><url>
+    <loc>/workshop_portfolio_examples/4-portfolio/</loc>
+  </url><url>
+    <loc>/workshop_portfolio_examples/5-portfolio/</loc>
+  </url><url>
+    <loc>/workshop_portfolio_examples/6-portfolio/</loc>
+  </url><url>
     <loc>/portfolio_orig/</loc>
   </url><url>
     <loc>/portfolio/</loc>
+  </url><url>
+    <loc>/workshop_portfolio_examples/</loc>
   </url>
 </urlset>

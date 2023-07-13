@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STAT210 on RFUN-ZOPE</title>
+    <title>STAT210 on RFUN</title>
     <link>/tags/stat210/</link>
-    <description>Recent content in STAT210 on RFUN-ZOPE</description>
+    <description>Recent content in STAT210 on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Oct 2018 09:24:11 -0400</lastBuildDate><atom:link href="/tags/stat210/index.xml" rel="self" type="application/rss+xml" />

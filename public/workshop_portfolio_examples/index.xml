@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshop_portfolio_examples on Rfun</title>
+    <title>Workshop_portfolio_examples on RFUN</title>
     <link>/workshop_portfolio_examples/</link>
-    <description>Recent content in Workshop_portfolio_examples on Rfun</description>
+    <description>Recent content in Workshop_portfolio_examples on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/workshop_portfolio_examples/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/workshop_portfolio_examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 Portfolio item</title>
       <link>/workshop_portfolio_examples/3-portfolio/</link>

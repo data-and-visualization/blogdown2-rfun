@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog_origs on RFUN-ZOPE</title>
+    <title>Blog_origs on RFUN</title>
     <link>/blog_orig/</link>
-    <description>Recent content in Blog_origs on RFUN-ZOPE</description>
+    <description>Recent content in Blog_origs on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/blog_orig/index.xml" rel="self" type="application/rss+xml" />

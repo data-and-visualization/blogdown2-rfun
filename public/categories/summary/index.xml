@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Summary on RFUN-ZOPE</title>
+    <title>Summary on RFUN</title>
     <link>/categories/summary/</link>
-    <description>Recent content in Summary on RFUN-ZOPE</description>
+    <description>Recent content in Summary on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="/categories/summary/index.xml" rel="self" type="application/rss+xml" />

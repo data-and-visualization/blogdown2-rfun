@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on RFUN-ZOPE</title>
+    <title>Portfolios on RFUN</title>
     <link>/portfolio/</link>
-    <description>Recent content in Portfolios on RFUN-ZOPE</description>
+    <description>Recent content in Portfolios on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -23,11 +23,12 @@ In Part 1 you’ll learn how to access and install RStudio, how to wrangle data 
       
       <guid>/portfolio/ggplot_workshop/</guid>
       <description>Data science skills are increasingly important for research and industry projects. With complex data science projects, however, come complex needs for understanding and communicating analysis processes and results. Incorporating effective visualizations directly into analysis will facilitate quick data exploration. Complete your data science toolbox with visualization skills.
-quickStart introduction   ![GitHub Code Repository: exercises](https://img.shields.io/badge/GitHub-Code%20Repository: exercises-lightgrey?logo=GitHub &amp;ldquo;GitHub Code Repository: exercises&amp;rdquo;)
+quickStart introduction   
 Full introduction ⭐ 
 Advanced 
 Register:
-R for data science: visualization, pivot, join, regression</description>
+R for data science: visualization, pivot, join, regression
+Feb. 4, 2021 Register</description>
     </item>
     
     <item>
@@ -37,7 +38,8 @@ R for data science: visualization, pivot, join, regression</description>
       
       <guid>/portfolio/mapping_workshop/</guid>
       <description>Mapping in R This hands-on workshop will demonstrate how to plot x/y coordinates; how to generate thematic choropleths with US Census and other federal data; import shapefiles; and create interactive maps on the web.
---  
+--
+ 
 Geospatial data in R: Processing and Analysis 
 Register Feb. 12, 2020 - **Mapping with R**Register: Mapping. Feb 1. 2021 Register: Processing and Analysis. Feb 15. 2021 -- Image Credit: Wikipedia</description>
     </item>
@@ -126,7 +128,7 @@ April 6, 2021 --Library packages  install.packages(c(&amp;quot;tidyverse&amp;qu
       
       <guid>/portfolio/git_workshop/</guid>
       <description>Version control enables single authors or group collaborators to create and share project timelines, transparently tell the story of a project, manage collaboration, experiment with alternative options, and create back-up repositories. Git is one of the dominant, open-source, version control applications. GitHub is social coding and project cloud tool fed by a git remote.
-Setting up git with RStudio via library(usethis) &amp;ndash; 3 minute video Workshop recording: Designing a reproducible workflow with R and GitHub Version Control &amp;amp; Git In this hands-on workshop you will discover how to harness Git to support the execution of more reproducible research projects.</description>
+Setting up git with RStudio via library(usethis) &amp;ndash; 3 minute video Workshop recording: Designing a reproducible workflow with R and GitHub Designing a Reproducible Workflow with R and GitHub Version Control &amp;amp; Git In this hands-on workshop you will discover how to harness Git to support the execution of more reproducible research projects.</description>
     </item>
     
     <item>
@@ -160,7 +162,7 @@ Sentiment analysis with library(tidytext)</description>
       <guid>/portfolio/shiny_workshop/</guid>
       <description>Dr. Mine Çetinkaya-Rundel presents Shiny. Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host stand-alone apps on a webpage or embed them in R Markdown documents or build dashboards. This short course will introduce you to building web applications with Shiny, reactive programming, and customizing and deploying your apps for others to use.
 RegisterLibrary packages  install.packages(&amp;quot;shiny&amp;quot;)
- Resources !</description>
+ Resources</description>
     </item>
     
     <item>

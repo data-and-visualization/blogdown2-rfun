@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on RFUN-ZOPE</title>
+    <title>Blogs on RFUN</title>
     <link>/blog/</link>
-    <description>Recent content in Blogs on RFUN-ZOPE</description>
+    <description>Recent content in Blogs on RFUN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hello world</title>
-      <link>/blog/2022-04-14-hello-world/</link>
-      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2022-04-14-hello-world/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workshop video recordings (2021)</title>
       <link>/blog/spring-videos-2021/</link>
@@ -213,7 +204,7 @@ Each R workshop will take place on a Monday, beginning in mid-September. Individ
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/about-rfun/</guid>
-      <description>Rfun, or R We Having Fun Yet‽, is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the Data &amp;amp; Visualization Services Department.
+      <description>Rfun, or R We Having Fun Yet‽, is a campus/community-oriented data science training-series focusing on learning the R programming language and the Tidyverse ecosystem. We are hosted by the Center for Data and Visualization Sciences.
 Our goals is to promote a friendly environment for exploring the extensible capabilities of the open source R languagee specifically supported through Tidyverse and RStudio. Beginner’s are welcome, experts will be encouraged to share topical expertise.</description>
     </item>
     
