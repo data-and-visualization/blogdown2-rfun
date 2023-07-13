@@ -21,7 +21,7 @@ In **Part 1** you’ll learn how to access and install RStudio, how to wrangle d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGSXf-NMWVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 
-[![quick reference guide: dplyr](https://img.shields.io/badge/%3F-quick%20reference:%20dplyr-informational "dplyr quick reference ")](https://intro2r.library.duke.edu/data_wrangling.html)
+[![quick reference guide: dplyr](https://img.shields.io/badge/%3F-quick%20reference:%20dplyr-informational "dplyr quick reference ")](https://intro2r.library.duke.edu/wrangle.html)
 
 
 **Additional videos...** | &nbsp; 
