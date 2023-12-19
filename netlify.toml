@@ -38,6 +38,12 @@ HUGO_ENV = 'production'
 # folks in ITS will allow rmarkdown-rfun.netlify.com to 
 # get served via rmarkdown.library.duke.edu
 [[redirects]]
+  from = "blog/data-sources-for-regression-analysis/*"
+  to = "https://intro2r.library.duke.edu/data-sources-for-regression-analysis"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/rmarkdown/*"
   to = "https://rmarkdown.library.duke.edu/:splat"
   status = 301
