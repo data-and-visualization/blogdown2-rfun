@@ -145,10 +145,5 @@ HUGO_ENV = 'production'
   status = 301
   force = true
 
-[[redirects]]
-  from = "/*"
-  to = "https://intro2r.library.duke.edu/"
-  status = 301
-  force = true
 
 
