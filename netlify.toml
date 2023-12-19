@@ -38,6 +38,24 @@ HUGO_ENV = 'production'
 # folks in ITS will allow rmarkdown-rfun.netlify.com to 
 # get served via rmarkdown.library.duke.edu
 [[redirects]]
+  from = "/portfolio/intro2r_workshop/*"
+  to = "https://intro2r.library.duke.edu/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/portfolio/r_open_labs/*"
+  to = "https://intro2r.library.duke.edu/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "portfolio/shiny_workshop/*"
+  to = "https://shiny.posit.co/r/getstarted/shiny-basics/lesson1/index.html"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "blog/data-sources-for-regression-analysis/*"
   to = "https://intro2r.library.duke.edu/data-sources-for-regression-analysis"
   status = 301
