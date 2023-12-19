@@ -38,6 +38,24 @@ HUGO_ENV = 'production'
 # folks in ITS will allow rmarkdown-rfun.netlify.com to 
 # get served via rmarkdown.library.duke.edu
 [[redirects]]
+  from = "portfolio/dashboard_workshop/*"
+  to = "https://github.com/libjohn/workshop_textmining"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "portfolio/dashboard_workshop/*"
+  to = "https://intro2r.library.duke.edu/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "portfolio/slides_workshop/*"
+  to = "https://intro2r.library.duke.edu/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "portfolio/twitter/*"
   to = "https://intro2r.library.duke.edu/"
   status = 301
